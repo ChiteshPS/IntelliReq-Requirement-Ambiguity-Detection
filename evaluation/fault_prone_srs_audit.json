@@ -1,0 +1,23 @@
+{
+  "dataset_name": "Fault-Prone SRS Dataset",
+  "official_source": "https://www.kaggle.com/datasets/corpus4panwo/fault-prone-srs-dataset",
+  "associated_paper": "Fault-Prone Software Requirements Specification Detection Using Ensemble Learning for Edge/Cloud Applications (MDPI Applied Sciences, 2023, DOI: 10.3390/app13148368)",
+  "total_rows": 7061,
+  "missing_values": 0,
+  "exact_duplicates": 489,
+  "normalized_duplicates": 573,
+  "conflicting_labels_6class": 43,
+  "conflicting_labels_binary": 35,
+  "classes_6": {
+    "lexical": 474,
+    "syntactic": 615,
+    "semantic": 614,
+    "syntax": 504,
+    "pragmatic": 834,
+    "clean": 4020
+  },
+  "binary_distribution": {
+    "ambiguous": 3041,
+    "not_ambiguous": 4020
+  }
+}

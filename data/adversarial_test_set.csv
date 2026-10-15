@@ -1,0 +1,17 @@
+id,requirement,expected_label
+ADV-f5b5fa76,The system shall securely store customer data.,Ambiguous
+ADV-c9ebdb6f,The system shall encrypt customer data using AES-256 at rest.,Not Ambiguous
+ADV-d19205bc,The system shall generate reports regularly.,Ambiguous
+ADV-71bfe21e,The system shall generate reports every Monday at 09:00.,Not Ambiguous
+ADV-5502387e,The system shall maintain high availability.,Ambiguous
+ADV-c2881b44,The system shall maintain 99.9% monthly availability.,Not Ambiguous
+ADV-e7cea8a9,The application shall appropriately handle errors.,Ambiguous
+ADV-86b31c7e,The application shall log errors to the syslog daemon and return HTTP 500.,Not Ambiguous
+ADV-727a7eea,The module shall be very efficient.,Ambiguous
+ADV-192e61cc,The module shall utilize no more than 512 MB of RAM.,Not Ambiguous
+ADV-5da8cf32,The system shall provide adequate capacity of 100 GB.,Ambiguous
+ADV-4b453380,The system shall provide exactly 100 GB of storage capacity per user block.,Not Ambiguous
+ADV-eb159e2c,The UI shall be easy to use.,Ambiguous
+ADV-86c1d622,The UI shall pass WCAG 2.1 AA compliance testing.,Not Ambiguous
+ADV-5a7d7412,The backend will safely parse inputs.,Ambiguous
+ADV-def0d1ae,The backend will validate inputs against the JSON schema defined in spec v1.2.,Not Ambiguous

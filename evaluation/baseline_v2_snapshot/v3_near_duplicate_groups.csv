@@ -1,0 +1,653 @@
+id,requirement,label,domain,group_id
+REQ-6a1681ec,The platform shall utilize a maximum of 50 ms of memory.,Not Ambiguous,HR,0
+REQ-a8640984,The platform shall utilize a maximum of 50 seconds of memory.,Not Ambiguous,cybersecurity,0
+REQ-9bd8b123,The system shall securely encrypt data using AES-256.,Not Ambiguous,banking,1
+REQ-20570d0a,The backend shall securely encrypt data using AES-256.,Not Ambiguous,finance,1
+REQ-9efc593c,The platform shall securely encrypt data using AES-256.,Not Ambiguous,government,1
+REQ-0b1de7e2,The API shall securely encrypt data using AES-256.,Not Ambiguous,cybersecurity,1
+REQ-4dd9de76,The application shall securely encrypt data using AES-256.,Not Ambiguous,HR,1
+REQ-3a24f83e,The module shall securely encrypt data using AES-256.,Not Ambiguous,cybersecurity,1
+REQ-ddc0895b,The client app shall securely encrypt data using AES-256.,Not Ambiguous,cybersecurity,1
+REQ-8c0009f6,The service shall securely encrypt data using AES-256.,Not Ambiguous,manufacturing,1
+REQ-e28e24b8,The platform shall utilize a maximum of 50 GB of memory.,Not Ambiguous,manufacturing,2
+REQ-e78b6c91,The platform shall utilize a maximum of 100 GB of memory.,Not Ambiguous,cybersecurity,2
+REQ-f1c256b1,The client app shall support 2 users and be extremely reliable.,Ambiguous,education,3
+REQ-af275a16,The client app shall support 100 users and be extremely reliable.,Ambiguous,banking,3
+REQ-d9768922,The client app shall support 50 users and be extremely reliable.,Ambiguous,e-commerce,3
+REQ-15360ff9,The client app shall support 5 users and be extremely reliable.,Ambiguous,HR,3
+REQ-dd01a1bf,The client app shall support 10 users and be extremely reliable.,Ambiguous,government,3
+REQ-f58038cd,The platform shall respond in 100 GB for 99% of users.,Not Ambiguous,cybersecurity,4
+REQ-78bcd046,The backend shall respond in 100 GB for 99% of users.,Not Ambiguous,government,4
+REQ-7fd5f85b,The platform shall respond in 50 GB for 99% of users.,Not Ambiguous,manufacturing,4
+REQ-d9885aa3,The service shall utilize around 50 ms of memory.,Ambiguous,government,5
+REQ-3697da6f,The service shall utilize around 5 ms of memory.,Ambiguous,education,5
+REQ-a52792e7,The service shall utilize around 2 ms of memory.,Ambiguous,logistics,5
+REQ-d8925033,The system shall support 10 users with 99.9% uptime.,Not Ambiguous,healthcare,6
+REQ-8d1d2dc4,The service shall support 10 users with 99.9% uptime.,Not Ambiguous,cybersecurity,6
+REQ-920ef10f,The application shall support 10 users with 99.9% uptime.,Not Ambiguous,logistics,6
+REQ-5ef14909,The system shall support 100 users with 99.9% uptime.,Not Ambiguous,HR,6
+REQ-334d8627,The API shall support 10 users with 99.9% uptime.,Not Ambiguous,e-commerce,6
+REQ-f57115ab,The system shall support 5 users with 99.9% uptime.,Not Ambiguous,healthcare,6
+REQ-e91b455a,The module shall support 10 users with 99.9% uptime.,Not Ambiguous,logistics,6
+REQ-c0aa5214,The backend shall support 10 users with 99.9% uptime.,Not Ambiguous,cybersecurity,6
+REQ-c37bda98,The system shall support 2 users with 99.9% uptime.,Not Ambiguous,banking,6
+REQ-5e335cd7,The platform shall support 10 users with 99.9% uptime.,Not Ambiguous,logistics,6
+REQ-c1fd86e1,The system shall support 50 users with 99.9% uptime.,Not Ambiguous,e-commerce,6
+REQ-34d99cc5,"When the user clicks the button, the service should load the data fairly fast to ensure user satisfaction.",Ambiguous,healthcare,7
+REQ-94e12317,"When the user clicks the button, the api should load the data fairly fast to ensure user satisfaction.",Ambiguous,HR,7
+REQ-9070a600,"When the user clicks the button, the system should load the data fairly fast to ensure user satisfaction.",Ambiguous,manufacturing,7
+REQ-14848b0b,"When the user clicks the button, the client app should load the data fairly fast to ensure user satisfaction.",Ambiguous,finance,7
+REQ-e8ebec82,"When the user clicks the button, the backend should load the data fairly fast to ensure user satisfaction.",Ambiguous,logistics,7
+REQ-706b2ad4,"When the user clicks the button, the application should load the data fairly fast to ensure user satisfaction.",Ambiguous,education,7
+REQ-2910d28d,"When the user clicks the button, the platform should load the data fairly fast to ensure user satisfaction.",Ambiguous,logistics,7
+REQ-29a3cb8a,"When the user clicks the button, the module should load the data fairly fast to ensure user satisfaction.",Ambiguous,healthcare,7
+REQ-5df1786e,The platform shall utilize a maximum of 10 TB of memory.,Not Ambiguous,logistics,8
+REQ-8920745b,The platform shall utilize a maximum of 100 TB of memory.,Not Ambiguous,education,8
+REQ-76747a6e,The platform shall utilize a maximum of 5 TB of memory.,Not Ambiguous,cybersecurity,8
+REQ-1c4ad75c,The service shall utilize a maximum of 50 GB of memory.,Not Ambiguous,e-commerce,9
+REQ-ffc07215,The service shall utilize a maximum of 10 GB of memory.,Not Ambiguous,HR,9
+REQ-677b421f,The service shall utilize a maximum of 5 GB of memory.,Not Ambiguous,HR,9
+REQ-d8c68a20,The backend shall respond in 10 hours for 90% of users.,Not Ambiguous,logistics,10
+REQ-1e1c1526,The service shall respond in 10 hours for 90% of users.,Not Ambiguous,healthcare,10
+REQ-1cd83404,The backend shall respond in 5 hours for 90% of users.,Not Ambiguous,finance,10
+REQ-98f19ee0,The application shall respond in 10 hours for 90% of users.,Not Ambiguous,cybersecurity,10
+REQ-b540c899,The backend shall utilize around 10 TB of memory.,Ambiguous,cybersecurity,11
+REQ-e3dfaf19,The backend shall utilize around 5 TB of memory.,Ambiguous,education,11
+REQ-ef87f2ac,The client app shall respond in 2 GB for 50% of users.,Not Ambiguous,cybersecurity,12
+REQ-4f6bd7f2,The client app shall respond in 100 GB for 50% of users.,Not Ambiguous,education,12
+REQ-c52137e1,The API shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,education,13
+REQ-d88983f7,The API shall utilize a maximum of 100 seconds of memory.,Not Ambiguous,e-commerce,13
+REQ-745390e2,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the service should be highly intuitive and very efficient at all times.",Ambiguous,logistics,14
+REQ-37a42b49,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the module should be highly intuitive and very efficient at all times.",Ambiguous,manufacturing,14
+REQ-5dc56cae,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the client app should be highly intuitive and very efficient at all times.",Ambiguous,education,14
+REQ-9b166f7b,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the api should be highly intuitive and very efficient at all times.",Ambiguous,cybersecurity,14
+REQ-675c8072,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the system should be highly intuitive and very efficient at all times.",Ambiguous,finance,14
+REQ-b481df49,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the backend should be highly intuitive and very efficient at all times.",Ambiguous,manufacturing,14
+REQ-4efe4914,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the application should be highly intuitive and very efficient at all times.",Ambiguous,healthcare,14
+REQ-e3b9ff9e,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the platform should be highly intuitive and very efficient at all times.",Ambiguous,government,14
+REQ-67e3ccef,The system shall respond in an appropriate number of hours for 90% of users.,Ambiguous,healthcare,15
+REQ-426921f0,The module shall respond in an appropriate number of hours for 90% of users.,Ambiguous,finance,15
+REQ-04d2e776,The service shall respond in an appropriate number of hours for 90% of users.,Ambiguous,healthcare,15
+REQ-a30e0f41,The system shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,manufacturing,15
+REQ-1adfeb0e,The system shall respond in an appropriate number of hours for 50% of users.,Ambiguous,HR,15
+REQ-4f44b1c6,The backend shall respond in an appropriate number of hours for 90% of users.,Ambiguous,logistics,15
+REQ-006cc6e6,The system shall respond in an appropriate number of ms for 90% of users.,Ambiguous,e-commerce,15
+REQ-70d46287,The system shall respond in an appropriate number of GB for 90% of users.,Ambiguous,finance,15
+REQ-431951d4,The application shall respond in an appropriate number of hours for 90% of users.,Ambiguous,banking,15
+REQ-29d8d9ff,The system shall respond in an appropriate number of TB for 90% of users.,Ambiguous,manufacturing,15
+REQ-fb48ce1b,The client app shall respond in 5 seconds for 90% of users.,Not Ambiguous,HR,16
+REQ-c87c4031,The client app shall respond in 100 seconds for 90% of users.,Not Ambiguous,banking,16
+REQ-54ec16b4,The client app shall respond in 2 seconds for 90% of users.,Not Ambiguous,e-commerce,16
+REQ-6d3821e7,The client app shall respond in 5 ms for 90% of users.,Not Ambiguous,healthcare,16
+REQ-927c7e6f,The client app shall respond in 50 seconds for 90% of users.,Not Ambiguous,e-commerce,16
+REQ-48b60316,The API shall respond in an appropriate number of TB for 99% of users.,Ambiguous,cybersecurity,17
+REQ-c4fb08e3,The service shall respond in an appropriate number of TB for 99% of users.,Ambiguous,e-commerce,17
+REQ-56fee871,The client app shall respond in an appropriate number of TB for 99% of users.,Ambiguous,e-commerce,17
+REQ-547d5456,The API shall respond in an appropriate number of ms for 99% of users.,Ambiguous,e-commerce,17
+REQ-5e7c5127,The backend shall respond in an appropriate number of TB for 99% of users.,Ambiguous,banking,17
+REQ-a446f75a,The client app shall utilize a maximum of 2 GB of memory.,Not Ambiguous,cybersecurity,18
+REQ-6c636777,The client app shall utilize a maximum of 100 GB of memory.,Not Ambiguous,education,18
+REQ-df5a5664,The application shall utilize a maximum of 2 ms of memory.,Not Ambiguous,e-commerce,19
+REQ-401b6756,The application shall utilize a maximum of 10 ms of memory.,Not Ambiguous,banking,19
+REQ-4896a778,The application shall utilize a maximum of 5 ms of memory.,Not Ambiguous,healthcare,19
+REQ-8e0b301d,The application shall respond in 100 hours for 90% of users.,Not Ambiguous,banking,20
+REQ-98f19ee0,The application shall respond in 10 hours for 90% of users.,Not Ambiguous,cybersecurity,20
+REQ-ea04815e,The service shall utilize around 10 GB of memory.,Ambiguous,HR,21
+REQ-ff16bfca,The service shall utilize around 5 GB of memory.,Ambiguous,HR,21
+REQ-e6a4abb9,The service shall utilize around 50 GB of memory.,Ambiguous,e-commerce,21
+REQ-4d789d8d,The service shall support 5 users and be extremely reliable.,Ambiguous,HR,22
+REQ-369fb3ef,The platform shall support 5 users and be extremely reliable.,Ambiguous,cybersecurity,22
+REQ-6e9e08f3,The platform shall support 2 users and be extremely reliable.,Ambiguous,cybersecurity,22
+REQ-8b97ba3c,The module shall support 2 users and be extremely reliable.,Ambiguous,finance,22
+REQ-d5467724,The API shall support 5 users and be extremely reliable.,Ambiguous,finance,22
+REQ-a8744866,The application shall support 2 users and be extremely reliable.,Ambiguous,e-commerce,22
+REQ-29a24287,The service shall support 10 users and be extremely reliable.,Ambiguous,cybersecurity,22
+REQ-e3efef5b,The backend shall support 2 users and be extremely reliable.,Ambiguous,HR,22
+REQ-1a6d2843,The application shall support 5 users and be extremely reliable.,Ambiguous,HR,22
+REQ-bca4415d,The system shall support 5 users and be extremely reliable.,Ambiguous,healthcare,22
+REQ-39559850,The API shall support 2 users and be extremely reliable.,Ambiguous,education,22
+REQ-5f319459,The backend shall support 5 users and be extremely reliable.,Ambiguous,finance,22
+REQ-5093171e,The module shall support 5 users and be extremely reliable.,Ambiguous,government,22
+REQ-0c12c138,The service shall support 50 users and be extremely reliable.,Ambiguous,e-commerce,22
+REQ-e25d0ea8,The system shall support 2 users and be extremely reliable.,Ambiguous,banking,22
+REQ-e628bad9,The service shall support 100 users and be extremely reliable.,Ambiguous,government,22
+REQ-dac57699,The service shall support 2 users and be extremely reliable.,Ambiguous,logistics,22
+REQ-967cb30d,"When the user clicks the button, the application shall load the data within 500 ms.",Not Ambiguous,finance,23
+REQ-28828364,"When the user clicks the button, the service shall load the data within 500 seconds.",Not Ambiguous,e-commerce,23
+REQ-69b3478a,"When the user clicks the button, the application shall load the data within 500 seconds.",Not Ambiguous,e-commerce,23
+REQ-749a6416,"When the user clicks the button, the backend shall load the data within 500 ms.",Not Ambiguous,logistics,23
+REQ-a3524974,"When the user clicks the button, the application shall load the data within 50 ms.",Not Ambiguous,e-commerce,23
+REQ-07f80abf,"When the user clicks the button, the api shall load the data within 500 ms.",Not Ambiguous,logistics,23
+REQ-f4554904,"When the user clicks the button, the module shall load the data within 500 seconds.",Not Ambiguous,logistics,23
+REQ-5301228a,"When the user clicks the button, the backend shall load the data within 500 seconds.",Not Ambiguous,education,23
+REQ-921de8c7,"When the user clicks the button, the application shall load the data within 100 ms.",Not Ambiguous,HR,23
+REQ-3170d89d,"When the user clicks the button, the platform shall load the data within 500 ms.",Not Ambiguous,e-commerce,23
+REQ-c7796407,"When the user clicks the button, the platform shall load the data within 500 seconds.",Not Ambiguous,manufacturing,23
+REQ-4ba06fa9,"When the user clicks the button, the api shall load the data within 500 seconds.",Not Ambiguous,logistics,23
+REQ-327bcc81,"When the user clicks the button, the application shall load the data within 10 ms.",Not Ambiguous,healthcare,23
+REQ-3f27949c,"When the user clicks the button, the service shall load the data within 500 ms.",Not Ambiguous,HR,23
+REQ-aa7c2688,"When the user clicks the button, the system shall load the data within 500 ms.",Not Ambiguous,cybersecurity,23
+REQ-d23aef86,"When the user clicks the button, the client app shall load the data within 500 ms.",Not Ambiguous,banking,23
+REQ-6363eb04,The module shall send an email notification.,Not Ambiguous,government,24
+REQ-bf463ff6,The system shall send an email notification.,Not Ambiguous,healthcare,24
+REQ-e77dd926,The application shall send an email notification.,Not Ambiguous,cybersecurity,24
+REQ-f5d15f81,The service shall send an email notification.,Not Ambiguous,finance,24
+REQ-aca90012,The backend shall send an email notification.,Not Ambiguous,finance,24
+REQ-f9759e30,The platform shall send an email notification.,Not Ambiguous,banking,24
+REQ-f76755b6,The API shall send an email notification.,Not Ambiguous,cybersecurity,24
+REQ-d9cd2a85,The client app shall utilize a maximum of 2 hours of memory.,Not Ambiguous,education,25
+REQ-75a2fb12,The client app shall utilize a maximum of 10 hours of memory.,Not Ambiguous,government,25
+REQ-df2166ec,"When the user clicks the button, the api shall load the data within 50 seconds.",Not Ambiguous,education,26
+REQ-5876e3b3,"When the user clicks the button, the api shall load the data within 10 seconds.",Not Ambiguous,HR,26
+REQ-0d237039,"When the user clicks the button, the api shall load the data within 100 ms.",Not Ambiguous,HR,26
+REQ-db0f4920,"When the user clicks the button, the client app shall load the data within 50 seconds.",Not Ambiguous,education,26
+REQ-427d32f8,"When the user clicks the button, the system shall load the data within 50 seconds.",Not Ambiguous,education,26
+REQ-cea4c8ac,"When the user clicks the button, the api shall load the data within 100 seconds.",Not Ambiguous,logistics,26
+REQ-bf2864ad,"When the user clicks the button, the api shall load the data within 50 ms.",Not Ambiguous,government,26
+REQ-29f0bd2f,"When the user clicks the button, the backend shall load the data within 50 seconds.",Not Ambiguous,cybersecurity,26
+REQ-969271eb,"When the user clicks the button, the service shall load the data within 50 seconds.",Not Ambiguous,logistics,26
+REQ-1d76dff3,"When the user clicks the button, the platform shall load the data within 50 seconds.",Not Ambiguous,logistics,26
+REQ-4ba06fa9,"When the user clicks the button, the api shall load the data within 500 seconds.",Not Ambiguous,logistics,26
+REQ-4da4e1ee,"When the user clicks the button, the api shall load the data within 10 ms.",Not Ambiguous,cybersecurity,26
+REQ-50f1f355,"When the user clicks the button, the module shall load the data within 50 seconds.",Not Ambiguous,healthcare,26
+REQ-5ecfc09d,The system shall utilize around 100 hours of memory.,Ambiguous,HR,27
+REQ-333ddb92,The system shall utilize around 2 hours of memory.,Ambiguous,banking,27
+REQ-77b2c904,The platform shall support 2 users with 99.9% uptime.,Not Ambiguous,cybersecurity,28
+REQ-68b547f5,The platform shall support 100 users with 99.9% uptime.,Not Ambiguous,education,28
+REQ-5e335cd7,The platform shall support 10 users with 99.9% uptime.,Not Ambiguous,logistics,28
+REQ-36f1a78c,The platform shall support 5 users with 99.9% uptime.,Not Ambiguous,cybersecurity,28
+REQ-33af2a2d,The platform shall support 50 users with 99.9% uptime.,Not Ambiguous,manufacturing,28
+REQ-8d277451,The backend shall respond in an appropriate number of GB for 99% of users.,Ambiguous,government,29
+REQ-506b30b8,The backend shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,HR,29
+REQ-bba72072,The backend shall respond in an appropriate number of GB for 50% of users.,Ambiguous,education,29
+REQ-a98cac6e,The backend shall respond in an appropriate number of GB for 90% of users.,Ambiguous,healthcare,29
+REQ-d367c9b5,The platform shall respond in an appropriate number of GB for 99% of users.,Ambiguous,manufacturing,29
+REQ-db1ec00a,The system shall respond in an appropriate number of GB for 99% of users.,Ambiguous,e-commerce,29
+REQ-5e7c5127,The backend shall respond in an appropriate number of TB for 99% of users.,Ambiguous,banking,29
+REQ-93e6dae0,The service shall respond in an appropriate number of GB for 90% of users.,Ambiguous,HR,30
+REQ-a98cac6e,The backend shall respond in an appropriate number of GB for 90% of users.,Ambiguous,healthcare,30
+REQ-04d2e776,The service shall respond in an appropriate number of hours for 90% of users.,Ambiguous,healthcare,30
+REQ-3093f1d3,The service shall respond in an appropriate number of TB for 90% of users.,Ambiguous,education,30
+REQ-2b150e1a,The API shall respond in an appropriate number of GB for 90% of users.,Ambiguous,banking,30
+REQ-2cec319d,The service shall respond in an appropriate number of GB for 50% of users.,Ambiguous,healthcare,30
+REQ-76b33456,The service shall respond in an appropriate number of ms for 90% of users.,Ambiguous,education,30
+REQ-70d46287,The system shall respond in an appropriate number of GB for 90% of users.,Ambiguous,finance,30
+REQ-e91846c6,"When the user clicks the button, the backend shall load the data within 100 ms.",Not Ambiguous,manufacturing,31
+REQ-0d237039,"When the user clicks the button, the api shall load the data within 100 ms.",Not Ambiguous,HR,31
+REQ-b780820b,"When the user clicks the button, the backend shall load the data within 10 seconds.",Not Ambiguous,HR,31
+REQ-c0a37444,"When the user clicks the button, the module shall load the data within 100 ms.",Not Ambiguous,healthcare,31
+REQ-749a6416,"When the user clicks the button, the backend shall load the data within 500 ms.",Not Ambiguous,logistics,31
+REQ-99e9a9b5,"When the user clicks the button, the platform shall load the data within 100 ms.",Not Ambiguous,e-commerce,31
+REQ-03979e19,"When the user clicks the button, the service shall load the data within 100 ms.",Not Ambiguous,healthcare,31
+REQ-fab55671,"When the user clicks the button, the client app shall load the data within 100 ms.",Not Ambiguous,finance,31
+REQ-a3524974,"When the user clicks the button, the application shall load the data within 50 ms.",Not Ambiguous,e-commerce,31
+REQ-233fe357,"When the user clicks the button, the system shall load the data within 100 ms.",Not Ambiguous,banking,31
+REQ-2054eab3,"When the user clicks the button, the service shall load the data within 100 seconds.",Not Ambiguous,manufacturing,31
+REQ-87cfa2b7,"When the user clicks the button, the backend shall load the data within 100 seconds.",Not Ambiguous,banking,31
+REQ-921de8c7,"When the user clicks the button, the application shall load the data within 100 ms.",Not Ambiguous,HR,31
+REQ-29f0bd2f,"When the user clicks the button, the backend shall load the data within 50 seconds.",Not Ambiguous,cybersecurity,31
+REQ-776b7f09,"When the user clicks the button, the backend shall load the data within 10 ms.",Not Ambiguous,finance,31
+REQ-8c822968,"When the user clicks the button, the service shall load the data within 50 ms.",Not Ambiguous,education,31
+REQ-204a25e2,"When the user clicks the button, the system shall load the data within 50 ms.",Not Ambiguous,logistics,31
+REQ-ffca394c,"When the user clicks the button, the module shall load the data within 50 ms.",Not Ambiguous,finance,32
+REQ-b6dc3abb,"When the user clicks the button, the module shall load the data within 10 seconds.",Not Ambiguous,HR,32
+REQ-c0a37444,"When the user clicks the button, the module shall load the data within 100 ms.",Not Ambiguous,healthcare,32
+REQ-453f59a7,"When the user clicks the button, the platform shall load the data within 50 ms.",Not Ambiguous,manufacturing,32
+REQ-a3524974,"When the user clicks the button, the application shall load the data within 50 ms.",Not Ambiguous,e-commerce,32
+REQ-894848a9,"When the user clicks the button, the module shall load the data within 100 seconds.",Not Ambiguous,education,32
+REQ-bf2864ad,"When the user clicks the button, the api shall load the data within 50 ms.",Not Ambiguous,government,32
+REQ-2f5a8a8a,"When the user clicks the button, the module shall load the data within 10 ms.",Not Ambiguous,government,32
+REQ-8c822968,"When the user clicks the button, the service shall load the data within 50 ms.",Not Ambiguous,education,32
+REQ-73ee2316,"When the user clicks the button, the client app shall load the data within 50 ms.",Not Ambiguous,cybersecurity,32
+REQ-204a25e2,"When the user clicks the button, the system shall load the data within 50 ms.",Not Ambiguous,logistics,32
+REQ-50f1f355,"When the user clicks the button, the module shall load the data within 50 seconds.",Not Ambiguous,healthcare,32
+REQ-ca6d1fc5,The platform shall respond in 10 TB for 50% of users.,Not Ambiguous,logistics,33
+REQ-5455dc92,The platform shall respond in 100 TB for 50% of users.,Not Ambiguous,HR,33
+REQ-27ad54d5,The platform shall respond in 5 TB for 50% of users.,Not Ambiguous,healthcare,33
+REQ-cf2141d9,The application shall respond in an appropriate number of GB for 50% of users.,Ambiguous,HR,34
+REQ-bba72072,The backend shall respond in an appropriate number of GB for 50% of users.,Ambiguous,education,34
+REQ-c90456dc,The application shall respond in an appropriate number of ms for 50% of users.,Ambiguous,healthcare,34
+REQ-2cec319d,The service shall respond in an appropriate number of GB for 50% of users.,Ambiguous,healthcare,34
+REQ-b27bb395,The API shall respond in an appropriate number of GB for 50% of users.,Ambiguous,finance,34
+REQ-8d9a124c,The application shall respond in an appropriate number of TB for 50% of users.,Ambiguous,finance,34
+REQ-f025fefa,The client app shall respond in an appropriate number of GB for 50% of users.,Ambiguous,cybersecurity,34
+REQ-04b2f2b3,The system shall respond in an appropriate number of GB for 50% of users.,Ambiguous,banking,34
+REQ-6dc3b143,The application shall utilize around 2 seconds of memory.,Ambiguous,government,35
+REQ-c92a9b55,The application shall utilize around 10 seconds of memory.,Ambiguous,HR,35
+REQ-cef0127e,The client app shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,cybersecurity,36
+REQ-c66e2582,The service shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,manufacturing,36
+REQ-7ec891c2,The platform shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,government,36
+REQ-91826210,The API shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,cybersecurity,36
+REQ-c9514d0d,The backend shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,finance,36
+REQ-b6aa9574,The system shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,banking,36
+REQ-cc5d703f,The application shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,HR,36
+REQ-c8a37d00,The module shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,cybersecurity,36
+REQ-608c96af,The system shall utilize a maximum of 5 GB of memory.,Not Ambiguous,e-commerce,37
+REQ-fb71140f,The system shall utilize a maximum of 2 GB of memory.,Not Ambiguous,banking,37
+REQ-60550872,The system shall utilize a maximum of 50 GB of memory.,Not Ambiguous,e-commerce,37
+REQ-f1171f5a,The backend shall reliably deliver messages.,Ambiguous,finance,38
+REQ-b36d16ab,The module shall reliably deliver messages.,Ambiguous,cybersecurity,38
+REQ-3d261842,The platform shall reliably deliver messages.,Ambiguous,government,38
+REQ-0055329f,The API shall reliably deliver messages.,Ambiguous,cybersecurity,38
+REQ-9bf77452,The application shall reliably deliver messages.,Ambiguous,HR,38
+REQ-054580ac,The service shall reliably deliver messages.,Ambiguous,manufacturing,38
+REQ-3dac5c36,The system shall reliably deliver messages.,Ambiguous,banking,38
+REQ-83d8577d,The module shall utilize a maximum of 10 TB of memory.,Not Ambiguous,logistics,39
+REQ-6347c8d3,The module shall utilize a maximum of 5 TB of memory.,Not Ambiguous,government,39
+REQ-920201de,The module shall utilize a maximum of 10 ms of memory.,Not Ambiguous,e-commerce,39
+REQ-f652eac8,The application shall utilize around 50 TB of memory.,Ambiguous,finance,40
+REQ-304fd816,The application shall utilize around 2 TB of memory.,Ambiguous,logistics,40
+REQ-b9cb1ce1,The application shall utilize around 10 TB of memory.,Ambiguous,logistics,40
+REQ-59d5f521,The service shall respond in 10 TB for 90% of users.,Not Ambiguous,education,41
+REQ-33d5d637,The service shall respond in 10 ms for 90% of users.,Not Ambiguous,education,41
+REQ-31108ea3,The API shall timeout if the request takes > 30 seconds.,Not Ambiguous,cybersecurity,42
+REQ-bc752ce3,The backend shall timeout if the request takes > 30 seconds.,Not Ambiguous,finance,42
+REQ-886e4d65,The module shall timeout if the request takes > 30 seconds.,Not Ambiguous,government,42
+REQ-732a389d,The service shall timeout if the request takes > 30 seconds.,Not Ambiguous,finance,42
+REQ-11e0dc64,The application shall timeout if the request takes > 30 seconds.,Not Ambiguous,cybersecurity,42
+REQ-af2adb99,The client app shall timeout if the request takes > 30 seconds.,Not Ambiguous,logistics,42
+REQ-de36da67,The system shall timeout if the request takes > 30 seconds.,Not Ambiguous,healthcare,42
+REQ-48b3bbef,The platform shall timeout if the request takes > 30 seconds.,Not Ambiguous,banking,42
+REQ-4a1b7c0a,The backend shall utilize a maximum of 50 hours of memory.,Not Ambiguous,logistics,43
+REQ-3b508212,The backend shall utilize a maximum of 5 hours of memory.,Not Ambiguous,finance,43
+REQ-7241632d,The backend shall utilize a maximum of 10 hours of memory.,Not Ambiguous,logistics,43
+REQ-30a59891,The system shall utilize a maximum of 10 hours of memory.,Not Ambiguous,healthcare,44
+REQ-36e72923,The system shall utilize a maximum of 100 hours of memory.,Not Ambiguous,HR,44
+REQ-3bb06f69,The system shall utilize a maximum of 2 hours of memory.,Not Ambiguous,banking,44
+REQ-95d5d44f,The application shall support 50 users with 99.9% uptime.,Not Ambiguous,finance,45
+REQ-d82e5e5f,The application shall support 5 users with 99.9% uptime.,Not Ambiguous,HR,45
+REQ-920ef10f,The application shall support 10 users with 99.9% uptime.,Not Ambiguous,logistics,45
+REQ-8fb9162c,The module shall support 50 users with 99.9% uptime.,Not Ambiguous,e-commerce,45
+REQ-e7a091b7,The application shall support 2 users with 99.9% uptime.,Not Ambiguous,e-commerce,45
+REQ-415455d2,The backend shall support 50 users with 99.9% uptime.,Not Ambiguous,HR,45
+REQ-7c7c59a1,The application shall support 100 users with 99.9% uptime.,Not Ambiguous,banking,45
+REQ-c1fd86e1,The system shall support 50 users with 99.9% uptime.,Not Ambiguous,e-commerce,45
+REQ-d81ed733,The service shall support 50 users with 99.9% uptime.,Not Ambiguous,e-commerce,45
+REQ-33af2a2d,The platform shall support 50 users with 99.9% uptime.,Not Ambiguous,manufacturing,45
+REQ-813a924a,The API shall support 50 users with 99.9% uptime.,Not Ambiguous,cybersecurity,45
+REQ-b313eecf,The application shall respond in an appropriate number of ms for 90% of users.,Ambiguous,e-commerce,46
+REQ-c90456dc,The application shall respond in an appropriate number of ms for 50% of users.,Ambiguous,healthcare,46
+REQ-de4e0a6e,The API shall respond in an appropriate number of ms for 90% of users.,Ambiguous,finance,46
+REQ-4131fecf,The application shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,HR,46
+REQ-76b33456,The service shall respond in an appropriate number of ms for 90% of users.,Ambiguous,education,46
+REQ-006cc6e6,The system shall respond in an appropriate number of ms for 90% of users.,Ambiguous,e-commerce,46
+REQ-431951d4,The application shall respond in an appropriate number of hours for 90% of users.,Ambiguous,banking,46
+REQ-090523d0,The client app shall respond in an appropriate number of ms for 90% of users.,Ambiguous,HR,46
+REQ-55893e81,The application shall respond in an appropriate number of TB for 90% of users.,Ambiguous,logistics,46
+REQ-92967ba8,The API shall support 10 users and be extremely reliable.,Ambiguous,e-commerce,47
+REQ-9b8924f1,The API shall support 100 users and be extremely reliable.,Ambiguous,e-commerce,47
+REQ-d5467724,The API shall support 5 users and be extremely reliable.,Ambiguous,finance,47
+REQ-b3d1db9a,The platform shall support 10 users and be extremely reliable.,Ambiguous,logistics,47
+REQ-29a24287,The service shall support 10 users and be extremely reliable.,Ambiguous,cybersecurity,47
+REQ-5ef03a8f,The application shall support 10 users and be extremely reliable.,Ambiguous,logistics,47
+REQ-39559850,The API shall support 2 users and be extremely reliable.,Ambiguous,education,47
+REQ-939ae52e,The module shall support 10 users and be extremely reliable.,Ambiguous,logistics,47
+REQ-e94fb5c5,The API shall support 50 users and be extremely reliable.,Ambiguous,cybersecurity,47
+REQ-ffe4be48,The backend shall support 10 users and be extremely reliable.,Ambiguous,cybersecurity,47
+REQ-39e85ed1,The system shall support 10 users and be extremely reliable.,Ambiguous,healthcare,47
+REQ-4fda1487,The client app shall utilize around 2 hours of memory.,Ambiguous,education,48
+REQ-b9425cfa,The client app shall utilize around 10 hours of memory.,Ambiguous,government,48
+REQ-05ae1822,"When the user clicks the button, the client app shall load the data within 10 ms.",Not Ambiguous,cybersecurity,49
+REQ-c28317df,"When the user clicks the button, the platform shall load the data within 10 ms.",Not Ambiguous,government,49
+REQ-db0f4920,"When the user clicks the button, the client app shall load the data within 50 seconds.",Not Ambiguous,education,49
+REQ-fab55671,"When the user clicks the button, the client app shall load the data within 100 ms.",Not Ambiguous,finance,49
+REQ-5505faea,"When the user clicks the button, the service shall load the data within 10 ms.",Not Ambiguous,banking,49
+REQ-82aa5c60,"When the user clicks the button, the client app shall load the data within 10 seconds.",Not Ambiguous,government,49
+REQ-2f5a8a8a,"When the user clicks the button, the module shall load the data within 10 ms.",Not Ambiguous,government,49
+REQ-776b7f09,"When the user clicks the button, the backend shall load the data within 10 ms.",Not Ambiguous,finance,49
+REQ-327bcc81,"When the user clicks the button, the application shall load the data within 10 ms.",Not Ambiguous,healthcare,49
+REQ-4da4e1ee,"When the user clicks the button, the api shall load the data within 10 ms.",Not Ambiguous,cybersecurity,49
+REQ-73ee2316,"When the user clicks the button, the client app shall load the data within 50 ms.",Not Ambiguous,cybersecurity,49
+REQ-d23aef86,"When the user clicks the button, the client app shall load the data within 500 ms.",Not Ambiguous,banking,49
+REQ-62a634ab,The system shall respond in 10 hours for 90% of users.,Not Ambiguous,healthcare,50
+REQ-1e1c1526,The service shall respond in 10 hours for 90% of users.,Not Ambiguous,healthcare,50
+REQ-c1dd358b,The system shall respond in 2 hours for 90% of users.,Not Ambiguous,banking,50
+REQ-fd40add4,The system shall respond in 100 ms for 90% of users.,Not Ambiguous,e-commerce,51
+REQ-5585bded,The system shall respond in 100 TB for 90% of users.,Not Ambiguous,manufacturing,51
+REQ-23490292,The service shall respond in an appropriate number of ms for 99% of users.,Ambiguous,cybersecurity,52
+REQ-4cf35a1b,The platform shall respond in an appropriate number of ms for 99% of users.,Ambiguous,HR,52
+REQ-ead574ad,The service shall respond in an appropriate number of ms for 50% of users.,Ambiguous,logistics,52
+REQ-c4fb08e3,The service shall respond in an appropriate number of TB for 99% of users.,Ambiguous,e-commerce,52
+REQ-76b33456,The service shall respond in an appropriate number of ms for 90% of users.,Ambiguous,education,52
+REQ-547d5456,The API shall respond in an appropriate number of ms for 99% of users.,Ambiguous,e-commerce,52
+REQ-347819e5,The module shall respond in an appropriate number of ms for 99% of users.,Ambiguous,healthcare,52
+REQ-4e56390e,The system shall utilize around 10 hours of memory.,Ambiguous,healthcare,53
+REQ-333ddb92,The system shall utilize around 2 hours of memory.,Ambiguous,banking,53
+REQ-0865e725,The module shall utilize around 10 TB of memory.,Ambiguous,logistics,54
+REQ-3951cddd,The module shall utilize around 5 TB of memory.,Ambiguous,government,54
+REQ-2a41e58e,The API shall utilize around 2 seconds of memory.,Ambiguous,education,55
+REQ-89b44e7f,The API shall utilize around 100 seconds of memory.,Ambiguous,e-commerce,55
+REQ-2c3b6840,The service shall utilize a maximum of 100 hours of memory.,Not Ambiguous,government,56
+REQ-53e97fbf,The service shall utilize a maximum of 10 hours of memory.,Not Ambiguous,healthcare,56
+REQ-a93615a5,The client app shall utilize a maximum of 50 seconds of memory.,Not Ambiguous,e-commerce,57
+REQ-0387879d,The client app shall utilize a maximum of 50 ms of memory.,Not Ambiguous,finance,57
+REQ-776fe4d4,The client app shall utilize a maximum of 10 seconds of memory.,Not Ambiguous,HR,57
+REQ-03596695,The client app shall utilize a maximum of 5 seconds of memory.,Not Ambiguous,HR,57
+REQ-f3c19e3e,The client app shall utilize a maximum of 100 seconds of memory.,Not Ambiguous,banking,57
+REQ-dcbb7f7d,The client app shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,e-commerce,57
+REQ-0571cdef,The service shall respond in 10 GB for 50% of users.,Not Ambiguous,HR,58
+REQ-adda1dbf,The service shall respond in 5 GB for 50% of users.,Not Ambiguous,healthcare,58
+REQ-eb498714,The client app shall respond in an appropriate number of TB for 90% of users.,Ambiguous,education,59
+REQ-56fee871,The client app shall respond in an appropriate number of TB for 99% of users.,Ambiguous,e-commerce,59
+REQ-45bf2eb5,The backend shall respond in an appropriate number of TB for 90% of users.,Ambiguous,banking,59
+REQ-3093f1d3,The service shall respond in an appropriate number of TB for 90% of users.,Ambiguous,education,59
+REQ-0d48d7fd,The client app shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,e-commerce,59
+REQ-cce3f1a1,The platform shall respond in an appropriate number of TB for 90% of users.,Ambiguous,education,59
+REQ-29d8d9ff,The system shall respond in an appropriate number of TB for 90% of users.,Ambiguous,manufacturing,59
+REQ-090523d0,The client app shall respond in an appropriate number of ms for 90% of users.,Ambiguous,HR,59
+REQ-55893e81,The application shall respond in an appropriate number of TB for 90% of users.,Ambiguous,logistics,59
+REQ-a8d98cb9,The application shall utilize around 2 ms of memory.,Ambiguous,e-commerce,60
+REQ-717fe1fb,The application shall utilize around 10 ms of memory.,Ambiguous,banking,60
+REQ-2d0d5ee3,The application shall utilize around 5 ms of memory.,Ambiguous,healthcare,60
+REQ-bb80bdfe,The module shall respond in 10 TB for 90% of users.,Not Ambiguous,logistics,61
+REQ-d7a8ce24,The module shall respond in 5 TB for 90% of users.,Not Ambiguous,government,61
+REQ-add44856,The client app shall support 100 users with 99.9% uptime.,Not Ambiguous,banking,62
+REQ-e8a97533,The client app shall support 10 users with 99.9% uptime.,Not Ambiguous,government,62
+REQ-046ea32e,The client app shall support 50 users with 99.9% uptime.,Not Ambiguous,e-commerce,62
+REQ-d0118bc4,The client app shall support 5 users with 99.9% uptime.,Not Ambiguous,HR,62
+REQ-d19bfe9e,The client app shall support 2 users with 99.9% uptime.,Not Ambiguous,education,62
+REQ-7c23bf7a,The client app shall respond in an appropriate number of hours for 99% of users.,Ambiguous,education,63
+REQ-7c9dae58,The platform shall respond in an appropriate number of hours for 99% of users.,Ambiguous,cybersecurity,63
+REQ-56fee871,The client app shall respond in an appropriate number of TB for 99% of users.,Ambiguous,e-commerce,63
+REQ-1d5dace0,The client app shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,HR,63
+REQ-3629cf22,The system shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,banking,64
+REQ-32b4d400,The service shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,manufacturing,64
+REQ-074909e0,The client app shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,cybersecurity,64
+REQ-cd5bc4e7,The API shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,cybersecurity,64
+REQ-5df36988,The module shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,cybersecurity,64
+REQ-a71d7d09,The application shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,HR,64
+REQ-dcb83da7,The backend shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,finance,64
+REQ-1d1741cd,The platform shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,government,64
+REQ-cc1969a3,The system shall respond in 2 GB for 50% of users.,Not Ambiguous,banking,65
+REQ-597a5f29,The system shall respond in 50 GB for 99% of users.,Not Ambiguous,e-commerce,65
+REQ-ab45dcf8,The system shall respond in 5 GB for 50% of users.,Not Ambiguous,e-commerce,65
+REQ-f18feb96,The application shall utilize a maximum of 10 seconds of memory.,Not Ambiguous,HR,66
+REQ-e4cfdde9,The application shall utilize a maximum of 10 TB of memory.,Not Ambiguous,logistics,66
+REQ-a032313b,The application shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,government,66
+REQ-401b6756,The application shall utilize a maximum of 10 ms of memory.,Not Ambiguous,banking,66
+REQ-5b8050bb,The API shall timeout if the request takes too long.,Ambiguous,cybersecurity,67
+REQ-705c044a,The client app shall timeout if the request takes too long.,Ambiguous,logistics,67
+REQ-b20036d4,The application shall timeout if the request takes too long.,Ambiguous,cybersecurity,67
+REQ-6596d0c8,The platform shall timeout if the request takes too long.,Ambiguous,banking,67
+REQ-529b7e50,The backend shall timeout if the request takes too long.,Ambiguous,finance,67
+REQ-21311835,The service shall timeout if the request takes too long.,Ambiguous,finance,67
+REQ-f229d4d1,The system shall timeout if the request takes too long.,Ambiguous,healthcare,67
+REQ-2c743b26,The module shall timeout if the request takes too long.,Ambiguous,government,67
+REQ-8f3704c9,The platform shall respond in 100 TB for 90% of users.,Not Ambiguous,education,68
+REQ-5455dc92,The platform shall respond in 100 TB for 50% of users.,Not Ambiguous,HR,68
+REQ-c1d15e45,The platform shall respond in 5 TB for 90% of users.,Not Ambiguous,cybersecurity,68
+REQ-b127dd71,The service shall respond in 50 ms for 50% of users.,Not Ambiguous,government,69
+REQ-4f91acaa,The service shall respond in 2 ms for 50% of users.,Not Ambiguous,logistics,69
+REQ-4b2de307,The module shall utilize around 50 seconds of memory.,Ambiguous,e-commerce,70
+REQ-316c008c,The module shall utilize around 100 seconds of memory.,Ambiguous,logistics,70
+REQ-6c01441d,The client app shall respond in 100 ms for 90% of users.,Not Ambiguous,HR,71
+REQ-c87c4031,The client app shall respond in 100 seconds for 90% of users.,Not Ambiguous,banking,71
+REQ-6d3821e7,The client app shall respond in 5 ms for 90% of users.,Not Ambiguous,healthcare,71
+REQ-2fd5a366,The API shall respond in 100 ms for 99% of users.,Not Ambiguous,e-commerce,72
+REQ-6ee56343,The API shall respond in 10 ms for 99% of users.,Not Ambiguous,e-commerce,72
+REQ-c4565d64,The backend shall support 100 users and be extremely reliable.,Ambiguous,banking,73
+REQ-9b8924f1,The API shall support 100 users and be extremely reliable.,Ambiguous,e-commerce,73
+REQ-b510aa86,The module shall support 100 users and be extremely reliable.,Ambiguous,logistics,73
+REQ-e3efef5b,The backend shall support 2 users and be extremely reliable.,Ambiguous,HR,73
+REQ-bbc0c13a,The application shall support 100 users and be extremely reliable.,Ambiguous,banking,73
+REQ-6bfd9277,The backend shall support 50 users and be extremely reliable.,Ambiguous,HR,73
+REQ-5f319459,The backend shall support 5 users and be extremely reliable.,Ambiguous,finance,73
+REQ-99da6ce7,The system shall support 100 users and be extremely reliable.,Ambiguous,HR,73
+REQ-ffe4be48,The backend shall support 10 users and be extremely reliable.,Ambiguous,cybersecurity,73
+REQ-e628bad9,The service shall support 100 users and be extremely reliable.,Ambiguous,government,73
+REQ-9680e3ba,The platform shall support 100 users and be extremely reliable.,Ambiguous,education,73
+REQ-e7284a9c,"When the user clicks the button, the system shall load the data within 10 seconds.",Not Ambiguous,manufacturing,74
+REQ-5876e3b3,"When the user clicks the button, the api shall load the data within 10 seconds.",Not Ambiguous,HR,74
+REQ-b6dc3abb,"When the user clicks the button, the module shall load the data within 10 seconds.",Not Ambiguous,HR,74
+REQ-b780820b,"When the user clicks the button, the backend shall load the data within 10 seconds.",Not Ambiguous,HR,74
+REQ-1f984f55,"When the user clicks the button, the service shall load the data within 10 seconds.",Not Ambiguous,education,74
+REQ-233fe357,"When the user clicks the button, the system shall load the data within 100 ms.",Not Ambiguous,banking,74
+REQ-a2c550de,"When the user clicks the button, the platform shall load the data within 10 seconds.",Not Ambiguous,HR,74
+REQ-82aa5c60,"When the user clicks the button, the client app shall load the data within 10 seconds.",Not Ambiguous,government,74
+REQ-05b41207,"When the user clicks the button, the system shall load the data within 100 seconds.",Not Ambiguous,education,74
+REQ-427d32f8,"When the user clicks the button, the system shall load the data within 50 seconds.",Not Ambiguous,education,74
+REQ-969271eb,"When the user clicks the button, the service shall load the data within 50 seconds.",Not Ambiguous,logistics,74
+REQ-f99a01d1,"When the user clicks the button, the application shall load the data within 10 seconds.",Not Ambiguous,education,74
+REQ-204a25e2,"When the user clicks the button, the system shall load the data within 50 ms.",Not Ambiguous,logistics,74
+REQ-0eff9153,The system shall utilize a maximum of 100 TB of memory.,Not Ambiguous,manufacturing,75
+REQ-b4705f9a,The system shall utilize a maximum of 100 ms of memory.,Not Ambiguous,e-commerce,75
+REQ-1c55aa72,The system shall utilize a maximum of 5 TB of memory.,Not Ambiguous,healthcare,75
+REQ-38bec88e,The platform shall utilize around 5 TB of memory.,Ambiguous,cybersecurity,76
+REQ-5ebbc53d,The platform shall utilize around 100 TB of memory.,Ambiguous,education,76
+REQ-0294a51e,The platform shall utilize around 10 TB of memory.,Ambiguous,logistics,76
+REQ-313fce5d,The platform shall utilize around 50 GB of memory.,Ambiguous,manufacturing,77
+REQ-8c4daac1,The platform shall utilize around 100 GB of memory.,Ambiguous,cybersecurity,77
+REQ-3f52275f,The system shall support 50 users and be extremely reliable.,Ambiguous,e-commerce,78
+REQ-51bc192b,The module shall support 50 users and be extremely reliable.,Ambiguous,e-commerce,78
+REQ-6bfd9277,The backend shall support 50 users and be extremely reliable.,Ambiguous,HR,78
+REQ-bca4415d,The system shall support 5 users and be extremely reliable.,Ambiguous,healthcare,78
+REQ-99da6ce7,The system shall support 100 users and be extremely reliable.,Ambiguous,HR,78
+REQ-e94fb5c5,The API shall support 50 users and be extremely reliable.,Ambiguous,cybersecurity,78
+REQ-70b4083a,The application shall support 50 users and be extremely reliable.,Ambiguous,finance,78
+REQ-0c12c138,The service shall support 50 users and be extremely reliable.,Ambiguous,e-commerce,78
+REQ-e25d0ea8,The system shall support 2 users and be extremely reliable.,Ambiguous,banking,78
+REQ-95be3abc,The platform shall support 50 users and be extremely reliable.,Ambiguous,manufacturing,78
+REQ-39e85ed1,The system shall support 10 users and be extremely reliable.,Ambiguous,healthcare,78
+REQ-592e5610,The client app shall send an email notification.,Not Ambiguous,logistics,79
+REQ-bf463ff6,The system shall send an email notification.,Not Ambiguous,healthcare,79
+REQ-e77dd926,The application shall send an email notification.,Not Ambiguous,cybersecurity,79
+REQ-f5d15f81,The service shall send an email notification.,Not Ambiguous,finance,79
+REQ-aca90012,The backend shall send an email notification.,Not Ambiguous,finance,79
+REQ-f9759e30,The platform shall send an email notification.,Not Ambiguous,banking,79
+REQ-f76755b6,The API shall send an email notification.,Not Ambiguous,cybersecurity,79
+REQ-b7da3d46,The module shall respond in an appropriate number of ms for 50% of users.,Ambiguous,e-commerce,80
+REQ-c90456dc,The application shall respond in an appropriate number of ms for 50% of users.,Ambiguous,healthcare,80
+REQ-ead574ad,The service shall respond in an appropriate number of ms for 50% of users.,Ambiguous,logistics,80
+REQ-6fab04af,The backend shall respond in an appropriate number of ms for 50% of users.,Ambiguous,government,80
+REQ-26f67b28,The module shall respond in an appropriate number of TB for 50% of users.,Ambiguous,cybersecurity,80
+REQ-347819e5,The module shall respond in an appropriate number of ms for 99% of users.,Ambiguous,healthcare,80
+REQ-91b5ccb6,The API shall respond in an appropriate number of ms for 50% of users.,Ambiguous,banking,80
+REQ-c4999225,The system shall respond in 5 TB for 90% of users.,Not Ambiguous,healthcare,81
+REQ-5585bded,The system shall respond in 100 TB for 90% of users.,Not Ambiguous,manufacturing,81
+REQ-35bf9054,The client app shall respond in 2 hours for 99% of users.,Not Ambiguous,education,82
+REQ-135592af,The client app shall respond in 10 hours for 99% of users.,Not Ambiguous,government,82
+REQ-ea05c018,The API shall utilize a maximum of 100 ms of memory.,Not Ambiguous,e-commerce,83
+REQ-d88983f7,The API shall utilize a maximum of 100 seconds of memory.,Not Ambiguous,e-commerce,83
+REQ-96e620ee,The API shall utilize a maximum of 50 ms of memory.,Not Ambiguous,finance,83
+REQ-71010ea8,The API shall utilize a maximum of 10 ms of memory.,Not Ambiguous,e-commerce,83
+REQ-7297011e,The application shall utilize a maximum of 10 hours of memory.,Not Ambiguous,cybersecurity,84
+REQ-e5666d43,The application shall utilize a maximum of 100 hours of memory.,Not Ambiguous,banking,84
+REQ-df7ab236,The backend shall respond in 5 TB for 99% of users.,Not Ambiguous,education,85
+REQ-eed6a842,The backend shall respond in 10 TB for 99% of users.,Not Ambiguous,banking,85
+REQ-b6ebbfa9,The backend shall utilize a maximum of 5 TB of memory.,Not Ambiguous,education,86
+REQ-765c90c9,The backend shall utilize a maximum of 10 TB of memory.,Not Ambiguous,cybersecurity,86
+REQ-65ae9768,The backend shall utilize a maximum of 50 TB of memory.,Not Ambiguous,banking,86
+REQ-38fb0c62,The backend shall utilize a maximum of 100 TB of memory.,Not Ambiguous,banking,86
+REQ-38658bfb,The backend shall support 100 users with 99.9% uptime.,Not Ambiguous,banking,87
+REQ-99b4cb69,The backend shall support 2 users with 99.9% uptime.,Not Ambiguous,HR,87
+REQ-51e2ab25,The backend shall support 5 users with 99.9% uptime.,Not Ambiguous,finance,87
+REQ-5ef14909,The system shall support 100 users with 99.9% uptime.,Not Ambiguous,HR,87
+REQ-aeb497ca,The module shall support 100 users with 99.9% uptime.,Not Ambiguous,logistics,87
+REQ-415455d2,The backend shall support 50 users with 99.9% uptime.,Not Ambiguous,HR,87
+REQ-c0aa5214,The backend shall support 10 users with 99.9% uptime.,Not Ambiguous,cybersecurity,87
+REQ-7c7c59a1,The application shall support 100 users with 99.9% uptime.,Not Ambiguous,banking,87
+REQ-6be18a05,The API shall support 100 users with 99.9% uptime.,Not Ambiguous,e-commerce,87
+REQ-68b547f5,The platform shall support 100 users with 99.9% uptime.,Not Ambiguous,education,87
+REQ-5069d2e8,The service shall support 100 users with 99.9% uptime.,Not Ambiguous,government,87
+REQ-97418f81,The backend shall securely encrypt data.,Ambiguous,finance,88
+REQ-9575528b,The service shall securely encrypt data.,Ambiguous,manufacturing,88
+REQ-4a6f9e58,The service shall utilize a maximum of 50 ms of memory.,Not Ambiguous,government,89
+REQ-62b79efc,The service shall utilize a maximum of 5 ms of memory.,Not Ambiguous,education,89
+REQ-7e4cacc9,The service shall utilize a maximum of 10 ms of memory.,Not Ambiguous,cybersecurity,89
+REQ-b2c98c23,The service shall utilize a maximum of 2 ms of memory.,Not Ambiguous,logistics,89
+REQ-ec5712e3,The service shall utilize a maximum of 100 ms of memory.,Not Ambiguous,finance,89
+REQ-e83b2476,The module shall support 5 users with 99.9% uptime.,Not Ambiguous,government,90
+REQ-8fb9162c,The module shall support 50 users with 99.9% uptime.,Not Ambiguous,e-commerce,90
+REQ-aeb497ca,The module shall support 100 users with 99.9% uptime.,Not Ambiguous,logistics,90
+REQ-e91b455a,The module shall support 10 users with 99.9% uptime.,Not Ambiguous,logistics,90
+REQ-ecd19862,The module shall support 2 users with 99.9% uptime.,Not Ambiguous,finance,90
+REQ-9345df5b,The backend shall utilize around 50 hours of memory.,Ambiguous,logistics,91
+REQ-5b7a7345,The backend shall utilize around 5 hours of memory.,Ambiguous,finance,91
+REQ-388313d3,The backend shall utilize around 10 hours of memory.,Ambiguous,logistics,91
+REQ-34a4323a,The backend shall utilize around 50 seconds of memory.,Ambiguous,HR,92
+REQ-13e63427,The backend shall utilize around 2 seconds of memory.,Ambiguous,HR,92
+REQ-1d46add6,The application shall respond in 2 ms for 90% of users.,Not Ambiguous,e-commerce,93
+REQ-d93b4547,The application shall respond in 10 ms for 90% of users.,Not Ambiguous,banking,93
+REQ-157cdd4a,The application shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,government,94
+REQ-506b30b8,The backend shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,HR,94
+REQ-4131fecf,The application shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,HR,94
+REQ-1d5dace0,The client app shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,HR,94
+REQ-c736e939,The module shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,e-commerce,94
+REQ-14fa471d,The client app shall utilize around 100 ms of memory.,Ambiguous,HR,95
+REQ-079fc659,The client app shall utilize around 100 TB of memory.,Ambiguous,e-commerce,95
+REQ-5f427ab2,The client app shall utilize around 100 seconds of memory.,Ambiguous,banking,95
+REQ-a5839db2,The client app shall utilize around 5 ms of memory.,Ambiguous,healthcare,95
+REQ-88d6b146,The client app shall utilize around 50 ms of memory.,Ambiguous,finance,95
+REQ-29aefd97,The backend shall respond in 100 TB for 90% of users.,Not Ambiguous,banking,96
+REQ-1f55c3c2,The backend shall respond in 50 TB for 90% of users.,Not Ambiguous,banking,96
+REQ-03eb175b,The backend shall respond in 100 TB for 50% of users.,Not Ambiguous,cybersecurity,96
+REQ-ab351dec,The system shall utilize around 2 GB of memory.,Ambiguous,banking,97
+REQ-1dfd80f9,The system shall utilize around 50 GB of memory.,Ambiguous,e-commerce,97
+REQ-78b2acde,The system shall utilize around 5 GB of memory.,Ambiguous,e-commerce,97
+REQ-48ab8af0,The service shall utilize around 10 ms of memory.,Ambiguous,cybersecurity,98
+REQ-3697da6f,The service shall utilize around 5 ms of memory.,Ambiguous,education,98
+REQ-a52792e7,The service shall utilize around 2 ms of memory.,Ambiguous,logistics,98
+REQ-6c3c0ca4,The backend shall respond in 100 GB for 90% of users.,Not Ambiguous,healthcare,99
+REQ-fba4b990,The backend shall respond in 100 GB for 50% of users.,Not Ambiguous,education,99
+REQ-c44449dc,The module shall utilize a maximum of 100 seconds of memory.,Not Ambiguous,logistics,100
+REQ-25188969,The module shall utilize a maximum of 50 seconds of memory.,Not Ambiguous,e-commerce,100
+REQ-10ebb7d4,The module shall utilize a maximum of 100 ms of memory.,Not Ambiguous,healthcare,100
+REQ-fea772b5,The backend shall respond in 50 seconds for 99% of users.,Not Ambiguous,HR,101
+REQ-636d85d4,The backend shall respond in 2 seconds for 99% of users.,Not Ambiguous,HR,101
+REQ-de24972d,The application shall respond in 50 TB for 50% of users.,Not Ambiguous,finance,102
+REQ-108dca1c,The application shall respond in 2 TB for 50% of users.,Not Ambiguous,logistics,102
+REQ-49981765,The application shall utilize a maximum of 50 TB of memory.,Not Ambiguous,finance,103
+REQ-e4cfdde9,The application shall utilize a maximum of 10 TB of memory.,Not Ambiguous,logistics,103
+REQ-83e375b4,The application shall utilize a maximum of 2 TB of memory.,Not Ambiguous,logistics,103
+REQ-b3c6853d,The backend shall utilize a maximum of 50 seconds of memory.,Not Ambiguous,HR,104
+REQ-863ad78f,The backend shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,HR,104
+REQ-d4c53b86,The service shall respond in 5 ms for 90% of users.,Not Ambiguous,education,105
+REQ-b155af00,The service shall respond in 100 ms for 90% of users.,Not Ambiguous,finance,105
+REQ-33d5d637,The service shall respond in 10 ms for 90% of users.,Not Ambiguous,education,105
+REQ-a0229234,The service shall respond in an appropriate number of hours for 50% of users.,Ambiguous,government,106
+REQ-04d2e776,The service shall respond in an appropriate number of hours for 90% of users.,Ambiguous,healthcare,106
+REQ-ead574ad,The service shall respond in an appropriate number of ms for 50% of users.,Ambiguous,logistics,106
+REQ-1adfeb0e,The system shall respond in an appropriate number of hours for 50% of users.,Ambiguous,HR,106
+REQ-9f40366d,The backend shall respond in an appropriate number of hours for 50% of users.,Ambiguous,logistics,106
+REQ-2cec319d,The service shall respond in an appropriate number of GB for 50% of users.,Ambiguous,healthcare,106
+REQ-b1994a81,The service shall respond in an appropriate number of TB for 50% of users.,Ambiguous,government,106
+REQ-6a9789ae,The system shall utilize around 5 TB of memory.,Ambiguous,healthcare,107
+REQ-e45eda83,The system shall utilize around 100 TB of memory.,Ambiguous,manufacturing,107
+REQ-885a09fd,"When the user clicks the button, the platform shall load the data within 100 seconds.",Not Ambiguous,healthcare,108
+REQ-c28317df,"When the user clicks the button, the platform shall load the data within 10 ms.",Not Ambiguous,government,108
+REQ-99e9a9b5,"When the user clicks the button, the platform shall load the data within 100 ms.",Not Ambiguous,e-commerce,108
+REQ-453f59a7,"When the user clicks the button, the platform shall load the data within 50 ms.",Not Ambiguous,manufacturing,108
+REQ-894848a9,"When the user clicks the button, the module shall load the data within 100 seconds.",Not Ambiguous,education,108
+REQ-a2c550de,"When the user clicks the button, the platform shall load the data within 10 seconds.",Not Ambiguous,HR,108
+REQ-05b41207,"When the user clicks the button, the system shall load the data within 100 seconds.",Not Ambiguous,education,108
+REQ-2054eab3,"When the user clicks the button, the service shall load the data within 100 seconds.",Not Ambiguous,manufacturing,108
+REQ-87cfa2b7,"When the user clicks the button, the backend shall load the data within 100 seconds.",Not Ambiguous,banking,108
+REQ-cea4c8ac,"When the user clicks the button, the api shall load the data within 100 seconds.",Not Ambiguous,logistics,108
+REQ-969271eb,"When the user clicks the button, the service shall load the data within 50 seconds.",Not Ambiguous,logistics,108
+REQ-1d76dff3,"When the user clicks the button, the platform shall load the data within 50 seconds.",Not Ambiguous,logistics,108
+REQ-c7796407,"When the user clicks the button, the platform shall load the data within 500 seconds.",Not Ambiguous,manufacturing,108
+REQ-73fd6fbe,The platform shall respond in an appropriate number of TB for 50% of users.,Ambiguous,logistics,109
+REQ-b1994a81,The service shall respond in an appropriate number of TB for 50% of users.,Ambiguous,government,109
+REQ-26f67b28,The module shall respond in an appropriate number of TB for 50% of users.,Ambiguous,cybersecurity,109
+REQ-8d9a124c,The application shall respond in an appropriate number of TB for 50% of users.,Ambiguous,finance,109
+REQ-83a6086c,The backend shall respond in an appropriate number of TB for 50% of users.,Ambiguous,cybersecurity,109
+REQ-cce3f1a1,The platform shall respond in an appropriate number of TB for 90% of users.,Ambiguous,education,109
+REQ-df00d440,The service shall support 2 users with 99.9% uptime.,Not Ambiguous,logistics,110
+REQ-d82e5e5f,The application shall support 5 users with 99.9% uptime.,Not Ambiguous,HR,110
+REQ-8d1d2dc4,The service shall support 10 users with 99.9% uptime.,Not Ambiguous,cybersecurity,110
+REQ-99b4cb69,The backend shall support 2 users with 99.9% uptime.,Not Ambiguous,HR,110
+REQ-51e2ab25,The backend shall support 5 users with 99.9% uptime.,Not Ambiguous,finance,110
+REQ-e7a091b7,The application shall support 2 users with 99.9% uptime.,Not Ambiguous,e-commerce,110
+REQ-f57115ab,The system shall support 5 users with 99.9% uptime.,Not Ambiguous,healthcare,110
+REQ-c37bda98,The system shall support 2 users with 99.9% uptime.,Not Ambiguous,banking,110
+REQ-5069d2e8,The service shall support 100 users with 99.9% uptime.,Not Ambiguous,government,110
+REQ-d81ed733,The service shall support 50 users with 99.9% uptime.,Not Ambiguous,e-commerce,110
+REQ-835b38b0,The service shall support 5 users with 99.9% uptime.,Not Ambiguous,HR,110
+REQ-36c2e3bd,The API shall utilize around 50 ms of memory.,Ambiguous,finance,111
+REQ-e9af0f78,The API shall utilize around 100 ms of memory.,Ambiguous,e-commerce,111
+REQ-cb427270,The application shall respond in 10 TB for 90% of users.,Not Ambiguous,logistics,112
+REQ-011f0c9c,The application shall respond in 10 seconds for 90% of users.,Not Ambiguous,HR,112
+REQ-d93b4547,The application shall respond in 10 ms for 90% of users.,Not Ambiguous,banking,112
+REQ-12a1c84e,The service shall respond in 10 TB for 99% of users.,Not Ambiguous,e-commerce,113
+REQ-eed6a842,The backend shall respond in 10 TB for 99% of users.,Not Ambiguous,banking,113
+REQ-9c7dee68,The service shall respond in 10 ms for 99% of users.,Not Ambiguous,cybersecurity,113
+REQ-db751f1d,The client app shall utilize a maximum of 100 TB of memory.,Not Ambiguous,e-commerce,114
+REQ-6c636777,The client app shall utilize a maximum of 100 GB of memory.,Not Ambiguous,education,114
+REQ-372a3adb,The client app shall utilize a maximum of 10 TB of memory.,Not Ambiguous,education,114
+REQ-dd9290b1,The client app shall utilize a maximum of 100 ms of memory.,Not Ambiguous,HR,114
+REQ-f3c19e3e,The client app shall utilize a maximum of 100 seconds of memory.,Not Ambiguous,banking,114
+REQ-f53ad552,The client app shall respond in 10 seconds for 99% of users.,Not Ambiguous,HR,115
+REQ-135592af,The client app shall respond in 10 hours for 99% of users.,Not Ambiguous,government,115
+REQ-aabbb5e6,The backend shall utilize around 50 TB of memory.,Ambiguous,banking,116
+REQ-e3dfaf19,The backend shall utilize around 5 TB of memory.,Ambiguous,education,116
+REQ-3806916f,The backend shall utilize around 100 TB of memory.,Ambiguous,banking,116
+REQ-b70fb5ff,The client app shall utilize a maximum of 5 ms of memory.,Not Ambiguous,healthcare,117
+REQ-0387879d,The client app shall utilize a maximum of 50 ms of memory.,Not Ambiguous,finance,117
+REQ-dd9290b1,The client app shall utilize a maximum of 100 ms of memory.,Not Ambiguous,HR,117
+REQ-03596695,The client app shall utilize a maximum of 5 seconds of memory.,Not Ambiguous,HR,117
+REQ-dcbb7f7d,The client app shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,e-commerce,117
+REQ-529e7fa4,The client app shall utilize around 5 seconds of memory.,Ambiguous,HR,118
+REQ-4fa83c20,The client app shall utilize around 10 seconds of memory.,Ambiguous,HR,118
+REQ-29d6f5cf,The client app shall utilize around 2 seconds of memory.,Ambiguous,e-commerce,118
+REQ-5f427ab2,The client app shall utilize around 100 seconds of memory.,Ambiguous,banking,118
+REQ-86dd06be,The client app shall utilize around 50 seconds of memory.,Ambiguous,e-commerce,118
+REQ-7e0e4a82,The client app shall utilize around 2 GB of memory.,Ambiguous,cybersecurity,119
+REQ-eec173fc,The client app shall utilize around 100 GB of memory.,Ambiguous,education,119
+REQ-c955f40b,The application shall securely encrypt data.,Ambiguous,HR,120
+REQ-9575528b,The service shall securely encrypt data.,Ambiguous,manufacturing,120
+REQ-ff967a0d,The API shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,e-commerce,121
+REQ-a30e0f41,The system shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,manufacturing,121
+REQ-de4e0a6e,The API shall respond in an appropriate number of ms for 90% of users.,Ambiguous,finance,121
+REQ-4131fecf,The application shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,HR,121
+REQ-2b150e1a,The API shall respond in an appropriate number of GB for 90% of users.,Ambiguous,banking,121
+REQ-6b63c834,The API shall respond in an appropriate number of seconds for 50% of users.,Ambiguous,education,121
+REQ-7b8f3763,The module shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,logistics,121
+REQ-07e4a03c,The platform shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,cybersecurity,121
+REQ-f1f4fd3d,The service shall respond in 5 GB for 90% of users.,Not Ambiguous,HR,122
+REQ-4d80cc45,The service shall respond in 50 GB for 90% of users.,Not Ambiguous,e-commerce,122
+REQ-10ccf17d,The client app shall utilize around 10 TB of memory.,Ambiguous,education,123
+REQ-079fc659,The client app shall utilize around 100 TB of memory.,Ambiguous,e-commerce,123
+REQ-4fa83c20,The client app shall utilize around 10 seconds of memory.,Ambiguous,HR,123
+REQ-3271327c,The service shall utilize a maximum of 10 TB of memory.,Not Ambiguous,education,124
+REQ-7e4cacc9,The service shall utilize a maximum of 10 ms of memory.,Not Ambiguous,cybersecurity,124
+REQ-d488256e,The service shall utilize a maximum of 100 TB of memory.,Not Ambiguous,government,124
+REQ-6819d88d,The backend shall respond in 10 TB for 50% of users.,Not Ambiguous,cybersecurity,125
+REQ-03eb175b,The backend shall respond in 100 TB for 50% of users.,Not Ambiguous,cybersecurity,125
+REQ-1125fd04,The module shall respond in an appropriate number of TB for 90% of users.,Ambiguous,logistics,126
+REQ-426921f0,The module shall respond in an appropriate number of hours for 90% of users.,Ambiguous,finance,126
+REQ-45bf2eb5,The backend shall respond in an appropriate number of TB for 90% of users.,Ambiguous,banking,126
+REQ-3093f1d3,The service shall respond in an appropriate number of TB for 90% of users.,Ambiguous,education,126
+REQ-26f67b28,The module shall respond in an appropriate number of TB for 50% of users.,Ambiguous,cybersecurity,126
+REQ-cce3f1a1,The platform shall respond in an appropriate number of TB for 90% of users.,Ambiguous,education,126
+REQ-7b8f3763,The module shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,logistics,126
+REQ-29d8d9ff,The system shall respond in an appropriate number of TB for 90% of users.,Ambiguous,manufacturing,126
+REQ-55893e81,The application shall respond in an appropriate number of TB for 90% of users.,Ambiguous,logistics,126
+REQ-4471e6cb,The platform shall respond in 50 ms for 99% of users.,Not Ambiguous,HR,127
+REQ-7fd5f85b,The platform shall respond in 50 GB for 99% of users.,Not Ambiguous,manufacturing,127
+REQ-a11854ee,The backend shall respond in 100 ms for 50% of users.,Not Ambiguous,government,128
+REQ-03eb175b,The backend shall respond in 100 TB for 50% of users.,Not Ambiguous,cybersecurity,128
+REQ-72777905,The API shall support 5 users with 99.9% uptime.,Not Ambiguous,finance,129
+REQ-334d8627,The API shall support 10 users with 99.9% uptime.,Not Ambiguous,e-commerce,129
+REQ-6be18a05,The API shall support 100 users with 99.9% uptime.,Not Ambiguous,e-commerce,129
+REQ-813a924a,The API shall support 50 users with 99.9% uptime.,Not Ambiguous,cybersecurity,129
+REQ-ffd4dc97,The API shall support 2 users with 99.9% uptime.,Not Ambiguous,education,129
+REQ-97b7efa6,The backend shall utilize a maximum of 100 ms of memory.,Not Ambiguous,government,130
+REQ-38fb0c62,The backend shall utilize a maximum of 100 TB of memory.,Not Ambiguous,banking,130
+REQ-57341051,The API shall utilize a maximum of 50 TB of memory.,Not Ambiguous,cybersecurity,131
+REQ-96e620ee,The API shall utilize a maximum of 50 ms of memory.,Not Ambiguous,finance,131
+REQ-f50acad9,"When the user clicks the button, the client app shall load the data within 500 seconds.",Not Ambiguous,finance,132
+REQ-28828364,"When the user clicks the button, the service shall load the data within 500 seconds.",Not Ambiguous,e-commerce,132
+REQ-69b3478a,"When the user clicks the button, the application shall load the data within 500 seconds.",Not Ambiguous,e-commerce,132
+REQ-db0f4920,"When the user clicks the button, the client app shall load the data within 50 seconds.",Not Ambiguous,education,132
+REQ-82aa5c60,"When the user clicks the button, the client app shall load the data within 10 seconds.",Not Ambiguous,government,132
+REQ-f4554904,"When the user clicks the button, the module shall load the data within 500 seconds.",Not Ambiguous,logistics,132
+REQ-5301228a,"When the user clicks the button, the backend shall load the data within 500 seconds.",Not Ambiguous,education,132
+REQ-c7796407,"When the user clicks the button, the platform shall load the data within 500 seconds.",Not Ambiguous,manufacturing,132
+REQ-4ba06fa9,"When the user clicks the button, the api shall load the data within 500 seconds.",Not Ambiguous,logistics,132
+REQ-d23aef86,"When the user clicks the button, the client app shall load the data within 500 ms.",Not Ambiguous,banking,132
+REQ-e738bf4f,The service shall utilize around 100 ms of memory.,Ambiguous,finance,133
+REQ-3697da6f,The service shall utilize around 5 ms of memory.,Ambiguous,education,133
+REQ-a52792e7,The service shall utilize around 2 ms of memory.,Ambiguous,logistics,133
+REQ-a66e80a9,The client app shall respond in an appropriate number of ms for 50% of users.,Ambiguous,finance,134
+REQ-f025fefa,The client app shall respond in an appropriate number of GB for 50% of users.,Ambiguous,cybersecurity,134
+REQ-090523d0,The client app shall respond in an appropriate number of ms for 90% of users.,Ambiguous,HR,134

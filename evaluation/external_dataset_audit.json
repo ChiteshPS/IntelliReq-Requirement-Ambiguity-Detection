@@ -1,0 +1,81 @@
+{
+  "pure": {
+    "source": "profzivkovic/software-requirements-ambiguity-detection-replication v2.0.0 (Zenodo 19746839)",
+    "license": "MIT License",
+    "rows": 6725,
+    "columns": [
+      "source_file",
+      "requirement_text",
+      "label",
+      "reasons"
+    ],
+    "text_column": "requirement_text",
+    "label_column": "label",
+    "label_mapping": {
+      "1": "Ambiguous",
+      "0": "Not Ambiguous"
+    },
+    "class_distribution": {
+      "1": 3424,
+      "0": 3301
+    },
+    "source_documents_count": 66,
+    "exact_duplicates": 333,
+    "normalized_duplicates": 339,
+    "duplicate_label_conflicts": 0,
+    "top_reasons": {
+      "weak_modal": 1306,
+      "vague_term": 782,
+      "vague_term,weak_modal": 294,
+      "weak_modal,missing_actor": 196,
+      "missing_actor": 184,
+      "multiple_actions": 126,
+      "vague_term,multiple_actions": 104,
+      "undefined_quantity,weak_modal": 68
+    }
+  },
+  "userstories": {
+    "source": "profzivkovic/software-requirements-ambiguity-detection-replication v2.0.0 (Zenodo 19746839)",
+    "license": "MIT License",
+    "rows": 1680,
+    "columns": [
+      "source_file",
+      "requirement_text",
+      "label",
+      "reasons"
+    ],
+    "text_column": "requirement_text",
+    "label_column": "label",
+    "label_mapping": {
+      "1": "Ambiguous",
+      "0": "Not Ambiguous"
+    },
+    "class_distribution": {
+      "1": 935,
+      "0": 745
+    },
+    "source_projects_count": 22,
+    "exact_duplicates": 14,
+    "normalized_duplicates": 14,
+    "duplicate_label_conflicts": 0,
+    "top_reasons": {
+      "weak_modal": 594,
+      "vague_term,weak_modal": 136,
+      "vague_term": 96,
+      "undefined_quantity,weak_modal": 24,
+      "undefined_quantity": 21,
+      "undefined_term": 14,
+      "weak_modal,undefined_term": 14,
+      "weak_modal,multiple_actions": 11
+    }
+  },
+  "leakage_checks": {
+    "pure_overlap_clean_v4": 0,
+    "pure_overlap_challenge": 0,
+    "pure_overlap_adversarial": 0,
+    "us_overlap_clean_v4": 0,
+    "us_overlap_challenge": 0,
+    "us_overlap_adversarial": 0,
+    "pure_overlap_us": 0
+  }
+}

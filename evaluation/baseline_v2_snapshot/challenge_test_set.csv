@@ -1,0 +1,101 @@
+Requirement_ID,Requirement_Text,Ambiguity_Label
+CHAL-0001,The system shall respond to user requests quickly.,Ambiguous
+CHAL-0002,The application shall display the most relevant results to the user.,Ambiguous
+CHAL-0003,The system shall store user data securely.,Ambiguous
+CHAL-0004,The application shall provide an easy-to-use interface.,Ambiguous
+CHAL-0005,The system shall periodically back up the database.,Ambiguous
+CHAL-0006,The system shall provide adequate system availability.,Ambiguous
+CHAL-0007,Error messages should be helpful to the user.,Ambiguous
+CHAL-0008,The system shall be robust against failures.,Ambiguous
+CHAL-0009,The performance should degrade gracefully.,Ambiguous
+CHAL-0010,The API must be sufficiently documented.,Ambiguous
+CHAL-0011,The UI shall be aesthetically pleasing.,Ambiguous
+CHAL-0012,Search shall be fast.,Ambiguous
+CHAL-0013,The system shall scale as needed.,Ambiguous
+CHAL-0014,It should integrate seamlessly with other tools.,Ambiguous
+CHAL-0015,Notifications shall be sent promptly.,Ambiguous
+CHAL-0016,Access must be strictly controlled.,Ambiguous
+CHAL-0017,The system shall optimize the workflow.,Ambiguous
+CHAL-0018,Data integrity must be maintained perfectly.,Ambiguous
+CHAL-0019,The user experience must be intuitive.,Ambiguous
+CHAL-0020,The system will try to reconnect automatically.,Ambiguous
+CHAL-0021,The software shall be designed for maximum efficiency.,Ambiguous
+CHAL-0022,User inputs shall be processed in a reasonable timeframe.,Ambiguous
+CHAL-0023,The database must be highly secure against modern threats.,Ambiguous
+CHAL-0024,The mobile app shall load smoothly.,Ambiguous
+CHAL-0025,The architecture should support future enhancements easily.,Ambiguous
+CHAL-0026,The system shall support a large number of concurrent users.,Ambiguous
+CHAL-0027,The output report must look professional.,Ambiguous
+CHAL-0028,Network latency must be kept to an absolute minimum.,Ambiguous
+CHAL-0029,The system should gracefully handle unexpected errors.,Ambiguous
+CHAL-0030,User documentation shall be easy to read and understand.,Ambiguous
+CHAL-0031,The web interface must be fully responsive.,Ambiguous
+CHAL-0032,The backend shall process data in real-time.,Ambiguous
+CHAL-0033,The application must be completely reliable.,Ambiguous
+CHAL-0034,Data processing should be done periodically.,Ambiguous
+CHAL-0035,The payment gateway must be integrated properly.,Ambiguous
+CHAL-0036,The API shall return data efficiently.,Ambiguous
+CHAL-0037,System logs shall be reviewed regularly.,Ambiguous
+CHAL-0038,The onboarding process shall be seamless.,Ambiguous
+CHAL-0039,The software shall use state-of-the-art encryption.,Ambiguous
+CHAL-0040,Admin tasks shall be easily accessible.,Ambiguous
+CHAL-0041,The system shall return search results within 2 seconds for 95% of requests.,Not Ambiguous
+CHAL-0042,"The system shall support 5,000 concurrent users without exceeding 70% CPU utilization.",Not Ambiguous
+CHAL-0043,The system shall perform a full database backup every 24 hours.,Not Ambiguous
+CHAL-0044,The system shall encrypt data at rest using AES-256.,Not Ambiguous
+CHAL-0045,The system shall lock a user account after 5 consecutive failed login attempts.,Not Ambiguous
+CHAL-0046,The system shall accept file uploads up to 10 MB.,Not Ambiguous
+CHAL-0047,The API shall rate limit requests to 1000 requests per IP address per hour.,Not Ambiguous
+CHAL-0048,The background job shall run at 02:00 AM UTC daily.,Not Ambiguous
+CHAL-0049,The application shall support English and Spanish.,Not Ambiguous
+CHAL-0050,The system shall store dates using ISO 8601.,Not Ambiguous
+CHAL-0051,The system shall complete authentication before granting access to protected resources.,Not Ambiguous
+CHAL-0052,The mobile application shall support iOS 15 and above.,Not Ambiguous
+CHAL-0053,The REST API shall return a 401 Unauthorized status code if the API key is missing.,Not Ambiguous
+CHAL-0054,The system shall export the audit log in CSV format.,Not Ambiguous
+CHAL-0055,"The user profile page shall include fields for First Name, Last Name, and Email Address.",Not Ambiguous
+CHAL-0056,The system shall require users to change their passwords every 90 days.,Not Ambiguous
+CHAL-0057,The database connection pool shall have a maximum size of 50 connections.,Not Ambiguous
+CHAL-0058,The system shall calculate the tax rate based on the user's billing zip code.,Not Ambiguous
+CHAL-0059,The search query shall return a maximum of 100 results per page.,Not Ambiguous
+CHAL-0060,The application shall allow users to upload profile pictures in PNG or JPEG format.,Not Ambiguous
+CHAL-0061,The system shall timeout user sessions after 30 minutes of inactivity.,Not Ambiguous
+CHAL-0062,The payment module shall integrate with Stripe API v3.,Not Ambiguous
+CHAL-0063,The system shall compress image uploads to a maximum width of 1920 pixels.,Not Ambiguous
+CHAL-0064,The system shall retain logs for 365 days before automated deletion.,Not Ambiguous
+CHAL-0065,The application shall display an error message if the password is under 8 characters.,Not Ambiguous
+CHAL-0066,The database schema shall enforce referential integrity using foreign keys.,Not Ambiguous
+CHAL-0067,The system shall synchronize data with the master node every 5 minutes.,Not Ambiguous
+CHAL-0068,The web application shall pass W3C HTML5 validation without errors.,Not Ambiguous
+CHAL-0069,The system shall generate a monthly PDF report on the 1st of every month.,Not Ambiguous
+CHAL-0070,The API shall use token-based authentication via JWT.,Not Ambiguous
+CHAL-0071,The client app shall connect to the server over port 443.,Not Ambiguous
+CHAL-0072,The system shall alert the administrator via email if disk space falls below 10%.,Not Ambiguous
+CHAL-0073,The frontend shall be built using React version 18.,Not Ambiguous
+CHAL-0074,The database shall implement row-level security for tenant isolation.,Not Ambiguous
+CHAL-0075,The system shall provide a RESTful endpoint for retrieving user metadata.,Not Ambiguous
+CHAL-0076,The application shall utilize Redis for session storage.,Not Ambiguous
+CHAL-0077,The software shall comply with GDPR data portability requirements (Article 20).,Not Ambiguous
+CHAL-0078,The backend shall be deployed on AWS EC2 instances.,Not Ambiguous
+CHAL-0079,"The system shall limit the size of a single transaction to $10,000.",Not Ambiguous
+CHAL-0080,"The password requirements shall include at least one uppercase letter, one lowercase letter, one number, and one special character.",Not Ambiguous
+CHAL-0081,The system may cache results for up to 5 minutes.,Borderline
+CHAL-0082,The system should support internet explorer 11 if feasible.,Borderline
+CHAL-0083,User data might be temporarily stored in memory.,Borderline
+CHAL-0084,The interface will usually respond within 1 second.,Borderline
+CHAL-0085,"If possible, the system shall compress image uploads.",Borderline
+CHAL-0086,The background process takes approximately 10 minutes.,Borderline
+CHAL-0087,The system could use a fallback server during outages.,Borderline
+CHAL-0088,Administrators ought to review logs weekly.,Borderline
+CHAL-0089,The software is generally expected to handle 500 concurrent connections.,Borderline
+CHAL-0090,The system shall preferably use a NoSQL database.,Borderline
+CHAL-0091,The application might need to integrate with Salesforce in the future.,Borderline
+CHAL-0092,Users could optionally provide their phone numbers.,Borderline
+CHAL-0093,The system should attempt to reconnect 3 times before failing.,Borderline
+CHAL-0094,"Where appropriate, data shall be anonymized.",Borderline
+CHAL-0095,The UI should be reasonably responsive under normal load.,Borderline
+CHAL-0096,The system may need to support additional languages later.,Borderline
+CHAL-0097,"As needed, the server shall allocate more RAM.",Borderline
+CHAL-0098,The module should log warnings when possible.,Borderline
+CHAL-0099,The database might experience high latency during peak hours.,Borderline
+CHAL-0100,The system ought to notify users of maintenance.,Borderline

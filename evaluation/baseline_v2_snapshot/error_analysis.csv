@@ -1,0 +1,36 @@
+Requirement_ID,requirement,expected_label,predicted_label,probability,error_type
+CHAL-0007,Error messages should be helpful to the user.,Ambiguous,NEEDS REVIEW,0.6475893766738807,Underconfident Correct Prediction
+CHAL-0020,The system will try to reconnect automatically.,Ambiguous,NEEDS REVIEW,0.5711730987267943,Underconfident Correct Prediction
+CHAL-0021,The software shall be designed for maximum efficiency.,Ambiguous,NEEDS REVIEW,0.7296569753285967,Underconfident Correct Prediction
+CHAL-0022,User inputs shall be processed in a reasonable timeframe.,Ambiguous,NEEDS REVIEW,0.7406966121278904,Underconfident Correct Prediction
+CHAL-0028,Network latency must be kept to an absolute minimum.,Ambiguous,Not Ambiguous,0.05025456841965714,False Negative
+CHAL-0031,The web interface must be fully responsive.,Ambiguous,NEEDS REVIEW,0.7227651050303698,Underconfident Correct Prediction
+CHAL-0044,The system shall encrypt data at rest using AES-256.,Not Ambiguous,NEEDS REVIEW,0.37482467526405583,Underconfident Correct Prediction
+CHAL-0045,The system shall lock a user account after 5 consecutive failed login attempts.,Not Ambiguous,NEEDS REVIEW,0.28078634735860886,Underconfident Correct Prediction
+CHAL-0049,The application shall support English and Spanish.,Not Ambiguous,NEEDS REVIEW,0.698630134233551,Underconfident Correct Prediction
+CHAL-0051,The system shall complete authentication before granting access to protected resources.,Not Ambiguous,NEEDS REVIEW,0.6989545360879341,Underconfident Correct Prediction
+CHAL-0052,The mobile application shall support iOS 15 and above.,Not Ambiguous,NEEDS REVIEW,0.44807253265113967,Underconfident Correct Prediction
+CHAL-0053,The REST API shall return a 401 Unauthorized status code if the API key is missing.,Not Ambiguous,NEEDS REVIEW,0.2880929106161736,Underconfident Correct Prediction
+CHAL-0054,The system shall export the audit log in CSV format.,Not Ambiguous,NEEDS REVIEW,0.5185730374152526,Underconfident Correct Prediction
+CHAL-0059,The search query shall return a maximum of 100 results per page.,Not Ambiguous,NEEDS REVIEW,0.6413234690760257,Underconfident Correct Prediction
+CHAL-0062,The payment module shall integrate with Stripe API v3.,Not Ambiguous,NEEDS REVIEW,0.4163388597360187,Underconfident Correct Prediction
+CHAL-0066,The database schema shall enforce referential integrity using foreign keys.,Not Ambiguous,NEEDS REVIEW,0.6779747705898543,Underconfident Correct Prediction
+CHAL-0068,The web application shall pass W3C HTML5 validation without errors.,Not Ambiguous,NEEDS REVIEW,0.42054588325401343,Underconfident Correct Prediction
+CHAL-0069,The system shall generate a monthly PDF report on the 1st of every month.,Not Ambiguous,NEEDS REVIEW,0.343591814505674,Underconfident Correct Prediction
+CHAL-0070,The API shall use token-based authentication via JWT.,Not Ambiguous,NEEDS REVIEW,0.6563608297067185,Underconfident Correct Prediction
+CHAL-0071,The client app shall connect to the server over port 443.,Not Ambiguous,NEEDS REVIEW,0.6060660309929149,Underconfident Correct Prediction
+CHAL-0073,The frontend shall be built using React version 18.,Not Ambiguous,NEEDS REVIEW,0.6414673285230951,Underconfident Correct Prediction
+CHAL-0074,The database shall implement row-level security for tenant isolation.,Not Ambiguous,Ambiguous,0.8048568838806098,False Positive
+CHAL-0075,The system shall provide a RESTful endpoint for retrieving user metadata.,Not Ambiguous,Ambiguous,0.8050600638705536,False Positive
+CHAL-0076,The application shall utilize Redis for session storage.,Not Ambiguous,NEEDS REVIEW,0.712451768312548,Underconfident Correct Prediction
+CHAL-0077,The software shall comply with GDPR data portability requirements (Article 20).,Not Ambiguous,NEEDS REVIEW,0.5678865558819807,Underconfident Correct Prediction
+CHAL-0078,The backend shall be deployed on AWS EC2 instances.,Not Ambiguous,NEEDS REVIEW,0.6697220790415548,Underconfident Correct Prediction
+CHAL-0079,"The system shall limit the size of a single transaction to $10,000.",Not Ambiguous,NEEDS REVIEW,0.42471115283704663,Underconfident Correct Prediction
+CHAL-0088,Administrators ought to review logs weekly.,Borderline,Ambiguous,0.949120658147605,Missed Borderline
+CHAL-0089,The software is generally expected to handle 500 concurrent connections.,Borderline,Ambiguous,0.7712136079280282,Missed Borderline
+CHAL-0091,The application might need to integrate with Salesforce in the future.,Borderline,Ambiguous,0.7528065938476609,Missed Borderline
+CHAL-0092,Users could optionally provide their phone numbers.,Borderline,Ambiguous,0.9066374502033842,Missed Borderline
+CHAL-0094,"Where appropriate, data shall be anonymized.",Borderline,Ambiguous,0.9480631209084358,Missed Borderline
+CHAL-0098,The module should log warnings when possible.,Borderline,Ambiguous,0.8827966848149223,Missed Borderline
+CHAL-0099,The database might experience high latency during peak hours.,Borderline,Not Ambiguous,0.10711981179845263,Missed Borderline
+CHAL-0100,The system ought to notify users of maintenance.,Borderline,Ambiguous,0.9685376027116418,Missed Borderline

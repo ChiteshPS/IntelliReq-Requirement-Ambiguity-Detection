@@ -1,0 +1,15 @@
+{
+    "model_version": "2.1.0",
+    "training_timestamp": "2026-10-14T16:35:38.857885",
+    "dataset_version": "intellireq_clean_v4",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+    "classifier": "Logistic Regression (L1)",
+    "calibration_method": "sigmoid",
+    "upper_threshold": 0.75,
+    "lower_threshold": 0.25,
+    "random_seed": 42,
+    "train_rows": 500,
+    "val_rows": 107,
+    "test_rows": 108
+}

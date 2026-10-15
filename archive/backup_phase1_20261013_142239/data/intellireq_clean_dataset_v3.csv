@@ -1,0 +1,560 @@
+id,requirement,label,ambiguity_type,source,source_type,domain,generation_method,pair_id,original_id,annotation_status
+REQ-6a1681ec,The platform shall utilize a maximum of 50 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-da57d72a,,auto_generated
+REQ-9bd8b123,The system shall securely encrypt data using AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-fbfbdd5a,,auto_generated
+REQ-e28e24b8,The platform shall utilize a maximum of 50 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-929f0e45,,auto_generated
+REQ-9e959c6a,The system shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-d21b0df0,,auto_generated
+REQ-f1c256b1,The client app shall support 2 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-bda9e897,,auto_generated
+REQ-f58038cd,The platform shall respond in 100 GB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-b4f21ce3,,auto_generated
+REQ-d9885aa3,The service shall utilize around 50 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-ffb9e10f,,auto_generated
+REQ-d8925033,The system shall support 10 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-c29a9432,,auto_generated
+REQ-34d99cc5,"When the user clicks the button, the service should load the data fairly fast to ensure user satisfaction.",Ambiguous,subjective,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-755de5b9,,auto_generated
+REQ-5df1786e,The platform shall utilize a maximum of 10 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-ca1081e4,,auto_generated
+REQ-1c4ad75c,The service shall utilize a maximum of 50 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-a8477576,,auto_generated
+REQ-56c66664,The service shall utilize around 100 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-2a42d346,,auto_generated
+REQ-a8640984,The platform shall utilize a maximum of 50 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-28c8eb1e,,auto_generated
+REQ-d8c68a20,The backend shall respond in 10 hours for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-cfe806f3,,auto_generated
+REQ-b540c899,The backend shall utilize around 10 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-d56c8675,,auto_generated
+REQ-ef87f2ac,The client app shall respond in 2 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-951329b4,,auto_generated
+REQ-c52137e1,The API shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-174505d6,,auto_generated
+REQ-745390e2,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the service should be highly intuitive and very efficient at all times.",Ambiguous,vague,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-86df6bfc,,auto_generated
+REQ-67e3ccef,The system shall respond in an appropriate number of hours for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-4747c5c1,,auto_generated
+REQ-fb48ce1b,The client app shall respond in 5 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-cfb96ba4,,auto_generated
+REQ-48b60316,The API shall respond in an appropriate number of TB for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-25a76b3c,,auto_generated
+REQ-a446f75a,The client app shall utilize a maximum of 2 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-da47bd62,,auto_generated
+REQ-37a42b49,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the module should be highly intuitive and very efficient at all times.",Ambiguous,vague,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-2e084592,,auto_generated
+REQ-df5a5664,The application shall utilize a maximum of 2 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-dd7bcf03,,auto_generated
+REQ-d88983f7,The API shall utilize a maximum of 100 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-06a389f3,,auto_generated
+REQ-8e0b301d,The application shall respond in 100 hours for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-f5b96e9c,,auto_generated
+REQ-ea04815e,The service shall utilize around 10 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-1e788606,,auto_generated
+REQ-2db7102a,The module shall be efficient.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-0719345e,,auto_generated
+REQ-4d789d8d,The service shall support 5 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-aa214bd0,,auto_generated
+REQ-4aad2788,The module shall utilize around 100 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-124f094c,,auto_generated
+REQ-78bcd046,The backend shall respond in 100 GB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-9f39f052,,auto_generated
+REQ-967cb30d,"When the user clicks the button, the application shall load the data within 500 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-d1d1e97d,,auto_generated
+REQ-6363eb04,The module shall send an email notification.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-4ea8167d,,auto_generated
+REQ-d9cd2a85,The client app shall utilize a maximum of 2 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-f7fe2c38,,auto_generated
+REQ-df2166ec,"When the user clicks the button, the api shall load the data within 50 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-0d64daa6,,auto_generated
+REQ-c6140b8e,The client app shall securely encrypt data.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-7202f43f,,auto_generated
+REQ-5ecfc09d,The system shall utilize around 100 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-65f6387c,,auto_generated
+REQ-77b2c904,The platform shall support 2 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-cd28272f,,auto_generated
+REQ-8d277451,The backend shall respond in an appropriate number of GB for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-9f39f052,,auto_generated
+REQ-93e6dae0,The service shall respond in an appropriate number of GB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-dd85cf9e,,auto_generated
+REQ-e91846c6,"When the user clicks the button, the backend shall load the data within 100 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-0e796e7a,,auto_generated
+REQ-e084b274,The service shall respond in 100 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-c7a7f3fc,,auto_generated
+REQ-ffca394c,"When the user clicks the button, the module shall load the data within 50 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-3fde4984,,auto_generated
+REQ-369fb3ef,The platform shall support 5 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-1dbbc253,,auto_generated
+REQ-5dc56cae,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the client app should be highly intuitive and very efficient at all times.",Ambiguous,vague,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-7236e385,,auto_generated
+REQ-ca6d1fc5,The platform shall respond in 10 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-c4c2a8e5,,auto_generated
+REQ-bf463ff6,The system shall send an email notification.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-7dcd9e68,,auto_generated
+REQ-6e9e08f3,The platform shall support 2 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-cd28272f,,auto_generated
+REQ-cf2141d9,The application shall respond in an appropriate number of GB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-bcb7fe5c,,auto_generated
+REQ-6dc3b143,The application shall utilize around 2 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-fa00e7e0,,auto_generated
+REQ-eec7e9df,The service shall send a notification.,Ambiguous,undefined_reference,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-a447a25f,,auto_generated
+REQ-94e12317,"When the user clicks the button, the api should load the data fairly fast to ensure user satisfaction.",Ambiguous,subjective,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-5c89efc0,,auto_generated
+REQ-cef0127e,The client app shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-a27e54f2,,auto_generated
+REQ-5876e3b3,"When the user clicks the button, the api shall load the data within 10 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-5c89efc0,,auto_generated
+REQ-b6dc3abb,"When the user clicks the button, the module shall load the data within 10 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-57d0f2af,,auto_generated
+REQ-608c96af,The system shall utilize a maximum of 5 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-666a929d,,auto_generated
+REQ-f1171f5a,The backend shall reliably deliver messages.,Ambiguous,vague,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-6489031a,,auto_generated
+REQ-83d8577d,The module shall utilize a maximum of 10 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-24ccf7ee,,auto_generated
+REQ-f652eac8,The application shall utilize around 50 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-743b243d,,auto_generated
+REQ-59d5f521,The service shall respond in 10 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-ee3f777c,,auto_generated
+REQ-31108ea3,The API shall timeout if the request takes > 30 seconds.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-69e553eb,,auto_generated
+REQ-8b97ba3c,The module shall support 2 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-eb811cfa,,auto_generated
+REQ-4a1b7c0a,The backend shall utilize a maximum of 50 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-8629eead,,auto_generated
+REQ-30a59891,The system shall utilize a maximum of 10 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-f9d0979f,,auto_generated
+REQ-95d5d44f,The application shall support 50 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-fed10738,,auto_generated
+REQ-0d237039,"When the user clicks the button, the api shall load the data within 100 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-64076daa,,auto_generated
+REQ-b313eecf,The application shall respond in an appropriate number of ms for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-b6ca1e3a,,auto_generated
+REQ-92967ba8,The API shall support 10 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-594550a8,,auto_generated
+REQ-4fda1487,The client app shall utilize around 2 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-f7fe2c38,,auto_generated
+REQ-05ae1822,"When the user clicks the button, the client app shall load the data within 10 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-5afbb5e2,,auto_generated
+REQ-ffc07215,The service shall utilize a maximum of 10 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-1e788606,,auto_generated
+REQ-62a634ab,The system shall respond in 10 hours for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-4747c5c1,,auto_generated
+REQ-d69029de,The application shall use AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-b00d2a38,,auto_generated
+REQ-506b30b8,The backend shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-50bf919e,,auto_generated
+REQ-6347c8d3,The module shall utilize a maximum of 5 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-33e72cb3,,auto_generated
+REQ-c66e2582,The service shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-1cb052e8,,auto_generated
+REQ-fd40add4,The system shall respond in 100 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-00f13498,,auto_generated
+REQ-28828364,"When the user clicks the button, the service shall load the data within 500 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-5595e690,,auto_generated
+REQ-23490292,The service shall respond in an appropriate number of ms for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-e70b9d0e,,auto_generated
+REQ-4e56390e,The system shall utilize around 10 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-f9d0979f,,auto_generated
+REQ-0865e725,The module shall utilize around 10 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-24ccf7ee,,auto_generated
+REQ-2a41e58e,The API shall utilize around 2 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-174505d6,,auto_generated
+REQ-ae31b332,The platform shall respond in 2 hours for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-78538e6d,,auto_generated
+REQ-2c3b6840,The service shall utilize a maximum of 100 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-2a42d346,,auto_generated
+REQ-6c636777,The client app shall utilize a maximum of 100 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-7a61975b,,auto_generated
+REQ-69b3478a,"When the user clicks the button, the application shall load the data within 500 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-8d07cb29,,auto_generated
+REQ-a93615a5,The client app shall utilize a maximum of 50 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-20651093,,auto_generated
+REQ-0571cdef,The service shall respond in 10 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-180cb968,,auto_generated
+REQ-eb498714,The client app shall respond in an appropriate number of TB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-97936b17,,auto_generated
+REQ-a8d98cb9,The application shall utilize around 2 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-dd7bcf03,,auto_generated
+REQ-ec0fc0a1,The service shall respond in 100 hours for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-c78c157c,,auto_generated
+REQ-bb80bdfe,The module shall respond in 10 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-28153f3e,,auto_generated
+REQ-e77dd926,The application shall send an email notification.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-693c67cd,,auto_generated
+REQ-add44856,The client app shall support 100 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-e8cd1186,,auto_generated
+REQ-7c23bf7a,The client app shall respond in an appropriate number of hours for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-91be3682,,auto_generated
+REQ-3629cf22,The system shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-cff3c2d0,,auto_generated
+REQ-cc1969a3,The system shall respond in 2 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-95aad523,,auto_generated
+REQ-f18feb96,The application shall utilize a maximum of 10 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-c317f17a,,auto_generated
+REQ-5b8050bb,The API shall timeout if the request takes too long.,Ambiguous,missing_threshold,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-69e553eb,,auto_generated
+REQ-bba72072,The backend shall respond in an appropriate number of GB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-a131a34b,,auto_generated
+REQ-ff16bfca,The service shall utilize around 5 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-8e207066,,auto_generated
+REQ-353e718a,The API shall respond in 50 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-b96976ae,,auto_generated
+REQ-705c044a,The client app shall timeout if the request takes too long.,Ambiguous,missing_threshold,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-fdb7b91e,,auto_generated
+REQ-8f3704c9,The platform shall respond in 100 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-a200737b,,auto_generated
+REQ-b780820b,"When the user clicks the button, the backend shall load the data within 10 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-7cba914a,,auto_generated
+REQ-5455dc92,The platform shall respond in 100 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-7dab4a83,,auto_generated
+REQ-9b166f7b,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the api should be highly intuitive and very efficient at all times.",Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-9d68cb16,,auto_generated
+REQ-4eeeae25,The service shall use AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-86df6bfc,,auto_generated
+REQ-59a2f382,The platform shall utilize around 50 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-28c8eb1e,,auto_generated
+REQ-a98cac6e,The backend shall respond in an appropriate number of GB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-ad6f846e,,auto_generated
+REQ-b127dd71,The service shall respond in 50 ms for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-22913112,,auto_generated
+REQ-f4ab04b4,The platform shall respond in 50 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-2c8321d3,,auto_generated
+REQ-4b2de307,The module shall utilize around 50 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-19eb5314,,auto_generated
+REQ-677b421f,The service shall utilize a maximum of 5 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-8e207066,,auto_generated
+REQ-9b8924f1,The API shall support 100 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-0d48b442,,auto_generated
+REQ-d82e5e5f,The application shall support 5 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-e98b4487,,auto_generated
+REQ-d5467724,The API shall support 5 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-a915f670,,auto_generated
+REQ-c28317df,"When the user clicks the button, the platform shall load the data within 10 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-735ba9ca,,auto_generated
+REQ-3697da6f,The service shall utilize around 5 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-de7de1cd,,auto_generated
+REQ-6c01441d,The client app shall respond in 100 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-91bebb85,,auto_generated
+REQ-2fd5a366,The API shall respond in 100 ms for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-a0c510fa,,auto_generated
+REQ-c4565d64,The backend shall support 100 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-c9b20bf6,,auto_generated
+REQ-af275a16,The client app shall support 100 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-e8cd1186,,auto_generated
+REQ-e7284a9c,"When the user clicks the button, the system shall load the data within 10 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-ff803942,,auto_generated
+REQ-32b4d400,The service shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-16bfbcb3,,auto_generated
+REQ-0eff9153,The system shall utilize a maximum of 100 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-b255b311,,auto_generated
+REQ-38bec88e,The platform shall utilize around 5 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-5e5e1b53,,auto_generated
+REQ-d4bca81e,The platform shall use AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-ab6a37af,,auto_generated
+REQ-c0a37444,"When the user clicks the button, the module shall load the data within 100 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-64b8c6f5,,auto_generated
+REQ-313fce5d,The platform shall utilize around 50 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-929f0e45,,auto_generated
+REQ-717fe1fb,The application shall utilize around 10 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-f760de2e,,auto_generated
+REQ-3f52275f,The system shall support 50 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-aa24bc67,,auto_generated
+REQ-8d1d2dc4,The service shall support 10 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-e95ecd17,,auto_generated
+REQ-1e1c1526,The service shall respond in 10 hours for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-db8aab61,,auto_generated
+REQ-8aff58cf,The system shall respond in 2 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-2a5cc9e9,,auto_generated
+REQ-749a6416,"When the user clicks the button, the backend shall load the data within 500 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-4f718cb6,,auto_generated
+REQ-99e9a9b5,"When the user clicks the button, the platform shall load the data within 100 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-289721ae,,auto_generated
+REQ-592e5610,The client app shall send an email notification.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-d4d80693,,auto_generated
+REQ-8c4daac1,The platform shall utilize around 100 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-5bfe6c65,,auto_generated
+REQ-426921f0,The module shall respond in an appropriate number of hours for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-f10e5ea9,,auto_generated
+REQ-b7da3d46,The module shall respond in an appropriate number of ms for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-bd6f9369,,auto_generated
+REQ-c4999225,The system shall respond in 5 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-21e2657e,,auto_generated
+REQ-304fd816,The application shall utilize around 2 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-f310849b,,auto_generated
+REQ-f5d15f81,The service shall send an email notification.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-a447a25f,,auto_generated
+REQ-04d2e776,The service shall respond in an appropriate number of hours for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-db8aab61,,auto_generated
+REQ-35bf9054,The client app shall respond in 2 hours for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-91be3682,,auto_generated
+REQ-1cd83404,The backend shall respond in 5 hours for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-7c6abc10,,auto_generated
+REQ-4cf35a1b,The platform shall respond in an appropriate number of ms for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-74fe544a,,auto_generated
+REQ-ea05c018,The API shall utilize a maximum of 100 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-02861d7f,,auto_generated
+REQ-03979e19,"When the user clicks the button, the service shall load the data within 100 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-755de5b9,,auto_generated
+REQ-a136b14d,The application shall utilize around 5 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-7cc20380,,auto_generated
+REQ-920ef10f,The application shall support 10 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-6c4a480a,,auto_generated
+REQ-7297011e,The application shall utilize a maximum of 10 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-b89f896f,,auto_generated
+REQ-9070a600,"When the user clicks the button, the system should load the data fairly fast to ensure user satisfaction.",Ambiguous,subjective,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-ff803942,,auto_generated
+REQ-a30e0f41,The system shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-2a5cc9e9,,auto_generated
+REQ-c92a9b55,The application shall utilize around 10 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-c317f17a,,auto_generated
+REQ-b510aa86,The module shall support 100 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-3bde69ab,,auto_generated
+REQ-c90456dc,The application shall respond in an appropriate number of ms for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-2bc6f674,,auto_generated
+REQ-df7ab236,The backend shall respond in 5 TB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-d646cedf,,auto_generated
+REQ-db0f4920,"When the user clicks the button, the client app shall load the data within 50 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-c4b5a2b4,,auto_generated
+REQ-671ef404,The module shall respond in 2 hours for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-f10e5ea9,,auto_generated
+REQ-27ad54d5,The platform shall respond in 5 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-8d2ae4b2,,auto_generated
+REQ-b3d1db9a,The platform shall support 10 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-b5c861b5,,auto_generated
+REQ-b6ebbfa9,The backend shall utilize a maximum of 5 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-5b0bcba4,,auto_generated
+REQ-966ffbdc,The module shall utilize a maximum of 2 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-dd3c57a3,,auto_generated
+REQ-20570d0a,The backend shall securely encrypt data using AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-445a53b6,,auto_generated
+REQ-38658bfb,The backend shall support 100 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-c9b20bf6,,auto_generated
+REQ-0db9f9fa,The service shall utilize around 10 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-4e8cc456,,auto_generated
+REQ-ead574ad,The service shall respond in an appropriate number of ms for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-2facb1de,,auto_generated
+REQ-b36d16ab,The module shall reliably deliver messages.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-5da7bcc8,,auto_generated
+REQ-b4ae7ff0,The service shall utilize around 10 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-058cff00,,auto_generated
+REQ-074909e0,The client app shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-df336c7a,,auto_generated
+REQ-0387879d,The client app shall utilize a maximum of 50 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-1196bb01,,auto_generated
+REQ-97418f81,The backend shall securely encrypt data.,Ambiguous,vague,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-445a53b6,,auto_generated
+REQ-14848b0b,"When the user clicks the button, the client app should load the data fairly fast to ensure user satisfaction.",Ambiguous,subjective,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-423715b7,,auto_generated
+REQ-7c9dae58,The platform shall respond in an appropriate number of hours for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-78538e6d,,auto_generated
+REQ-3022788c,The backend shall utilize a maximum of 100 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-6bdb5fef,,auto_generated
+REQ-4a6f9e58,The service shall utilize a maximum of 50 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-ffb9e10f,,auto_generated
+REQ-d9768922,The client app shall support 50 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-f19211bc,,auto_generated
+REQ-fab55671,"When the user clicks the button, the client app shall load the data within 100 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-423715b7,,auto_generated
+REQ-7880313f,The service shall utilize around 100 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-4319dba6,,auto_generated
+REQ-c4fb08e3,The service shall respond in an appropriate number of TB for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-d9b5ce6e,,auto_generated
+REQ-e83b2476,The module shall support 5 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-068cddd0,,auto_generated
+REQ-99b4cb69,The backend shall support 2 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-f208cf2c,,auto_generated
+REQ-56fee871,The client app shall respond in an appropriate number of TB for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-efdea373,,auto_generated
+REQ-0f0defe5,The module shall respond in 10 ms for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-bd6f9369,,auto_generated
+REQ-62b79efc,The service shall utilize a maximum of 5 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-de7de1cd,,auto_generated
+REQ-e4cfdde9,The application shall utilize a maximum of 10 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-1d280e0d,,auto_generated
+REQ-9345df5b,The backend shall utilize around 50 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-8629eead,,auto_generated
+REQ-2d0d5ee3,The application shall utilize around 5 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-7b49e7cb,,auto_generated
+REQ-a8744866,The application shall support 2 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-be1a033a,,auto_generated
+REQ-36e72923,The system shall utilize a maximum of 100 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-65f6387c,,auto_generated
+REQ-34a4323a,The backend shall utilize around 50 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-929c11de,,auto_generated
+REQ-453f59a7,"When the user clicks the button, the platform shall load the data within 50 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-eefab7e3,,auto_generated
+REQ-1d46add6,The application shall respond in 2 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-b6ca1e3a,,auto_generated
+REQ-157cdd4a,The application shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-3d12ad79,,auto_generated
+REQ-de4e0a6e,The API shall respond in an appropriate number of ms for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-b96976ae,,auto_generated
+REQ-4f91acaa,The service shall respond in 2 ms for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-2facb1de,,auto_generated
+REQ-14fa471d,The client app shall utilize around 100 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-639dcc25,,auto_generated
+REQ-c83f7290,The backend shall utilize around 100 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-6bdb5fef,,auto_generated
+REQ-29aefd97,The backend shall respond in 100 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-491c14d0,,auto_generated
+REQ-5505faea,"When the user clicks the button, the service shall load the data within 10 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-8f6b65bb,,auto_generated
+REQ-ab351dec,The system shall utilize around 2 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-5e3b2758,,auto_generated
+REQ-a3524974,"When the user clicks the button, the application shall load the data within 50 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-7185bfc9,,auto_generated
+REQ-51e2ab25,The backend shall support 5 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-caaef0d5,,auto_generated
+REQ-894848a9,"When the user clicks the button, the module shall load the data within 100 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-a1754d97,,auto_generated
+REQ-a032313b,The application shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-fa00e7e0,,auto_generated
+REQ-bc752ce3,The backend shall timeout if the request takes > 30 seconds.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-8911db86,,auto_generated
+REQ-aca90012,The backend shall send an email notification.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-12003b2d,,auto_generated
+REQ-48ab8af0,The service shall utilize around 10 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-b1c48203,,auto_generated
+REQ-51bc192b,The module shall support 50 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-3129ac11,,auto_generated
+REQ-b78ec249,The module shall utilize around 2 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-dd3c57a3,,auto_generated
+REQ-29a24287,The service shall support 10 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-e95ecd17,,auto_generated
+REQ-6c3c0ca4,The backend shall respond in 100 GB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-ad6f846e,,auto_generated
+REQ-5b7a7345,The backend shall utilize around 5 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-63be40eb,,auto_generated
+REQ-e23639e9,The API shall respond in 100 ms for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-1c09d9a7,,auto_generated
+REQ-e8a97533,The client app shall support 10 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-9e54537f,,auto_generated
+REQ-542778a8,The backend shall use AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-97f26938,,auto_generated
+REQ-6ee56343,The API shall respond in 10 ms for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-dcb474b4,,auto_generated
+REQ-597a5f29,The system shall respond in 50 GB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-b6341321,,auto_generated
+REQ-c87c4031,The client app shall respond in 100 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-724d0b96,,auto_generated
+REQ-079fc659,The client app shall utilize around 100 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-01ef43f6,,auto_generated
+REQ-3d261842,The platform shall reliably deliver messages.,Ambiguous,vague,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-a4d222cd,,auto_generated
+REQ-45bf2eb5,The backend shall respond in an appropriate number of TB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-491c14d0,,auto_generated
+REQ-1dfd80f9,The system shall utilize around 50 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-12094d23,,auto_generated
+REQ-c44449dc,The module shall utilize a maximum of 100 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-f195af7d,,auto_generated
+REQ-cd5bc4e7,The API shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-2a8b78cf,,auto_generated
+REQ-9066fd28,The client app shall use AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-7236e385,,auto_generated
+REQ-4131fecf,The application shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-2c042b43,,auto_generated
+REQ-b368f20b,The platform shall securely encrypt data.,Ambiguous,vague,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-02f6aec1,,auto_generated
+REQ-a52792e7,The service shall utilize around 2 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-b06ef43c,,auto_generated
+REQ-13e63427,The backend shall utilize around 2 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-cfe56692,,auto_generated
+REQ-920201de,The module shall utilize a maximum of 10 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-7dabd76d,,auto_generated
+REQ-1f984f55,"When the user clicks the button, the service shall load the data within 10 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-32c5aa49,,auto_generated
+REQ-fea772b5,The backend shall respond in 50 seconds for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-50bf919e,,auto_generated
+REQ-233fe357,"When the user clicks the button, the system shall load the data within 100 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-5b137e65,,auto_generated
+REQ-15360ff9,The client app shall support 5 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-ec767d00,,auto_generated
+REQ-5ef14909,The system shall support 100 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-8304b55d,,auto_generated
+REQ-a2c550de,"When the user clicks the button, the platform shall load the data within 10 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-1026bb46,,auto_generated
+REQ-de24972d,The application shall respond in 50 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-b006eea1,,auto_generated
+REQ-82aa5c60,"When the user clicks the button, the client app shall load the data within 10 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-52d61e5c,,auto_generated
+REQ-1adfeb0e,The system shall respond in an appropriate number of hours for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-b47286b4,,auto_generated
+REQ-20d6f013,The module shall use AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-2e084592,,auto_generated
+REQ-8fb9162c,The module shall support 50 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-3129ac11,,auto_generated
+REQ-d367c9b5,The platform shall respond in an appropriate number of GB for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-df0be69a,,auto_generated
+REQ-3bb06f69,The system shall utilize a maximum of 2 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-fce1b39f,,auto_generated
+REQ-49981765,The application shall utilize a maximum of 50 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-743b243d,,auto_generated
+REQ-8920745b,The platform shall utilize a maximum of 100 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-9b7c6fb8,,auto_generated
+REQ-d3737900,The platform shall utilize around 50 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-da57d72a,,auto_generated
+REQ-eed6a842,The backend shall respond in 10 TB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-b77bf2dc,,auto_generated
+REQ-05b41207,"When the user clicks the button, the system shall load the data within 100 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-ec55312b,,auto_generated
+REQ-334d8627,The API shall support 10 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-594550a8,,auto_generated
+REQ-0055329f,The API shall reliably deliver messages.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-d862c74a,,auto_generated
+REQ-b3c6853d,The backend shall utilize a maximum of 50 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-929c11de,,auto_generated
+REQ-f9759e30,The platform shall send an email notification.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-0719ecca,,auto_generated
+REQ-a7fef6c6,The API shall respond in 5 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-7f6edc20,,auto_generated
+REQ-e7a091b7,The application shall support 2 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-be1a033a,,auto_generated
+REQ-9efc593c,The platform shall securely encrypt data using AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-02f6aec1,,auto_generated
+REQ-046ea32e,The client app shall support 50 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-f19211bc,,auto_generated
+REQ-e3efef5b,The backend shall support 2 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-f208cf2c,,auto_generated
+REQ-6c8f53d0,The module shall securely encrypt data.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-bbdf8b39,,auto_generated
+REQ-fb71140f,The system shall utilize a maximum of 2 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-5e3b2758,,auto_generated
+REQ-427d32f8,"When the user clicks the button, the system shall load the data within 50 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-b1d8ce5b,,auto_generated
+REQ-bbc0c13a,The application shall support 100 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-cfe79a71,,auto_generated
+REQ-d4c4becf,The client app shall respond in 10 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-97936b17,,auto_generated
+REQ-fe19820c,The client app shall be efficient.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-df336c7a,,auto_generated
+REQ-636d85d4,The backend shall respond in 2 seconds for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-20e05231,,auto_generated
+REQ-d4c53b86,The service shall respond in 5 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-eff0d85d,,auto_generated
+REQ-948509a2,The module shall respond in 100 ms for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-930e3207,,auto_generated
+REQ-b1357a0c,The service shall be efficient.,Ambiguous,vague,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-16bfbcb3,,auto_generated
+REQ-c51f078d,The API shall be efficient.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-2a8b78cf,,auto_generated
+REQ-3093f1d3,The service shall respond in an appropriate number of TB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-ee3f777c,,auto_generated
+REQ-b4705f9a,The system shall utilize a maximum of 100 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-c3580a5e,,auto_generated
+REQ-b20036d4,The application shall timeout if the request takes too long.,Ambiguous,missing_threshold,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-953562a7,,auto_generated
+REQ-a0229234,The service shall respond in an appropriate number of hours for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-c78c157c,,auto_generated
+REQ-6a9789ae,The system shall utilize around 5 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-25c661c4,,auto_generated
+REQ-07f80abf,"When the user clicks the button, the api shall load the data within 500 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-8df328be,,auto_generated
+REQ-c61c8b99,The API shall utilize around 10 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-8041b47e,,auto_generated
+REQ-28131041,The client app shall respond in 100 TB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-efdea373,,auto_generated
+REQ-aeb497ca,The module shall support 100 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-3bde69ab,,auto_generated
+REQ-17e2b3d4,The API shall securely encrypt data.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-4550d0b7,,auto_generated
+REQ-6f35cdf9,The application shall send a notification.,Ambiguous,undefined_reference,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-693c67cd,,auto_generated
+REQ-2b150e1a,The API shall respond in an appropriate number of GB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-19eeb625,,auto_generated
+REQ-9f40366d,The backend shall respond in an appropriate number of hours for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-95e685b2,,auto_generated
+REQ-401b6756,The application shall utilize a maximum of 10 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-f760de2e,,auto_generated
+REQ-885a09fd,"When the user clicks the button, the platform shall load the data within 100 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-b4c7a2cb,,auto_generated
+REQ-96e620ee,The API shall utilize a maximum of 50 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-d5f64463,,auto_generated
+REQ-5ebbc53d,The platform shall utilize around 100 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-9b7c6fb8,,auto_generated
+REQ-73fd6fbe,The platform shall respond in an appropriate number of TB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-c4c2a8e5,,auto_generated
+REQ-d7a8ce24,The module shall respond in 5 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-28083ad7,,auto_generated
+REQ-6fab04af,The backend shall respond in an appropriate number of ms for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-645e9e6f,,auto_generated
+REQ-df00d440,The service shall support 2 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-73f2a225,,auto_generated
+REQ-6bfd9277,The backend shall support 50 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-0e3dc72e,,auto_generated
+REQ-2054eab3,"When the user clicks the button, the service shall load the data within 100 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-327faa5f,,auto_generated
+REQ-1d5dace0,The client app shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-758e95e4,,auto_generated
+REQ-2cec319d,The service shall respond in an appropriate number of GB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-59203190,,auto_generated
+REQ-87cfa2b7,"When the user clicks the button, the backend shall load the data within 100 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-341b1773,,auto_generated
+REQ-96bcd707,The backend shall respond in 50 hours for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-95e685b2,,auto_generated
+REQ-34c88aec,The application shall utilize a maximum of 5 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-7cc20380,,auto_generated
+REQ-135592af,The client app shall respond in 10 hours for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-288e8c87,,auto_generated
+REQ-0203d049,The system shall be efficient.,Ambiguous,vague,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-cff3c2d0,,auto_generated
+REQ-b1994a81,The service shall respond in an appropriate number of TB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-c7a7f3fc,,auto_generated
+REQ-cea4c8ac,"When the user clicks the button, the api shall load the data within 100 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-84f4f0bf,,auto_generated
+REQ-4f44b1c6,The backend shall respond in an appropriate number of hours for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-cfe806f3,,auto_generated
+REQ-26f67b28,The module shall respond in an appropriate number of TB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-595d783c,,auto_generated
+REQ-9672167a,The application shall respond in 5 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-bcb7fe5c,,auto_generated
+REQ-2fe90b9d,The backend shall send a notification.,Ambiguous,undefined_reference,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-12003b2d,,auto_generated
+REQ-1a6d2843,The application shall support 5 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-e98b4487,,auto_generated
+REQ-bca4415d,The system shall support 5 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-154bfbd7,,auto_generated
+REQ-c33fdbbe,The backend shall utilize around 100 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-142ed3ad,,auto_generated
+REQ-5ef03a8f,The application shall support 10 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-6c4a480a,,auto_generated
+REQ-7ec891c2,The platform shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-a4d222cd,,auto_generated
+REQ-0d48d7fd,The client app shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-844e8e9f,,auto_generated
+REQ-0294a51e,The platform shall utilize around 10 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-ca1081e4,,auto_generated
+REQ-2c9539a8,The API shall respond in 50 TB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-25a76b3c,,auto_generated
+REQ-36c2e3bd,The API shall utilize around 50 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-d5f64463,,auto_generated
+REQ-54ec16b4,The client app shall respond in 2 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-844e8e9f,,auto_generated
+REQ-886e4d65,The module shall timeout if the request takes > 30 seconds.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-e76087d2,,auto_generated
+REQ-1f55c3c2,The backend shall respond in 50 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-9935ec35,,auto_generated
+REQ-9bf67d05,The application shall be efficient.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-e5ed6507,,auto_generated
+REQ-cb427270,The application shall respond in 10 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-3f0fc8ec,,auto_generated
+REQ-25188969,The module shall utilize a maximum of 50 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-19eb5314,,auto_generated
+REQ-b27bb395,The API shall respond in an appropriate number of GB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-7f6edc20,,auto_generated
+REQ-b3f97be0,The system shall utilize around 2 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-d21b0df0,,auto_generated
+REQ-12a1c84e,The service shall respond in 10 TB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-d9b5ce6e,,auto_generated
+REQ-1fe51923,The application shall utilize around 10 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-b89f896f,,auto_generated
+REQ-1cad3780,The platform shall be efficient.,Ambiguous,vague,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-0d214748,,auto_generated
+REQ-316c008c,The module shall utilize around 100 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-f195af7d,,auto_generated
+REQ-b85e1c3f,The module shall send a notification.,Ambiguous,undefined_reference,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-4ea8167d,,auto_generated
+REQ-db751f1d,The client app shall utilize a maximum of 100 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-01ef43f6,,auto_generated
+REQ-b9cb1ce1,The application shall utilize around 10 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-1d280e0d,,auto_generated
+REQ-f53ad552,The client app shall respond in 10 seconds for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-758e95e4,,auto_generated
+REQ-76747a6e,The platform shall utilize a maximum of 5 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-5e5e1b53,,auto_generated
+REQ-e8ebec82,"When the user clicks the button, the backend should load the data fairly fast to ensure user satisfaction.",Ambiguous,subjective,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-4f718cb6,,auto_generated
+REQ-c1d15e45,The platform shall respond in 5 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-74db9599,,auto_generated
+REQ-39559850,The API shall support 2 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-311ea9c7,,auto_generated
+REQ-706b2ad4,"When the user clicks the button, the application should load the data fairly fast to ensure user satisfaction.",Ambiguous,subjective,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-686a1cf8,,auto_generated
+REQ-108dca1c,The application shall respond in 2 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-3344eb87,,auto_generated
+REQ-6d3821e7,The client app shall respond in 5 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-23e421e0,,auto_generated
+REQ-ab4c5ad2,The client app shall reliably deliver messages.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-a27e54f2,,auto_generated
+REQ-83e375b4,The application shall utilize a maximum of 2 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-f310849b,,auto_generated
+REQ-0b1de7e2,The API shall securely encrypt data using AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-4550d0b7,,auto_generated
+REQ-03eb175b,The backend shall respond in 100 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-aa1015a1,,auto_generated
+REQ-aabbb5e6,The backend shall utilize around 50 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-f9b412ba,,auto_generated
+REQ-bf2864ad,"When the user clicks the button, the api shall load the data within 50 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-06fb2f7e,,auto_generated
+REQ-6596d0c8,The platform shall timeout if the request takes too long.,Ambiguous,missing_threshold,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-74e2a986,,auto_generated
+REQ-91826210,The API shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-d862c74a,,auto_generated
+REQ-415455d2,The backend shall support 50 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-0e3dc72e,,auto_generated
+REQ-da733523,The module shall respond in 50 seconds for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-0baf7db1,,auto_generated
+REQ-f57115ab,The system shall support 5 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-154bfbd7,,auto_generated
+REQ-ab45dcf8,The system shall respond in 5 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-d00b8b35,,auto_generated
+REQ-b70fb5ff,The client app shall utilize a maximum of 5 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-605be7d9,,auto_generated
+REQ-529e7fa4,The client app shall utilize around 5 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-262cbca2,,auto_generated
+REQ-76b33456,The service shall respond in an appropriate number of ms for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-eff0d85d,,auto_generated
+REQ-9575528b,The service shall securely encrypt data.,Ambiguous,vague,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-5b3b4dd9,,auto_generated
+REQ-e91b455a,The module shall support 10 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-3b923e2e,,auto_generated
+REQ-c9b35992,The API shall respond in 5 GB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-19eeb625,,auto_generated
+REQ-011f0c9c,The application shall respond in 10 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-2c042b43,,auto_generated
+REQ-7e0e4a82,The client app shall utilize around 2 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-da47bd62,,auto_generated
+REQ-e3dfaf19,The backend shall utilize around 5 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-5b0bcba4,,auto_generated
+REQ-c0aa5214,The backend shall support 10 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-1b2b003e,,auto_generated
+REQ-863ad78f,The backend shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-cfe56692,,auto_generated
+REQ-c955f40b,The application shall securely encrypt data.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-a13ee6d0,,auto_generated
+REQ-ff967a0d,The API shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-23e453c8,,auto_generated
+REQ-939ae52e,The module shall support 10 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-3b923e2e,,auto_generated
+REQ-547d5456,The API shall respond in an appropriate number of ms for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-dcb474b4,,auto_generated
+REQ-71010ea8,The API shall utilize a maximum of 10 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-8041b47e,,auto_generated
+REQ-f4554904,"When the user clicks the button, the module shall load the data within 500 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-dfe50fd9,,auto_generated
+REQ-8d9a124c,The application shall respond in an appropriate number of TB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-b006eea1,,auto_generated
+REQ-5301228a,"When the user clicks the button, the backend shall load the data within 500 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-5102ef2b,,auto_generated
+REQ-4dd9de76,The application shall securely encrypt data using AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-a13ee6d0,,auto_generated
+REQ-d93b4547,The application shall respond in 10 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-1ccf9aae,,auto_generated
+REQ-6b63c834,The API shall respond in an appropriate number of seconds for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-d96073e9,,auto_generated
+REQ-921de8c7,"When the user clicks the button, the application shall load the data within 100 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-821442ef,,auto_generated
+REQ-5f319459,The backend shall support 5 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-caaef0d5,,auto_generated
+REQ-29f0bd2f,"When the user clicks the button, the backend shall load the data within 50 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-2bf28c2d,,auto_generated
+REQ-e2aeddf4,The API shall send a notification.,Ambiguous,undefined_reference,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-ae69dde5,,auto_generated
+REQ-333ddb92,The system shall utilize around 2 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-fce1b39f,,auto_generated
+REQ-3a24f83e,The module shall securely encrypt data using AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-bbdf8b39,,auto_generated
+REQ-969271eb,"When the user clicks the button, the service shall load the data within 50 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-9f1f04e9,,auto_generated
+REQ-83a6086c,The backend shall respond in an appropriate number of TB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-f183e900,,auto_generated
+REQ-1d76dff3,"When the user clicks the button, the platform shall load the data within 50 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-5767d778,,auto_generated
+REQ-db1ec00a,The system shall respond in an appropriate number of GB for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-b6341321,,auto_generated
+REQ-7c7c59a1,The application shall support 100 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-cfe79a71,,auto_generated
+REQ-c37bda98,The system shall support 2 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-356284e9,,auto_generated
+REQ-372a3adb,The client app shall utilize a maximum of 10 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-3ac824a0,,auto_generated
+REQ-f1f4fd3d,The service shall respond in 5 GB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-dd85cf9e,,auto_generated
+REQ-2e842924,The API shall utilize around 50 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-68fa73d4,,auto_generated
+REQ-6be18a05,The API shall support 100 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-0d48b442,,auto_generated
+REQ-732a389d,The service shall timeout if the request takes > 30 seconds.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-74c00849,,auto_generated
+REQ-b155af00,The service shall respond in 100 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-575fb828,,auto_generated
+REQ-675c8072,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the system should be highly intuitive and very efficient at all times.",Ambiguous,vague,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-74ca7740,,auto_generated
+REQ-68b547f5,The platform shall support 100 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-f496525b,,auto_generated
+REQ-99da6ce7,The system shall support 100 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-8304b55d,,auto_generated
+REQ-94ce7743,The application shall utilize around 100 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-1239e153,,auto_generated
+REQ-5e335cd7,The platform shall support 10 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-b5c861b5,,auto_generated
+REQ-11e0dc64,The application shall timeout if the request takes > 30 seconds.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-953562a7,,auto_generated
+REQ-98f19ee0,The application shall respond in 10 hours for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-cee0068e,,auto_generated
+REQ-36f1a78c,The platform shall support 5 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-1dbbc253,,auto_generated
+REQ-f99a01d1,"When the user clicks the button, the application shall load the data within 10 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-686a1cf8,,auto_generated
+REQ-7e4cacc9,The service shall utilize a maximum of 10 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-b1c48203,,auto_generated
+REQ-7fd5f85b,The platform shall respond in 50 GB for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-df0be69a,,auto_generated
+REQ-e94fb5c5,The API shall support 50 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-e47dcd83,,auto_generated
+REQ-5df36988,The module shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-0719345e,,auto_generated
+REQ-367021b8,The module shall respond in 100 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-2e6ce9ee,,auto_generated
+REQ-5d3900e6,The system shall securely encrypt data.,Ambiguous,vague,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-fbfbdd5a,,auto_generated
+REQ-c736e939,The module shall respond in an appropriate number of seconds for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-0baf7db1,,auto_generated
+REQ-529b7e50,The backend shall timeout if the request takes too long.,Ambiguous,missing_threshold,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-8911db86,,auto_generated
+REQ-5069d2e8,The service shall support 100 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-2264cdb5,,auto_generated
+REQ-2f5a8a8a,"When the user clicks the button, the module shall load the data within 10 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-9102b5a6,,auto_generated
+REQ-3170d89d,"When the user clicks the button, the platform shall load the data within 500 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-43775858,,auto_generated
+REQ-ae325ca9,The API shall utilize around 5 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-9419df73,,auto_generated
+REQ-eec173fc,The client app shall utilize around 100 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-7a61975b,,auto_generated
+REQ-10ccf17d,The client app shall utilize around 10 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-3ac824a0,,auto_generated
+REQ-4fa83c20,The client app shall utilize around 10 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-9fc3c9c4,,auto_generated
+REQ-ecd19862,The module shall support 2 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-eb811cfa,,auto_generated
+REQ-5093171e,The module shall support 5 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-068cddd0,,auto_generated
+REQ-f76755b6,The API shall send an email notification.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-ae69dde5,,auto_generated
+REQ-b481df49,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the backend should be highly intuitive and very efficient at all times.",Ambiguous,vague,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-97f26938,,auto_generated
+REQ-3951cddd,The module shall utilize around 5 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-33e72cb3,,auto_generated
+REQ-c7796407,"When the user clicks the button, the platform shall load the data within 500 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-ddd15bd7,,auto_generated
+REQ-006cc6e6,The system shall respond in an appropriate number of ms for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-00f13498,,auto_generated
+REQ-70b4083a,The application shall support 50 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-fed10738,,auto_generated
+REQ-2910d28d,"When the user clicks the button, the platform should load the data fairly fast to ensure user satisfaction.",Ambiguous,subjective,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-5767d778,,auto_generated
+REQ-90807220,The platform shall utilize a maximum of 2 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-44c902ac,,auto_generated
+REQ-776b7f09,"When the user clicks the button, the backend shall load the data within 10 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-3e0bc491,,auto_generated
+REQ-e5666d43,The application shall utilize a maximum of 100 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-1239e153,,auto_generated
+REQ-29d6f5cf,The client app shall utilize around 2 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-a54effba,,auto_generated
+REQ-3271327c,The service shall utilize a maximum of 10 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-058cff00,,auto_generated
+REQ-0c12c138,The service shall support 50 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-55361003,,auto_generated
+REQ-b2c98c23,The service shall utilize a maximum of 2 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-b06ef43c,,auto_generated
+REQ-347819e5,The module shall respond in an appropriate number of ms for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-930e3207,,auto_generated
+REQ-c1fd86e1,The system shall support 50 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-aa24bc67,,auto_generated
+REQ-cce3f1a1,The platform shall respond in an appropriate number of TB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-a200737b,,auto_generated
+REQ-a71d7d09,The application shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-e5ed6507,,auto_generated
+REQ-dd01a1bf,The client app shall support 10 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-9e54537f,,auto_generated
+REQ-fb4f8a42,The system shall respond in 2 GB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-51189456,,auto_generated
+REQ-388313d3,The backend shall utilize around 10 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-679b190f,,auto_generated
+REQ-6819d88d,The backend shall respond in 10 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-f183e900,,auto_generated
+REQ-a25cd5e0,The system shall respond in 100 hours for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-b47286b4,,auto_generated
+REQ-21311835,The service shall timeout if the request takes too long.,Ambiguous,missing_threshold,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-74c00849,,auto_generated
+REQ-1125fd04,The module shall respond in an appropriate number of TB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-28153f3e,,auto_generated
+REQ-89b44e7f,The API shall utilize around 100 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-06a389f3,,auto_generated
+REQ-e78b6c91,The platform shall utilize a maximum of 100 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-5bfe6c65,,auto_generated
+REQ-3b508212,The backend shall utilize a maximum of 5 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-63be40eb,,auto_generated
+REQ-9bf77452,The application shall reliably deliver messages.,Ambiguous,vague,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-daf51a02,,auto_generated
+REQ-f025fefa,The client app shall respond in an appropriate number of GB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-951329b4,,auto_generated
+REQ-4f6bd7f2,The client app shall respond in 100 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-60da1260,,auto_generated
+REQ-29a3cb8a,"When the user clicks the button, the module should load the data fairly fast to ensure user satisfaction.",Ambiguous,subjective,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-9ac6cce3,,auto_generated
+REQ-765c90c9,The backend shall utilize a maximum of 10 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-d56c8675,,auto_generated
+REQ-04b2f2b3,The system shall respond in an appropriate number of GB for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-95aad523,,auto_generated
+REQ-ffe4be48,The backend shall support 10 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-1b2b003e,,auto_generated
+REQ-6261208d,The API shall respond in 2 seconds for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-d96073e9,,auto_generated
+REQ-4ba06fa9,"When the user clicks the button, the api shall load the data within 500 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-7135c704,,auto_generated
+REQ-4efe4914,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the application should be highly intuitive and very efficient at all times.",Ambiguous,vague,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-b00d2a38,,auto_generated
+REQ-70d46287,The system shall respond in an appropriate number of GB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-51189456,,auto_generated
+REQ-fa9bedfa,The client app shall respond in 50 ms for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-bfd5a8cd,,auto_generated
+REQ-e25d0ea8,The system shall support 2 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-356284e9,,auto_generated
+REQ-927c7e6f,The client app shall respond in 50 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-b7f5dc3f,,auto_generated
+REQ-e3b9ff9e,"In order to provide the best possible experience to our diverse user base across all supported regions and devices, the platform should be highly intuitive and very efficient at all times.",Ambiguous,vague,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-ab6a37af,,auto_generated
+REQ-4471e6cb,The platform shall respond in 50 ms for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-74fe544a,,auto_generated
+REQ-e628bad9,The service shall support 100 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-2264cdb5,,auto_generated
+REQ-33d5d637,The service shall respond in 10 ms for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-908e4054,,auto_generated
+REQ-e9af0f78,The API shall utilize around 100 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-02861d7f,,auto_generated
+REQ-19af4471,The platform shall send a notification.,Ambiguous,undefined_reference,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-0719ecca,,auto_generated
+REQ-d81ed733,The service shall support 50 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-55361003,,auto_generated
+REQ-10ebb7d4,The module shall utilize a maximum of 100 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-124f094c,,auto_generated
+REQ-dd9290b1,The client app shall utilize a maximum of 100 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-639dcc25,,auto_generated
+REQ-95be3abc,The platform shall support 50 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-f0ccc842,,auto_generated
+REQ-327bcc81,"When the user clicks the button, the application shall load the data within 10 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-81f78181,,auto_generated
+REQ-a11854ee,The backend shall respond in 100 ms for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-645e9e6f,,auto_generated
+REQ-5e7c5127,The backend shall respond in an appropriate number of TB for 99% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-b77bf2dc,,auto_generated
+REQ-4a285d14,The API shall utilize a maximum of 5 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-9419df73,,auto_generated
+REQ-e1a11ac2,The platform shall utilize around 2 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-44c902ac,,auto_generated
+REQ-65ae9768,The backend shall utilize a maximum of 50 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-f9b412ba,,auto_generated
+REQ-8c822968,"When the user clicks the button, the service shall load the data within 50 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-e0c8a332,,auto_generated
+REQ-5f427ab2,The client app shall utilize around 100 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-de6b2fff,,auto_generated
+REQ-4da4e1ee,"When the user clicks the button, the api shall load the data within 10 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-a7ecd11c,,auto_generated
+REQ-c9514d0d,The backend shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-6489031a,,auto_generated
+REQ-b6aa9574,The system shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-ec437cb4,,auto_generated
+REQ-3f27949c,"When the user clicks the button, the service shall load the data within 500 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-2cc53895,,auto_generated
+REQ-86dd06be,The client app shall utilize around 50 seconds of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-20651093,,auto_generated
+REQ-7b8f3763,The module shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-2e6ce9ee,,auto_generated
+REQ-b9425cfa,The client app shall utilize around 10 hours of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-dff80c81,,auto_generated
+REQ-af2adb99,The client app shall timeout if the request takes > 30 seconds.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-fdb7b91e,,auto_generated
+REQ-ddc0895b,The client app shall securely encrypt data using AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-7202f43f,,auto_generated
+REQ-7241632d,The backend shall utilize a maximum of 10 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-679b190f,,auto_generated
+REQ-ec5712e3,The service shall utilize a maximum of 100 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-5ff85d91,,auto_generated
+REQ-d488256e,The service shall utilize a maximum of 100 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-4319dba6,,auto_generated
+REQ-e6a4abb9,The service shall utilize around 50 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-a8477576,,auto_generated
+REQ-78b2acde,The system shall utilize around 5 GB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-666a929d,,auto_generated
+REQ-5585bded,The system shall respond in 100 TB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-d439d42a,,auto_generated
+REQ-9c868fea,The system shall send a notification.,Ambiguous,undefined_reference,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-7dcd9e68,,auto_generated
+REQ-91b5ccb6,The API shall respond in an appropriate number of ms for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-1c09d9a7,,auto_generated
+REQ-ce113c7e,The API shall respond in 100 seconds for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-23e453c8,,auto_generated
+REQ-fba4b990,The backend shall respond in 100 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-a131a34b,,auto_generated
+REQ-33af2a2d,The platform shall support 50 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-f0ccc842,,auto_generated
+REQ-a5839db2,The client app shall utilize around 5 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-605be7d9,,auto_generated
+REQ-33077302,The API shall use AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-9d68cb16,,auto_generated
+REQ-73ee2316,"When the user clicks the button, the client app shall load the data within 50 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-91d8e8e4,,auto_generated
+REQ-776fe4d4,The client app shall utilize a maximum of 10 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-9fc3c9c4,,auto_generated
+REQ-60550872,The system shall utilize a maximum of 50 GB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-12094d23,,auto_generated
+REQ-cc5d703f,The application shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-daf51a02,,auto_generated
+REQ-39e85ed1,The system shall support 10 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-c29a9432,,auto_generated
+REQ-72777905,The API shall support 5 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-a915f670,,auto_generated
+REQ-9680e3ba,The platform shall support 100 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-f496525b,,auto_generated
+REQ-054580ac,The service shall reliably deliver messages.,Ambiguous,vague,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-1cb052e8,,auto_generated
+REQ-adda1dbf,The service shall respond in 5 GB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-59203190,,auto_generated
+REQ-aa7c2688,"When the user clicks the button, the system shall load the data within 500 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-32df8ff9,,auto_generated
+REQ-8c0009f6,The service shall securely encrypt data using AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-5b3b4dd9,,auto_generated
+REQ-3dac5c36,The system shall reliably deliver messages.,Ambiguous,vague,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-ec437cb4,,auto_generated
+REQ-c8a37d00,The module shall reliably deliver messages with a guaranteed exactly-once delivery semantic.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-5da7bcc8,,auto_generated
+REQ-1c55aa72,The system shall utilize a maximum of 5 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-25c661c4,,auto_generated
+REQ-9c7dee68,The service shall respond in 10 ms for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-e70b9d0e,,auto_generated
+REQ-97b7efa6,The backend shall utilize a maximum of 100 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-142ed3ad,,auto_generated
+REQ-88d6b146,The client app shall utilize around 50 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-1196bb01,,auto_generated
+REQ-813a924a,The API shall support 50 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-e47dcd83,,auto_generated
+REQ-bd72c64c,The system shall use AES-256.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-74ca7740,,auto_generated
+REQ-03596695,The client app shall utilize a maximum of 5 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-262cbca2,,auto_generated
+REQ-4896a778,The application shall utilize a maximum of 5 ms of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-7b49e7cb,,auto_generated
+REQ-1d70d1a1,The application shall respond in 2 seconds for 99% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-3d12ad79,,auto_generated
+REQ-431951d4,The application shall respond in an appropriate number of hours for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-f5b96e9c,,auto_generated
+REQ-204a25e2,"When the user clicks the button, the system shall load the data within 50 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-7e7dbd1a,,auto_generated
+REQ-fa219ffa,The client app shall send a notification.,Ambiguous,undefined_reference,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-d4d80693,,auto_generated
+REQ-d23aef86,"When the user clicks the button, the client app shall load the data within 500 ms.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-43033f46,,auto_generated
+REQ-50f1f355,"When the user clicks the button, the module shall load the data within 50 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-9ac6cce3,,auto_generated
+REQ-57341051,The API shall utilize a maximum of 50 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-68fa73d4,,auto_generated
+REQ-29d8d9ff,The system shall respond in an appropriate number of TB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-d439d42a,,auto_generated
+REQ-de36da67,The system shall timeout if the request takes > 30 seconds.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-17d1c1de,,auto_generated
+REQ-f50acad9,"When the user clicks the button, the client app shall load the data within 500 seconds.",Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-6310ea1f,,auto_generated
+REQ-dac57699,The service shall support 2 users and be extremely reliable.,Ambiguous,vague,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-73f2a225,,auto_generated
+REQ-f229d4d1,The system shall timeout if the request takes too long.,Ambiguous,missing_threshold,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-17d1c1de,,auto_generated
+REQ-f3c19e3e,The client app shall utilize a maximum of 100 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-de6b2fff,,auto_generated
+REQ-38fb0c62,The backend shall utilize a maximum of 100 TB of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-fb702433,,auto_generated
+REQ-d0118bc4,The client app shall support 5 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-ec767d00,,auto_generated
+REQ-dcb83da7,The backend shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-3c52dfa0,,auto_generated
+REQ-e738bf4f,The service shall utilize around 100 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-5ff85d91,,auto_generated
+REQ-090523d0,The client app shall respond in an appropriate number of ms for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-91bebb85,,auto_generated
+REQ-e45eda83,The system shall utilize around 100 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,manufacturing,synthetic_paired_v3,PAIR-b255b311,,auto_generated
+REQ-3cf84646,The application shall respond in 5 ms for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-2bc6f674,,auto_generated
+REQ-53e97fbf,The service shall utilize a maximum of 10 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,healthcare,synthetic_paired_v3,PAIR-4e8cc456,,auto_generated
+REQ-48b3bbef,The platform shall timeout if the request takes > 30 seconds.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-74e2a986,,auto_generated
+REQ-a66e80a9,The client app shall respond in an appropriate number of ms for 50% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-bfd5a8cd,,auto_generated
+REQ-d7304a27,The module shall respond in 5 TB for 50% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-595d783c,,auto_generated
+REQ-ffd4dc97,The API shall support 2 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-311ea9c7,,auto_generated
+REQ-dcbb7f7d,The client app shall utilize a maximum of 2 seconds of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-a54effba,,auto_generated
+REQ-07e4a03c,The platform shall respond in an appropriate number of seconds for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,cybersecurity,synthetic_paired_v3,PAIR-2c8321d3,,auto_generated
+REQ-835b38b0,The service shall support 5 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,HR,synthetic_paired_v3,PAIR-aa214bd0,,auto_generated
+REQ-8314ee0a,The backend shall be efficient.,Ambiguous,vague,dataset_v3_generator,controlled_pair,finance,synthetic_paired_v3,PAIR-3c52dfa0,,auto_generated
+REQ-ccf12067,The module shall utilize around 10 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-7dabd76d,,auto_generated
+REQ-4d80cc45,The service shall respond in 50 GB for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-03a49846,,auto_generated
+REQ-2c743b26,The module shall timeout if the request takes too long.,Ambiguous,missing_threshold,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-e76087d2,,auto_generated
+REQ-55893e81,The application shall respond in an appropriate number of TB for 90% of users.,Ambiguous,vague_quantity,dataset_v3_generator,controlled_pair,logistics,synthetic_paired_v3,PAIR-3f0fc8ec,,auto_generated
+REQ-3806916f,The backend shall utilize around 100 TB of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-fb702433,,auto_generated
+REQ-d19bfe9e,The client app shall support 2 users with 99.9% uptime.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,education,synthetic_paired_v3,PAIR-bda9e897,,auto_generated
+REQ-c1dd358b,The system shall respond in 2 hours for 90% of users.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,banking,synthetic_paired_v3,PAIR-1edab095,,auto_generated
+REQ-75a2fb12,The client app shall utilize a maximum of 10 hours of memory.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-dff80c81,,auto_generated
+REQ-1d1741cd,The platform shall efficiently process records at a rate of 1000 per second.,Not Ambiguous,none,dataset_v3_generator,controlled_pair,government,synthetic_paired_v3,PAIR-0d214748,,auto_generated
+REQ-4f79d355,The system shall utilize around 100 ms of memory.,Ambiguous,approximation,dataset_v3_generator,controlled_pair,e-commerce,synthetic_paired_v3,PAIR-c3580a5e,,auto_generated

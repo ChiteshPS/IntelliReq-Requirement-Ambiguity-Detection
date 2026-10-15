@@ -1,0 +1,8 @@
+{
+    "time_units": ["seconds", "minutes", "hours", "days", "ms", "milliseconds", "months", "years"],
+    "size_units": ["MB", "GB", "TB", "KB", "bytes"],
+    "capacity_values": ["TPS", "requests", "users", "connections", "px", "pixels", "transactions"],
+    "threshold_indicators": ["maximum", "minimum", "at least", "at most", "less than", "greater than", "up to", "within", "exceeding"],
+    "formats_protocols": ["AES-256", "AES-128", "ISO", "TLS", "API", "SHA-256", "UTF-8", "CSV", "PDF", "PNG", "JPEG", "JSON", "XML", "HTTP", "HTTPS"],
+    "explicit_conditions": ["before", "after", "if", "when", "unless", "until", "upon", "only if"]
+}

@@ -1,0 +1,3 @@
+dataset,total_records,unique_records,duplicate_count,ambiguous_count,not_ambiguous_count,contradictory_labels
+data/ambiguity_dataset_v2.csv,634,632,2,422,212,0
+dataset/software_requirements.csv,6117,5992,125,0,0,0

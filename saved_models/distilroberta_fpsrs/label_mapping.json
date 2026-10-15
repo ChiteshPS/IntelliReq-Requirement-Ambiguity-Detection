@@ -1,0 +1,18 @@
+{
+  "classes": [
+    "lexical",
+    "syntactic",
+    "semantic",
+    "syntax",
+    "pragmatic",
+    "clean"
+  ],
+  "mapping_to_binary": {
+    "lexical": "AMBIGUOUS",
+    "syntactic": "AMBIGUOUS",
+    "semantic": "AMBIGUOUS",
+    "syntax": "AMBIGUOUS",
+    "pragmatic": "AMBIGUOUS",
+    "clean": "NOT AMBIGUOUS"
+  }
+}

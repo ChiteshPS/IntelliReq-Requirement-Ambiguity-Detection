@@ -1,0 +1,7 @@
+{
+    "vague_terms": ["fast", "quickly", "slowly", "adequately", "sufficiently", "reasonable", "appropriate", "easy", "user-friendly", "efficiently", "securely", "regularly", "periodically", "normally", "typically", "usually", "promptly", "immediately", "properly", "effectively", "seamlessly", "intuitive", "robust", "acceptable"],
+    "subjective_terms": ["good", "bad", "excellent", "poor", "modern", "attractive", "aesthetically pleasing", "easy to use", "professional", "seamless"],
+    "approximate_quantity": ["many", "few", "several", "large number", "small number", "around", "approximately", "about", "almost", "nearly"],
+    "undefined_reference": ["as needed", "when necessary", "where appropriate", "if required", "when appropriate", "if applicable"],
+    "modal_verbs": ["may", "might", "could", "should", "ought to", "if possible", "where possible", "preferably"]
+}

@@ -1,0 +1,8 @@
+{
+    "dataset_version": "v2",
+    "training_date": "2026-09-20T21:25:29.271196",
+    "feature_version": "hybrid_sbert_ling_spec",
+    "sbert_model": "all-MiniLM-L6-v2",
+    "classifier_type": "Calibrated Logistic Regression (L1)",
+    "embedding_dimension": 384
+}

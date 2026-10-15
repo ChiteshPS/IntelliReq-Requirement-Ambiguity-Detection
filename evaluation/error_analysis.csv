@@ -1,0 +1,33 @@
+Requirement_ID,requirement,expected_label,predicted_label,probability,error_type
+CHAL-0016,Access must be strictly controlled.,Ambiguous,Not Ambiguous,0.07426028721176015,False Negative
+CHAL-0021,The software shall be designed for maximum efficiency.,Ambiguous,NEEDS REVIEW,0.6435926502115137,Underconfident Correct Prediction
+CHAL-0027,The output report must look professional.,Ambiguous,NEEDS REVIEW,0.44712652378595186,Underconfident Correct Prediction
+CHAL-0028,Network latency must be kept to an absolute minimum.,Ambiguous,NEEDS REVIEW,0.6434267171203538,Underconfident Correct Prediction
+CHAL-0031,The web interface must be fully responsive.,Ambiguous,NEEDS REVIEW,0.3872817798269117,Underconfident Correct Prediction
+CHAL-0049,The application shall support English and Spanish.,Not Ambiguous,Ambiguous,0.9813881367273751,False Positive
+CHAL-0051,The system shall complete authentication before granting access to protected resources.,Not Ambiguous,NEEDS REVIEW,0.5149605884749249,Underconfident Correct Prediction
+CHAL-0052,The mobile application shall support iOS 15 and above.,Not Ambiguous,NEEDS REVIEW,0.6669093385698175,Underconfident Correct Prediction
+CHAL-0055,"The user profile page shall include fields for First Name, Last Name, and Email Address.",Not Ambiguous,NEEDS REVIEW,0.27414308350272887,Underconfident Correct Prediction
+CHAL-0057,The database connection pool shall have a maximum size of 50 connections.,Not Ambiguous,NEEDS REVIEW,0.3190459182241402,Underconfident Correct Prediction
+CHAL-0062,The payment module shall integrate with Stripe API v3.,Not Ambiguous,NEEDS REVIEW,0.6825314286227663,Underconfident Correct Prediction
+CHAL-0065,The application shall display an error message if the password is under 8 characters.,Not Ambiguous,NEEDS REVIEW,0.29405806538001245,Underconfident Correct Prediction
+CHAL-0066,The database schema shall enforce referential integrity using foreign keys.,Not Ambiguous,Ambiguous,0.9651727054067217,False Positive
+CHAL-0070,The API shall use token-based authentication via JWT.,Not Ambiguous,Ambiguous,0.805507986607335,False Positive
+CHAL-0074,The database shall implement row-level security for tenant isolation.,Not Ambiguous,NEEDS REVIEW,0.7114329451908314,Underconfident Correct Prediction
+CHAL-0075,The system shall provide a RESTful endpoint for retrieving user metadata.,Not Ambiguous,Ambiguous,0.8653661895466123,False Positive
+CHAL-0078,The backend shall be deployed on AWS EC2 instances.,Not Ambiguous,NEEDS REVIEW,0.4973784132045039,Underconfident Correct Prediction
+CHAL-0080,"The password requirements shall include at least one uppercase letter, one lowercase letter, one number, and one special character.",Not Ambiguous,NEEDS REVIEW,0.5782221662780762,Underconfident Correct Prediction
+CHAL-0081,The system may cache results for up to 5 minutes.,Borderline,Not Ambiguous,0.1330014962105529,Missed Borderline
+CHAL-0082,The system should support internet explorer 11 if feasible.,Borderline,Not Ambiguous,0.1474072988549855,Missed Borderline
+CHAL-0084,The interface will usually respond within 1 second.,Borderline,Not Ambiguous,0.11453806202015915,Missed Borderline
+CHAL-0086,The background process takes approximately 10 minutes.,Borderline,Not Ambiguous,0.05821755420524011,Missed Borderline
+CHAL-0087,The system could use a fallback server during outages.,Borderline,Ambiguous,0.8657354139418549,Missed Borderline
+CHAL-0089,The software is generally expected to handle 500 concurrent connections.,Borderline,Not Ambiguous,0.05057779416962216,Missed Borderline
+CHAL-0091,The application might need to integrate with Salesforce in the future.,Borderline,Ambiguous,0.9079727809889565,Missed Borderline
+CHAL-0092,Users could optionally provide their phone numbers.,Borderline,Ambiguous,0.9615152400784184,Missed Borderline
+CHAL-0094,"Where appropriate, data shall be anonymized.",Borderline,Ambiguous,0.9844950568115882,Missed Borderline
+CHAL-0095,The UI should be reasonably responsive under normal load.,Borderline,Ambiguous,0.7514945488345229,Missed Borderline
+CHAL-0096,The system may need to support additional languages later.,Borderline,Ambiguous,0.9940503713882181,Missed Borderline
+CHAL-0097,"As needed, the server shall allocate more RAM.",Borderline,Ambiguous,0.7799581817520458,Missed Borderline
+CHAL-0099,The database might experience high latency during peak hours.,Borderline,Ambiguous,0.7977464443301878,Missed Borderline
+CHAL-0100,The system ought to notify users of maintenance.,Borderline,Ambiguous,0.9834097424043953,Missed Borderline

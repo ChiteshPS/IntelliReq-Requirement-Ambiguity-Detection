@@ -1,0 +1,3 @@
+The system shall be fast.
+The system shall backup database records every 24 hours at 02:00 UTC.
+The UI should be user-friendly.

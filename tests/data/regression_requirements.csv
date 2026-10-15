@@ -1,0 +1,31 @@
+id,requirement,expected_label
+1,"The system shall respond quickly.",Ambiguous
+2,"The system shall respond within 2 seconds for at least 95% of requests.",Not Ambiguous
+3,"The application shall display the most relevant results to the user.",Ambiguous
+4,"The application shall support English and Spanish.",Not Ambiguous
+5,"The system shall store user data securely.",Ambiguous
+6,"The system shall export the audit log in CSV format.",Not Ambiguous
+7,"The application shall provide an easy-to-use interface.",Ambiguous
+8,"The user profile page shall include fields for First Name, Last Name, and Email Address.",Not Ambiguous
+9,"The system shall periodically back up the database.",Ambiguous
+10,"The system shall calculate the tax rate based on the user's billing ZIP code.",Not Ambiguous
+11,"The system shall provide adequate system availability.",Ambiguous
+12,"The application shall allow users to upload profile pictures in PNG or JPEG format.",Not Ambiguous
+13,"The software shall be designed for maximum efficiency.",Ambiguous
+14,"The database schema shall enforce referential integrity using foreign keys.",Not Ambiguous
+15,"Network latency must be kept to an absolute minimum.",Ambiguous
+16,"The web application shall pass W3C HTML5 validation without errors.",Not Ambiguous
+17,"The system shall generate a monthly PDF report on the first day of every month.",Not Ambiguous
+18,"The system shall respond quickly within 2 seconds.",Ambiguous
+19,"The system shall provide secure access.",Ambiguous
+20,"The system shall provide secure access using MFA.",Not Ambiguous
+21,"The system shall process requests efficiently at 500 requests per second.",Ambiguous
+22,"The system shall process at least 500 requests per second.",Not Ambiguous
+23,"The application shall regularly back up the database.",Ambiguous
+24,"The application shall back up the database every 24 hours.",Not Ambiguous
+25,"The system may send notifications when appropriate.",Ambiguous
+26,"The system shall send notifications when the payment fails.",Not Ambiguous
+27,"The system shall support a reasonable number of concurrent users.",Ambiguous
+28,"The system shall support 500 concurrent users.",Not Ambiguous
+29,"The system shall provide excellent performance.",Ambiguous
+30,"The system shall maintain a maximum response latency of 2 seconds.",Not Ambiguous

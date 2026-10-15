@@ -1,0 +1,321 @@
+[
+  {
+    "accuracy": 43.98,
+    "balanced_accuracy": 45.15,
+    "macro_f1": 38.42,
+    "weighted_f1": 46.8,
+    "mcc": 0.2957,
+    "per_class": {
+      "lexical": {
+        "precision": 24.34,
+        "recall": 52.11,
+        "f1": 33.18
+      },
+      "syntactic": {
+        "precision": 18.18,
+        "recall": 33.33,
+        "f1": 23.53
+      },
+      "semantic": {
+        "precision": 26.56,
+        "recall": 39.08,
+        "f1": 31.63
+      },
+      "syntax": {
+        "precision": 31.3,
+        "recall": 46.75,
+        "f1": 37.5
+      },
+      "pragmatic": {
+        "precision": 43.67,
+        "recall": 57.98,
+        "f1": 49.82
+      },
+      "clean": {
+        "precision": 80.29,
+        "recall": 41.64,
+        "f1": 54.83
+      }
+    },
+    "confusion_matrix": [
+      [
+        37,
+        12,
+        6,
+        5,
+        5,
+        6
+      ],
+      [
+        5,
+        24,
+        12,
+        8,
+        7,
+        16
+      ],
+      [
+        12,
+        9,
+        34,
+        7,
+        7,
+        18
+      ],
+      [
+        9,
+        5,
+        8,
+        36,
+        10,
+        9
+      ],
+      [
+        16,
+        13,
+        9,
+        6,
+        69,
+        6
+      ],
+      [
+        73,
+        69,
+        59,
+        53,
+        60,
+        224
+      ]
+    ],
+    "model": "Baseline A1: Hybrid SBERT + Ling + Logistic Regression",
+    "task": "Task A: Six-Class Classification"
+  },
+  {
+    "accuracy": 70.12,
+    "balanced_accuracy": 69.37,
+    "macro_f1": 69.48,
+    "precision_amb": 67.34,
+    "recall_amb": 62.91,
+    "f1_amb": 65.05,
+    "amb_error_rate_pct": 37.09,
+    "mcc": 0.3908,
+    "brier_loss": 0.1966,
+    "tp": 268,
+    "fn": 158,
+    "fp": 130,
+    "tn": 408,
+    "model": "Baseline A1: Hybrid SBERT + Ling + Calibrated L1 LR",
+    "task": "Task B: Binary Ambiguity Classification"
+  },
+  {
+    "accuracy": 61.2,
+    "balanced_accuracy": 24.76,
+    "macro_f1": 23.17,
+    "weighted_f1": 49.25,
+    "mcc": 0.2891,
+    "per_class": {
+      "lexical": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "syntactic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "semantic": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "syntax": {
+        "precision": 100.0,
+        "recall": 2.6,
+        "f1": 5.06
+      },
+      "pragmatic": {
+        "precision": 81.16,
+        "recall": 47.06,
+        "f1": 59.57
+      },
+      "clean": {
+        "precision": 59.57,
+        "recall": 98.88,
+        "f1": 74.35
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        71
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        72
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        86
+      ],
+      [
+        0,
+        0,
+        0,
+        2,
+        6,
+        69
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        56,
+        63
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        6,
+        532
+      ]
+    ],
+    "model": "Baseline A2: Hybrid SBERT + Ling + Random Forest",
+    "task": "Task A: Six-Class Classification"
+  },
+  {
+    "accuracy": 69.09,
+    "balanced_accuracy": 67.91,
+    "macro_f1": 68.05,
+    "precision_amb": 67.58,
+    "recall_amb": 57.75,
+    "f1_amb": 62.28,
+    "amb_error_rate_pct": 42.25,
+    "mcc": 0.3669,
+    "brier_loss": 0.1954,
+    "tp": 246,
+    "fn": 180,
+    "fp": 118,
+    "tn": 420,
+    "model": "Baseline A2: Hybrid SBERT + Ling + Calibrated Random Forest",
+    "task": "Task B: Binary Ambiguity Classification"
+  },
+  {
+    "accuracy": 32.99,
+    "balanced_accuracy": 51.13,
+    "macro_f1": 37.09,
+    "weighted_f1": 30.41,
+    "mcc": 0.2806,
+    "per_class": {
+      "lexical": {
+        "precision": 23.66,
+        "recall": 43.66,
+        "f1": 30.69
+      },
+      "syntactic": {
+        "precision": 15.23,
+        "recall": 51.39,
+        "f1": 23.49
+      },
+      "semantic": {
+        "precision": 24.9,
+        "recall": 72.41,
+        "f1": 37.06
+      },
+      "syntax": {
+        "precision": 33.77,
+        "recall": 66.23,
+        "f1": 44.74
+      },
+      "pragmatic": {
+        "precision": 72.28,
+        "recall": 61.34,
+        "f1": 66.36
+      },
+      "clean": {
+        "precision": 74.12,
+        "recall": 11.71,
+        "f1": 20.22
+      }
+    },
+    "confusion_matrix": [
+      [
+        31,
+        20,
+        10,
+        1,
+        1,
+        8
+      ],
+      [
+        11,
+        37,
+        11,
+        5,
+        2,
+        6
+      ],
+      [
+        17,
+        2,
+        63,
+        4,
+        0,
+        1
+      ],
+      [
+        2,
+        7,
+        9,
+        51,
+        6,
+        2
+      ],
+      [
+        19,
+        6,
+        7,
+        9,
+        73,
+        5
+      ],
+      [
+        51,
+        171,
+        153,
+        81,
+        19,
+        63
+      ]
+    ],
+    "model": "Candidate B: Fine-Tuned DistilRoBERTa (Transformer)",
+    "task": "Task A: Six-Class Classification"
+  },
+  {
+    "accuracy": 48.44,
+    "balanced_accuracy": 53.27,
+    "macro_f1": 41.07,
+    "precision_amb": 45.96,
+    "recall_amb": 94.84,
+    "f1_amb": 61.92,
+    "amb_error_rate_pct": 5.16,
+    "mcc": 0.1146,
+    "model": "Candidate B: Fine-Tuned DistilRoBERTa (Mapped Binary)",
+    "task": "Task B: Binary Ambiguity Classification"
+  }
+]

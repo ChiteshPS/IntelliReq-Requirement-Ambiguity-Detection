@@ -1,0 +1,5 @@
+Model,Heldout_Accuracy,Heldout_F1_Ambiguous,Challenge_Accuracy,Challenge_F1_Ambiguous,Adversarial_Accuracy
+TF-IDF + Logistic Regression,99.07,98.36,50.0,4.76,50.0
+SBERT Only + Logistic Regression,93.52,88.89,75.0,75.61,87.5
+Linguistic Only + Logistic Regression,92.59,88.24,73.75,71.23,68.75
+IntelliReq Hybrid (SBERT + Ling + L1 LR),98.15,96.88,85.0,86.05,87.5

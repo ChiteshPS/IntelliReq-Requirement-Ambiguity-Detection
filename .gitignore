@@ -1,0 +1,88 @@
+# ==============================================================================
+# IntelliReq — Git Ignore Configuration
+# ==============================================================================
+
+# --- Python & Virtual Environments ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+
+# --- Testing & Code Quality ---
+.pytest_cache/
+.coverage
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# --- Node.js & React Frontend ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment & Secrets ---
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+*.pem
+*.key
+*.cert
+
+# --- Operating System & IDE Artifacts ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# --- Ephemeral Outputs & Scratch Files ---
+scratch/
+temp/
+tmp/
+*.log
+outputs/*.xlsx
+outputs/*.csv
+!outputs/.gitkeep
+project_tree.txt
+
+# --- Large Experimental Model Checkpoints (> 100 MB GitHub Limit) ---
+# Note: The production model (saved_models/model.joblib, 15 KB) is tracked.
+# The following experimental checkpoints exceed 100 MB and must not be pushed directly:
+saved_models/distilroberta_fpsrs/model.safetensors
+evaluation/distilbert_best_val.pt
+saved_models/benchmark_cache/*.joblib

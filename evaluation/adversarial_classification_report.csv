@@ -1,0 +1,6 @@
+,precision,recall,f1-score,support
+Ambiguous,0.875,0.875,0.875,8.0
+Not Ambiguous,0.875,0.875,0.875,8.0
+accuracy,0.875,0.875,0.875,0.875
+macro avg,0.875,0.875,0.875,16.0
+weighted avg,0.875,0.875,0.875,16.0

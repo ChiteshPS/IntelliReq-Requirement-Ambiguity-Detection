@@ -1,0 +1,12 @@
+/* App.css — Supplementary layout adjustments for IntelliReq Power BI theme */
+
+.app-wrapper {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.report-header-accent {
+  border-left: 4px solid var(--accent-primary);
+  padding-left: 12px;
+}

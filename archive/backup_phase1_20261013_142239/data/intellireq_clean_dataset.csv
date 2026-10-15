@@ -1,0 +1,392 @@
+id,requirement,label,ambiguity_type,source,source_type,domain,generation_method,pair_id,original_id,annotation_status
+REQ-c863dea7,The system shall respond quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,performance,synthetic_paired,PAIR-124054f2,,auto_generated
+REQ-5cf276cc,The system shall respond within 2 seconds for at least 95% of requests.,Not Ambiguous,none,intellireq_generator,controlled_pair,performance,synthetic_paired,PAIR-124054f2,,auto_generated
+REQ-6f9a5e1c,The API must return data fast.,Ambiguous,vague,intellireq_generator,controlled_pair,performance,synthetic_paired,PAIR-22aa314c,,auto_generated
+REQ-168077ba,The API shall return data with a maximum latency of 200 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,performance,synthetic_paired,PAIR-22aa314c,,auto_generated
+REQ-c2172a1f,The application shall load the dashboard in a reasonable timeframe.,Ambiguous,subjective,intellireq_generator,controlled_pair,performance,synthetic_paired,PAIR-3085fb54,,auto_generated
+REQ-523f2924,The application shall render the dashboard within 1.5 seconds under normal load.,Not Ambiguous,none,intellireq_generator,controlled_pair,performance,synthetic_paired,PAIR-3085fb54,,auto_generated
+REQ-dfa4e579,The database query should be efficient.,Ambiguous,vague,intellireq_generator,controlled_pair,performance,synthetic_paired,PAIR-101d3440,,auto_generated
+REQ-f849cdbf,The database query must execute in under 50 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,performance,synthetic_paired,PAIR-101d3440,,auto_generated
+REQ-2468e677,The application shall provide adequate availability.,Ambiguous,vague,intellireq_generator,controlled_pair,availability,synthetic_paired,PAIR-f10b8cd7,,auto_generated
+REQ-7692b0b3,The application shall maintain 99.9% monthly availability.,Not Ambiguous,none,intellireq_generator,controlled_pair,availability,synthetic_paired,PAIR-f10b8cd7,,auto_generated
+REQ-9242bea0,The system must be highly reliable.,Ambiguous,vague,intellireq_generator,controlled_pair,reliability,synthetic_paired,PAIR-aad55104,,auto_generated
+REQ-ed6ec61e,The system shall achieve a Mean Time Between Failures (MTBF) of at least 720 hours.,Not Ambiguous,none,intellireq_generator,controlled_pair,reliability,synthetic_paired,PAIR-aad55104,,auto_generated
+REQ-552f7a48,The server should rarely go down.,Ambiguous,approximate,intellireq_generator,controlled_pair,availability,synthetic_paired,PAIR-5fd5bd56,,auto_generated
+REQ-7f7e7ea7,The server shall have no more than 4 hours of unplanned downtime per year.,Not Ambiguous,none,intellireq_generator,controlled_pair,availability,synthetic_paired,PAIR-5fd5bd56,,auto_generated
+REQ-6571a304,The system shall support many concurrent users.,Ambiguous,approximate,intellireq_generator,controlled_pair,scalability,synthetic_paired,PAIR-b639839c,,auto_generated
+REQ-a19c7531,"The system shall support 5,000 concurrent users without exceeding 80% CPU utilization.",Not Ambiguous,none,intellireq_generator,controlled_pair,scalability,synthetic_paired,PAIR-b639839c,,auto_generated
+REQ-b2531fe4,The database shall handle massive amounts of data.,Ambiguous,vague,intellireq_generator,controlled_pair,capacity,synthetic_paired,PAIR-6ae42e6c,,auto_generated
+REQ-ca2eb841,The database shall support up to 50 TB of structured data.,Not Ambiguous,none,intellireq_generator,controlled_pair,capacity,synthetic_paired,PAIR-6ae42e6c,,auto_generated
+REQ-aa1f05f2,The network must accommodate heavy traffic.,Ambiguous,vague,intellireq_generator,controlled_pair,capacity,synthetic_paired,PAIR-fa506167,,auto_generated
+REQ-9c55dec0,The network shall support a sustained throughput of 10 Gbps.,Not Ambiguous,none,intellireq_generator,controlled_pair,capacity,synthetic_paired,PAIR-fa506167,,auto_generated
+REQ-23b6a5e8,The system shall store data securely.,Ambiguous,vague,intellireq_generator,controlled_pair,security,synthetic_paired,PAIR-d2eb6eca,,auto_generated
+REQ-97e4bcb9,The system shall encrypt stored customer data using AES-256.,Not Ambiguous,none,intellireq_generator,controlled_pair,security,synthetic_paired,PAIR-d2eb6eca,,auto_generated
+REQ-08fd01e7,The application shall provide strong authentication.,Ambiguous,subjective,intellireq_generator,controlled_pair,security,synthetic_paired,PAIR-ebb79fc1,,auto_generated
+REQ-f656b0e4,The application shall require multi-factor authentication (MFA) via SMS or authenticator app.,Not Ambiguous,none,intellireq_generator,controlled_pair,security,synthetic_paired,PAIR-ebb79fc1,,auto_generated
+REQ-e9edadba,Passwords must be complex.,Ambiguous,vague,intellireq_generator,controlled_pair,security,synthetic_paired,PAIR-ceb30f50,,auto_generated
+REQ-3bdba312,"Passwords must be at least 12 characters long and include uppercase, lowercase, numbers, and symbols.",Not Ambiguous,none,intellireq_generator,controlled_pair,security,synthetic_paired,PAIR-ceb30f50,,auto_generated
+REQ-9a7fd56b,The platform shall restrict access to authorized personnel.,Ambiguous,vague,intellireq_generator,controlled_pair,security,synthetic_paired,PAIR-2575ff7f,,auto_generated
+REQ-43bb09e9,The platform shall enforce Role-Based Access Control (RBAC) ensuring only the 'Admin' role can delete user accounts.,Not Ambiguous,none,intellireq_generator,controlled_pair,security,synthetic_paired,PAIR-2575ff7f,,auto_generated
+REQ-0be2d216,The interface shall be easy to use.,Ambiguous,subjective,intellireq_generator,controlled_pair,usability,synthetic_paired,PAIR-8c2d4041,,auto_generated
+REQ-6536f846,The interface shall allow a first-time user to complete account creation within 2 minutes without assistance.,Not Ambiguous,none,intellireq_generator,controlled_pair,usability,synthetic_paired,PAIR-8c2d4041,,auto_generated
+REQ-376dd404,The database shall be backed up regularly.,Ambiguous,vague,intellireq_generator,controlled_pair,scheduling,synthetic_paired,PAIR-c50045e3,,auto_generated
+REQ-c06a1729,The database shall be backed up every 24 hours and retain the previous 30 backups.,Not Ambiguous,none,intellireq_generator,controlled_pair,scheduling,synthetic_paired,PAIR-c50045e3,,auto_generated
+REQ-3339f8fa,The system shall periodically send reports.,Ambiguous,vague,intellireq_generator,controlled_pair,scheduling,synthetic_paired,PAIR-5fb82a54,,auto_generated
+REQ-e5cc83e4,The system shall generate and send the report at 09:00 UTC on the first day of every month.,Not Ambiguous,none,intellireq_generator,controlled_pair,scheduling,synthetic_paired,PAIR-5fb82a54,,auto_generated
+REQ-05e56508,Logs should be rotated frequently.,Ambiguous,vague,intellireq_generator,controlled_pair,scheduling,synthetic_paired,PAIR-a62a37d8,,auto_generated
+REQ-42b41ea5,Logs shall be rotated daily and archived to cold storage after 7 days.,Not Ambiguous,none,intellireq_generator,controlled_pair,scheduling,synthetic_paired,PAIR-a62a37d8,,auto_generated
+REQ-f354522b,The system shall calculate totals accurately.,Ambiguous,vague,intellireq_generator,controlled_pair,accuracy,synthetic_paired,PAIR-93c6a564,,auto_generated
+REQ-b376160a,The system shall calculate totals using double-precision floating-point arithmetic compliant with IEEE 754.,Not Ambiguous,none,intellireq_generator,controlled_pair,accuracy,synthetic_paired,PAIR-93c6a564,,auto_generated
+REQ-59618a46,The client app shall execute 100 files smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-c5d07237,,auto_generated
+REQ-3f33fd4b,The client app shall execute 100 files per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-c5d07237,,auto_generated
+REQ-6f9be6ee,The backend should complete 500 records seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-4483aa26,,auto_generated
+REQ-15adca3b,The backend should complete 500 records per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-4483aa26,,auto_generated
+REQ-ba88d11b,The backend shall manage 5000 transactions adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-bbad0e7f,,auto_generated
+REQ-c7a8e91b,The backend shall manage 5000 transactions per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-bbad0e7f,,auto_generated
+REQ-0b0546a7,The client app will manage 5000 operations seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-fb6846e8,,auto_generated
+REQ-f1c283f1,The client app will manage 5000 operations per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-fb6846e8,,auto_generated
+REQ-788f2170,The API should complete 500 requests efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-70e1faad,,auto_generated
+REQ-f087265b,The API should complete 500 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-70e1faad,,auto_generated
+REQ-91261999,The backend shall process 500 requests quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-2a4c56ff,,auto_generated
+REQ-bb5e0642,The backend shall process 500 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-2a4c56ff,,auto_generated
+REQ-ccea7aac,The API must handle 5000 records properly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-4d517fe6,,auto_generated
+REQ-8eae00a6,The API must handle 5000 records per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-4d517fe6,,auto_generated
+REQ-9a38b7fc,The system shall process 5000 operations seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-4ac98e53,,auto_generated
+REQ-47b3bab4,The system shall process 5000 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-4ac98e53,,auto_generated
+REQ-53707005,The backend should handle 500 requests quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-fdcc30af,,auto_generated
+REQ-fd534ae5,The backend should handle 500 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-fdcc30af,,auto_generated
+REQ-fb3c8d9c,The application will manage 1000 transactions adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-5a34be3b,,auto_generated
+REQ-94689c0c,The application will manage 1000 transactions per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-5a34be3b,,auto_generated
+REQ-69276b82,The API shall execute 1000 records properly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-62b2593e,,auto_generated
+REQ-2f25821c,The API shall execute 1000 records per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-62b2593e,,auto_generated
+REQ-578fd293,The client app should handle 5000 transactions quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-7a805d7c,,auto_generated
+REQ-c61504ad,The client app should handle 5000 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-7a805d7c,,auto_generated
+REQ-9fdd4e93,The client app will manage 5000 files properly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-bf8e6624,,auto_generated
+REQ-2cc23271,The client app will manage 5000 files per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-bf8e6624,,auto_generated
+REQ-e2fbdfd6,The API shall execute 500 requests adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-b0de16f0,,auto_generated
+REQ-2beb8b01,The API shall execute 500 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-b0de16f0,,auto_generated
+REQ-3619e982,The API shall manage 1000 operations smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-5af38c2d,,auto_generated
+REQ-b4c622dd,The API shall manage 1000 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-5af38c2d,,auto_generated
+REQ-7ea41c3f,The platform should handle 500 operations seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-4505db5a,,auto_generated
+REQ-3645809c,The platform should handle 500 operations per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-4505db5a,,auto_generated
+REQ-742b0adb,The backend will manage 5000 transactions smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-977494cf,,auto_generated
+REQ-8cc230dd,The backend will manage 5000 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-977494cf,,auto_generated
+REQ-2f6e9344,The application should complete 100 requests adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-ca494b96,,auto_generated
+REQ-f07fec2a,The application should complete 100 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-ca494b96,,auto_generated
+REQ-913e0ca3,The backend shall execute 1000 transactions properly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-ed2c78a8,,auto_generated
+REQ-502e0d77,The backend shall execute 1000 transactions per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-ed2c78a8,,auto_generated
+REQ-1cba273d,The platform will manage 500 operations efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-310f747f,,auto_generated
+REQ-56907806,The platform will manage 500 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-310f747f,,auto_generated
+REQ-7d66ddf1,The backend will process 5000 requests quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-4eac56b7,,auto_generated
+REQ-25f474b6,The backend will process 5000 requests per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-4eac56b7,,auto_generated
+REQ-8074ce98,The service should manage 500 transactions seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-96ccb2a1,,auto_generated
+REQ-6ca8174e,The service should manage 500 transactions per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-96ccb2a1,,auto_generated
+REQ-324a2821,The application must process 500 files adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-2238a967,,auto_generated
+REQ-42bb5cf1,The application must process 500 files per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-2238a967,,auto_generated
+REQ-c1387f38,The application will process 500 requests smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-da1235e9,,auto_generated
+REQ-e2fc8c8b,The application will process 500 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-da1235e9,,auto_generated
+REQ-7a7dac86,The client app must complete 500 files seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-6e67b2cc,,auto_generated
+REQ-957abe57,The client app must complete 500 files per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-6e67b2cc,,auto_generated
+REQ-cbce5591,The API shall process 1000 records seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-8c112b42,,auto_generated
+REQ-88c380a9,The API shall process 1000 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-8c112b42,,auto_generated
+REQ-64120110,The service should process 500 transactions seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-0db475e2,,auto_generated
+REQ-008b9981,The service should process 500 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-0db475e2,,auto_generated
+REQ-399aa04b,The backend shall manage 500 operations adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-41f87edc,,auto_generated
+REQ-92a25448,The backend shall manage 500 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-41f87edc,,auto_generated
+REQ-264712d1,The client app must complete 5000 files seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-80293c6d,,auto_generated
+REQ-bc18b1b6,The client app must complete 5000 files per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-80293c6d,,auto_generated
+REQ-51f292b9,The application shall manage 500 files adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-bc4cd00e,,auto_generated
+REQ-5e2bf55b,The application shall manage 500 files per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-bc4cd00e,,auto_generated
+REQ-2f425fec,The client app will process 5000 files quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-ab5e7935,,auto_generated
+REQ-daa78960,The client app will process 5000 files per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-ab5e7935,,auto_generated
+REQ-27dce415,The module will complete 500 transactions efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-ea6517d4,,auto_generated
+REQ-5d88fea7,The module will complete 500 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-ea6517d4,,auto_generated
+REQ-9fe77016,The application shall complete 5000 files smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-b58ec797,,auto_generated
+REQ-6380afb4,The application shall complete 5000 files per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-b58ec797,,auto_generated
+REQ-cd5c64b9,The system should execute 100 files seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-198743c7,,auto_generated
+REQ-478c9d68,The system should execute 100 files per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-198743c7,,auto_generated
+REQ-3a78fb56,The client app shall process 500 records smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-2209c900,,auto_generated
+REQ-d21ec468,The client app shall process 500 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-2209c900,,auto_generated
+REQ-efac0174,The platform should process 100 records adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-183920d1,,auto_generated
+REQ-1b9537a3,The platform should process 100 records per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-183920d1,,auto_generated
+REQ-1b556e99,The client app must manage 100 records quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-e8e2e1e7,,auto_generated
+REQ-0fa91695,The client app must manage 100 records per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-e8e2e1e7,,auto_generated
+REQ-77f48107,The system will handle 5000 operations smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-9e46ee10,,auto_generated
+REQ-df033bdb,The system will handle 5000 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-9e46ee10,,auto_generated
+REQ-22a4c6fe,The application shall complete 1000 transactions efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-d4b8eccb,,auto_generated
+REQ-cc97f25b,The application shall complete 1000 transactions per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-d4b8eccb,,auto_generated
+REQ-fdcad940,The application will complete 1000 requests efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-531afe9c,,auto_generated
+REQ-43fbce14,The application will complete 1000 requests per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-531afe9c,,auto_generated
+REQ-37973786,The application must manage 500 transactions quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-4958cc97,,auto_generated
+REQ-1cd0b620,The application must manage 500 transactions per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-4958cc97,,auto_generated
+REQ-7f62508f,The API will process 5000 requests smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-b1eda839,,auto_generated
+REQ-5335ab34,The API will process 5000 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-b1eda839,,auto_generated
+REQ-e60c1236,The module must process 5000 records seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-e8e0a0d4,,auto_generated
+REQ-8a1185a4,The module must process 5000 records per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-e8e0a0d4,,auto_generated
+REQ-d2baafb5,The system should process 5000 files seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-82bd8760,,auto_generated
+REQ-9bdf6a48,The system should process 5000 files per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-82bd8760,,auto_generated
+REQ-206af48b,The backend shall execute 1000 requests adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-0b44110c,,auto_generated
+REQ-123e7b5d,The backend shall execute 1000 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-0b44110c,,auto_generated
+REQ-dd9a37c3,The system must complete 5000 requests seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-5c27c481,,auto_generated
+REQ-96923dd8,The system must complete 5000 requests per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-5c27c481,,auto_generated
+REQ-7afb7cab,The platform shall execute 1000 transactions seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-32dc8b96,,auto_generated
+REQ-81bf0c12,The platform shall execute 1000 transactions per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-32dc8b96,,auto_generated
+REQ-159b15a0,The API shall manage 500 files properly.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-618a0652,,auto_generated
+REQ-33ff4730,The API shall manage 500 files per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-618a0652,,auto_generated
+REQ-07446cd2,The API will execute 5000 transactions efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-a68682ca,,auto_generated
+REQ-8549c490,The API will execute 5000 transactions per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-a68682ca,,auto_generated
+REQ-a8074b98,The application shall complete 1000 records adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-1481560c,,auto_generated
+REQ-1ffad7de,The application shall complete 1000 records per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-1481560c,,auto_generated
+REQ-65d47744,The backend should complete 500 files efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-e965f59f,,auto_generated
+REQ-55fb9d9e,The backend should complete 500 files per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-e965f59f,,auto_generated
+REQ-81c890c4,The service shall handle 5000 requests smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-7141135f,,auto_generated
+REQ-e71e7f68,The service shall handle 5000 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-7141135f,,auto_generated
+REQ-b3e739bf,The application will process 5000 operations quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-af1edc45,,auto_generated
+REQ-04bd287f,The application will process 5000 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-af1edc45,,auto_generated
+REQ-25cb4cbb,The module should process 100 files quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-47d756c5,,auto_generated
+REQ-d1ec3f7a,The module should process 100 files per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-47d756c5,,auto_generated
+REQ-879706e3,The application must process 5000 transactions smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-90efb2d8,,auto_generated
+REQ-7020ea58,The application must process 5000 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-90efb2d8,,auto_generated
+REQ-46955ca3,The client app will execute 5000 requests quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-35f1fe97,,auto_generated
+REQ-f0266d61,The client app will execute 5000 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-35f1fe97,,auto_generated
+REQ-313aa34a,The system shall complete 1000 requests smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-6cd94e93,,auto_generated
+REQ-339fca50,The system shall complete 1000 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-6cd94e93,,auto_generated
+REQ-fc335859,The service shall complete 100 records efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-76772c54,,auto_generated
+REQ-8cc93bfb,The service shall complete 100 records per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-76772c54,,auto_generated
+REQ-5730b0ea,The service shall execute 5000 records seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-98e5becf,,auto_generated
+REQ-279996b7,The service shall execute 5000 records per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-98e5becf,,auto_generated
+REQ-62d72700,The application will handle 5000 files efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-5cb705f8,,auto_generated
+REQ-c5f7a593,The application will handle 5000 files per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-5cb705f8,,auto_generated
+REQ-6ee86cd0,The client app should complete 100 files smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-0bf98425,,auto_generated
+REQ-769da949,The client app should complete 100 files per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-0bf98425,,auto_generated
+REQ-26a22cb9,The backend shall process 5000 requests seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-53811e3e,,auto_generated
+REQ-4b913dea,The backend shall process 5000 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-53811e3e,,auto_generated
+REQ-59c39b5d,The module should execute 1000 transactions quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-bf5acf21,,auto_generated
+REQ-e59e687b,The module should execute 1000 transactions per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-bf5acf21,,auto_generated
+REQ-53e3cf55,The platform shall process 100 transactions properly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-3bad46a3,,auto_generated
+REQ-70abd140,The platform shall process 100 transactions per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-3bad46a3,,auto_generated
+REQ-56ad3b5b,The module will manage 100 records efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-4c03470e,,auto_generated
+REQ-efd6b33a,The module will manage 100 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-4c03470e,,auto_generated
+REQ-3cbef750,The application must execute 5000 records efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-920c2171,,auto_generated
+REQ-10d63418,The application must execute 5000 records per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-920c2171,,auto_generated
+REQ-226c8222,The platform shall complete 100 operations properly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-11d51057,,auto_generated
+REQ-79988386,The platform shall complete 100 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-11d51057,,auto_generated
+REQ-299c5d17,The API must complete 500 operations quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-60543029,,auto_generated
+REQ-2f2bb946,The API must complete 500 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-60543029,,auto_generated
+REQ-5f857360,The system will manage 1000 files adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-dab02b8c,,auto_generated
+REQ-cdf516ea,The system will manage 1000 files per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-dab02b8c,,auto_generated
+REQ-700a9620,The platform must manage 100 operations smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-9377dcdb,,auto_generated
+REQ-68177cc4,The platform must manage 100 operations per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-9377dcdb,,auto_generated
+REQ-c563bf35,The client app shall process 1000 files properly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-27592b31,,auto_generated
+REQ-ac11605b,The client app shall process 1000 files per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-27592b31,,auto_generated
+REQ-ca5d7e77,The platform must complete 5000 files adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-6f06e31f,,auto_generated
+REQ-ec78bee2,The platform must complete 5000 files per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-6f06e31f,,auto_generated
+REQ-4bca7381,The service will process 500 files seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-c7261e84,,auto_generated
+REQ-11f78a43,The service will process 500 files per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-c7261e84,,auto_generated
+REQ-afd23f2c,The client app must execute 100 requests adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5c52f7df,,auto_generated
+REQ-718aee5e,The client app must execute 100 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5c52f7df,,auto_generated
+REQ-05856fcd,The service must process 500 files properly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-5b30ccf5,,auto_generated
+REQ-aaaa0c08,The service must process 500 files per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-5b30ccf5,,auto_generated
+REQ-f412fde7,The platform must process 100 requests smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-c12f9469,,auto_generated
+REQ-ed9c7ae4,The platform must process 100 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-c12f9469,,auto_generated
+REQ-59d19322,The system must manage 500 files properly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-85df35ea,,auto_generated
+REQ-867715f4,The system must manage 500 files per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-85df35ea,,auto_generated
+REQ-3df4f56d,The module will manage 100 operations efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-1ac818a4,,auto_generated
+REQ-9e47c62b,The module will manage 100 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-1ac818a4,,auto_generated
+REQ-36df5be6,The platform should manage 100 requests seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-5c2553ff,,auto_generated
+REQ-a12781b9,The platform should manage 100 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-5c2553ff,,auto_generated
+REQ-fb03d06c,The API will handle 1000 transactions smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-d50ee1db,,auto_generated
+REQ-69a11f40,The API will handle 1000 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-d50ee1db,,auto_generated
+REQ-b65e8ed2,The API must process 1000 transactions adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-665f25bf,,auto_generated
+REQ-8f7ea2b0,The API must process 1000 transactions per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-665f25bf,,auto_generated
+REQ-3db0ff88,The module will handle 5000 operations seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-f0bb8be6,,auto_generated
+REQ-d0c75f82,The module will handle 5000 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-f0bb8be6,,auto_generated
+REQ-31f868ef,The application will process 100 records efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-2556db05,,auto_generated
+REQ-6ad5feb8,The application will process 100 records per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-2556db05,,auto_generated
+REQ-64586037,The service must complete 1000 operations quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-83c1fcde,,auto_generated
+REQ-1a2bfee9,The service must complete 1000 operations per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-83c1fcde,,auto_generated
+REQ-cb25a42a,The platform should complete 100 requests quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-808b9a09,,auto_generated
+REQ-f337b92c,The platform should complete 100 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-808b9a09,,auto_generated
+REQ-faa2fe13,The system will execute 5000 records properly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-3eb18019,,auto_generated
+REQ-224d0122,The system will execute 5000 records per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-3eb18019,,auto_generated
+REQ-9ac5db8d,The API shall manage 100 records efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-56fc8202,,auto_generated
+REQ-7f4c3758,The API shall manage 100 records per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-56fc8202,,auto_generated
+REQ-7e38aa00,The system must execute 500 requests seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-b76b860d,,auto_generated
+REQ-d3ec1120,The system must execute 500 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-b76b860d,,auto_generated
+REQ-3d953537,The system must complete 100 requests properly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-94dd4a56,,auto_generated
+REQ-10583bc9,The system must complete 100 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-94dd4a56,,auto_generated
+REQ-7a08e430,The system should complete 100 transactions adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-32a9a5fb,,auto_generated
+REQ-d4ab03b3,The system should complete 100 transactions per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-32a9a5fb,,auto_generated
+REQ-836158b1,The application should process 100 records seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-cb87d36a,,auto_generated
+REQ-e1da2d0c,The application should process 100 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-cb87d36a,,auto_generated
+REQ-bcb453d3,The API will complete 500 operations efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-d6187bd4,,auto_generated
+REQ-ecd87e8a,The API will complete 500 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-d6187bd4,,auto_generated
+REQ-0d4ed262,The backend must process 500 operations efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-10f3033b,,auto_generated
+REQ-621899e2,The backend must process 500 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-10f3033b,,auto_generated
+REQ-af203572,The module shall process 100 requests seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-c63ed1f4,,auto_generated
+REQ-c5dec718,The module shall process 100 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-c63ed1f4,,auto_generated
+REQ-3f2f2af3,The service will process 100 operations seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-33e33c0d,,auto_generated
+REQ-723b2646,The service will process 100 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-33e33c0d,,auto_generated
+REQ-4a828ef8,The backend must handle 500 transactions adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-ef7da859,,auto_generated
+REQ-f6e1700b,The backend must handle 500 transactions per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-ef7da859,,auto_generated
+REQ-6e942706,The API shall process 1000 requests efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-3404e65d,,auto_generated
+REQ-aecf9f50,The API shall process 1000 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-3404e65d,,auto_generated
+REQ-f351861c,The API will complete 100 files efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-6c7f3c50,,auto_generated
+REQ-ea91a59c,The API will complete 100 files per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-6c7f3c50,,auto_generated
+REQ-db10addb,The client app must execute 100 transactions efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-a7a9e1cc,,auto_generated
+REQ-21b38d45,The client app must execute 100 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-a7a9e1cc,,auto_generated
+REQ-be3a2d7f,The service will process 100 requests smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-0a8e41e8,,auto_generated
+REQ-d01b8dc1,The service will process 100 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-0a8e41e8,,auto_generated
+REQ-8d90672b,The platform must manage 100 operations seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-346ed085,,auto_generated
+REQ-0f97933b,The system should manage 100 records smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-edba0090,,auto_generated
+REQ-c3181324,The system should manage 100 records per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-edba0090,,auto_generated
+REQ-ef76e331,The service shall handle 100 transactions adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-8422d165,,auto_generated
+REQ-e2ee48b6,The service shall handle 100 transactions per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-8422d165,,auto_generated
+REQ-28739db0,The backend must handle 1000 transactions seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-02437b7d,,auto_generated
+REQ-f7472622,The backend must handle 1000 transactions per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-02437b7d,,auto_generated
+REQ-c6278a96,The platform must complete 100 records efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-5b8a72e4,,auto_generated
+REQ-0e05bd1e,The platform must complete 100 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-5b8a72e4,,auto_generated
+REQ-e62bbb65,The module should manage 100 operations efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-09b0c78b,,auto_generated
+REQ-59091fbf,The module should manage 100 operations per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-09b0c78b,,auto_generated
+REQ-cdbdd363,The client app must execute 5000 transactions efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-4064789d,,auto_generated
+REQ-5727139f,The client app must execute 5000 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-4064789d,,auto_generated
+REQ-1daaae42,The client app must complete 100 operations quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-0ef97ccd,,auto_generated
+REQ-b4bce681,The client app must complete 100 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-0ef97ccd,,auto_generated
+REQ-d75ae5bb,The system will process 100 operations quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-c4222651,,auto_generated
+REQ-903dbd45,The system will process 100 operations per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-c4222651,,auto_generated
+REQ-7e61755f,The service shall complete 500 records properly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-7d060d78,,auto_generated
+REQ-7cd13fc6,The service shall complete 500 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-7d060d78,,auto_generated
+REQ-d7d4eed1,The application should complete 100 transactions quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-2c381c46,,auto_generated
+REQ-ccab8a02,The application should complete 100 transactions per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-2c381c46,,auto_generated
+REQ-991a898e,The system will process 100 records efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-64b0c9c0,,auto_generated
+REQ-8839a326,The system will process 100 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-64b0c9c0,,auto_generated
+REQ-c573492e,The client app should manage 500 transactions smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-2f65d65d,,auto_generated
+REQ-873cfd5d,The client app should manage 500 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-2f65d65d,,auto_generated
+REQ-e1d91d41,The application must process 500 transactions quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-2e991f77,,auto_generated
+REQ-56f1eb04,The application must process 500 transactions per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-2e991f77,,auto_generated
+REQ-df29c12a,The platform must execute 1000 requests quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-7d7e7930,,auto_generated
+REQ-f409dd04,The platform must execute 1000 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-7d7e7930,,auto_generated
+REQ-5d8d03b8,The API will handle 1000 operations smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-f63f1de3,,auto_generated
+REQ-92c5d255,The API will handle 1000 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-f63f1de3,,auto_generated
+REQ-6f37cff2,The API shall complete 1000 transactions properly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-946ca280,,auto_generated
+REQ-93f2ac04,The API shall complete 1000 transactions per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-946ca280,,auto_generated
+REQ-31a8257f,The client app must execute 500 operations smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-df91c6ef,,auto_generated
+REQ-a3a1de92,The client app must execute 500 operations per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-df91c6ef,,auto_generated
+REQ-54cfc0cc,The backend shall process 5000 requests smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-658e8ee8,,auto_generated
+REQ-0a5b88c7,The backend shall process 5000 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-658e8ee8,,auto_generated
+REQ-ea5af807,The platform shall handle 5000 records quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-bf11c6e6,,auto_generated
+REQ-e558ac18,The platform shall handle 5000 records per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-bf11c6e6,,auto_generated
+REQ-22ef74c1,The application must process 100 requests quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-676cab50,,auto_generated
+REQ-194e0f0b,The application must process 100 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-676cab50,,auto_generated
+REQ-dd3e3678,The application will process 5000 records properly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-fd92fd94,,auto_generated
+REQ-f845aaf1,The application will process 5000 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-fd92fd94,,auto_generated
+REQ-d940575d,The module will complete 100 requests adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-525f125f,,auto_generated
+REQ-edc1db96,The module will complete 100 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-525f125f,,auto_generated
+REQ-f0666ade,The module must handle 500 operations efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-8f6d36a4,,auto_generated
+REQ-e82d123f,The module must handle 500 operations per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-8f6d36a4,,auto_generated
+REQ-693b7dbf,The service should execute 500 transactions quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-d2d2e2d6,,auto_generated
+REQ-bb571aa2,The service should execute 500 transactions per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-d2d2e2d6,,auto_generated
+REQ-1e358682,The service must execute 5000 operations seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5696dbaf,,auto_generated
+REQ-407e4a4d,The service must execute 5000 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5696dbaf,,auto_generated
+REQ-d996be4b,The backend should handle 500 records seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-9f263f2d,,auto_generated
+REQ-fc9156b5,The backend should handle 500 records per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-9f263f2d,,auto_generated
+REQ-fe0b24fe,The application will manage 1000 requests quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-aaf2da70,,auto_generated
+REQ-1336e56e,The application will manage 1000 requests per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-aaf2da70,,auto_generated
+REQ-bd038122,The platform will complete 500 operations properly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-d43adf51,,auto_generated
+REQ-65611822,The platform will complete 500 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-d43adf51,,auto_generated
+REQ-d40bc8cb,The system must handle 5000 operations efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-edeecbdc,,auto_generated
+REQ-c334b61b,The system must handle 5000 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-edeecbdc,,auto_generated
+REQ-2037828c,The application should process 500 files quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-aa93dea1,,auto_generated
+REQ-3596e177,The application should process 500 files per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-aa93dea1,,auto_generated
+REQ-b7553774,The system should execute 500 transactions seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-972f8446,,auto_generated
+REQ-20bbcbd6,The system should execute 500 transactions per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-972f8446,,auto_generated
+REQ-62de585e,The platform will execute 5000 records efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5a5a754e,,auto_generated
+REQ-329f74ee,The platform will execute 5000 records per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5a5a754e,,auto_generated
+REQ-5e07b15f,The API will handle 500 records quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-7e91410a,,auto_generated
+REQ-60f700e9,The API will handle 500 records per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-7e91410a,,auto_generated
+REQ-f72348f6,The service should process 5000 operations seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-1606ef70,,auto_generated
+REQ-0147a969,The service should process 5000 operations per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-1606ef70,,auto_generated
+REQ-de1730e6,The system should execute 500 requests efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-fa58c474,,auto_generated
+REQ-60ea88ab,The system should execute 500 requests per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-fa58c474,,auto_generated
+REQ-fa56d9cd,The system will manage 1000 operations properly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-5ba0e40d,,auto_generated
+REQ-d69f9b84,The system will manage 1000 operations per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-5ba0e40d,,auto_generated
+REQ-c478641c,The backend must complete 500 requests seamlessly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-601cdba2,,auto_generated
+REQ-dd41b065,The backend must complete 500 requests per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-601cdba2,,auto_generated
+REQ-c0943f0b,The platform must process 5000 operations adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-3c5e7af0,,auto_generated
+REQ-a95e00ea,The platform must process 5000 operations per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-3c5e7af0,,auto_generated
+REQ-8084c454,The API shall complete 1000 transactions per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,cybersecurity,synthetic_paired,PAIR-411c87d9,,auto_generated
+REQ-54779001,The platform must complete 100 transactions efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-bc6552ff,,auto_generated
+REQ-fcc67a00,The platform must complete 100 transactions per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-bc6552ff,,auto_generated
+REQ-26caa923,The platform should execute 100 transactions properly.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-203379f5,,auto_generated
+REQ-bf1fad60,The platform should execute 100 transactions per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-203379f5,,auto_generated
+REQ-19e30d2a,The API will complete 500 files quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-2be6729e,,auto_generated
+REQ-5f9bbace,The API will complete 500 files per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-2be6729e,,auto_generated
+REQ-353b8ed4,The module shall complete 500 requests smoothly.,Ambiguous,vague,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-54a59001,,auto_generated
+REQ-06f54d86,The module shall complete 500 requests per minute with a maximum latency of 500 milliseconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-54a59001,,auto_generated
+REQ-691a9217,The client app should execute 100 records quickly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-56b5700e,,auto_generated
+REQ-ae4cb663,The client app should execute 100 records per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-56b5700e,,auto_generated
+REQ-7f176e55,The platform must complete 100 records adequately.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-778e0400,,auto_generated
+REQ-80a93581,The backend must complete 1000 operations efficiently.,Ambiguous,vague,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-b991b5b4,,auto_generated
+REQ-a12ab499,The backend must complete 1000 operations per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-b991b5b4,,auto_generated
+REQ-aa86af1b,The system shall manage 1000 files properly.,Ambiguous,vague,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-8f1f82e0,,auto_generated
+REQ-d3dea131,The system shall manage 1000 files per minute with a maximum latency of 100 ms.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-8f1f82e0,,auto_generated
+REQ-d9ac5594,The application will complete 5000 operations properly.,Ambiguous,vague,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-1e4b106e,,auto_generated
+REQ-417da429,The application will complete 5000 operations per minute with a maximum latency of 2 seconds.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-1e4b106e,,auto_generated
+REQ-6fc2d474,The service will complete 500 files properly.,Ambiguous,vague,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-8dceb340,,auto_generated
+REQ-541f4762,The service will complete 500 files per minute with a maximum latency of 1 second.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-8dceb340,,auto_generated
+REQ-e0670d92,The system should alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-0261f0e2,,auto_generated
+REQ-4bedab20,The system should alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-0261f0e2,,auto_generated
+REQ-25bb1873,The client app shall alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-e8528d73,,auto_generated
+REQ-f814e233,The client app shall alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-e8528d73,,auto_generated
+REQ-773a26e9,The backend must alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-0b52b119,,auto_generated
+REQ-7f387353,The backend must alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-0b52b119,,auto_generated
+REQ-8ae55e85,The platform will alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-6afea343,,auto_generated
+REQ-c3abf852,The platform will alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-6afea343,,auto_generated
+REQ-f44a8035,The system will alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-709e38b5,,auto_generated
+REQ-7ecff752,The system will alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-709e38b5,,auto_generated
+REQ-e8428f07,The module shall alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-d54cb852,,auto_generated
+REQ-998e5924,The module shall alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-d54cb852,,auto_generated
+REQ-cdd3ce50,The application shall alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-429dcf46,,auto_generated
+REQ-226c7a1a,The application shall alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-429dcf46,,auto_generated
+REQ-ac73452a,The service will alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5a2c805b,,auto_generated
+REQ-9f494329,The service will alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5a2c805b,,auto_generated
+REQ-c10203ba,The module must alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-8b729ef4,,auto_generated
+REQ-64eb7b77,The module must alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-8b729ef4,,auto_generated
+REQ-dac6ffdb,The platform shall alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-20fc3d08,,auto_generated
+REQ-7e4dd7e7,The platform shall alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-20fc3d08,,auto_generated
+REQ-1d1c5b23,The module should alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-37c4e096,,auto_generated
+REQ-d344243c,The module should alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-37c4e096,,auto_generated
+REQ-00317891,The API should alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-c03108f3,,auto_generated
+REQ-d0938215,The API should alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-c03108f3,,auto_generated
+REQ-c7fd0f57,The backend shall alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5585dc20,,auto_generated
+REQ-483332cd,The backend shall alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-5585dc20,,auto_generated
+REQ-cb92ba59,The application should alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-f6a333e5,,auto_generated
+REQ-60701141,The application should alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-f6a333e5,,auto_generated
+REQ-88e97fad,The system must alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-8438b958,,auto_generated
+REQ-19f7915b,The system must alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-8438b958,,auto_generated
+REQ-1fce641e,The API will alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-ccecf64c,,auto_generated
+REQ-c24b5b3f,The API will alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,healthcare,synthetic_paired,PAIR-ccecf64c,,auto_generated
+REQ-5315aac8,The service must alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-96558700,,auto_generated
+REQ-2a4a6cc2,The service must alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-96558700,,auto_generated
+REQ-3b699371,The application must alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-1cba1c64,,auto_generated
+REQ-4b445a8b,The application must alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-1cba1c64,,auto_generated
+REQ-dfe5f6d8,The backend will alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-2bcb7146,,auto_generated
+REQ-82c853b9,The backend will alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-2bcb7146,,auto_generated
+REQ-97eafbb2,The application will alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-ce51edab,,auto_generated
+REQ-10649064,The application will alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-ce51edab,,auto_generated
+REQ-593cead0,The service should alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-8e5dd0d5,,auto_generated
+REQ-98b753eb,The service should alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,logistics,synthetic_paired,PAIR-8e5dd0d5,,auto_generated
+REQ-b87aae8e,The client app must alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-5a3492b6,,auto_generated
+REQ-b684c82f,The client app must alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-5a3492b6,,auto_generated
+REQ-850b6c05,The client app should alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-2ae68b10,,auto_generated
+REQ-c5f810bd,The client app should alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,education,synthetic_paired,PAIR-2ae68b10,,auto_generated
+REQ-cb83a19a,The module will alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-29d5fd2c,,auto_generated
+REQ-228a7692,The module will alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,banking,synthetic_paired,PAIR-29d5fd2c,,auto_generated
+REQ-02502767,The backend should alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-60e96c14,,auto_generated
+REQ-f6048d11,The backend should alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-60e96c14,,auto_generated
+REQ-20eb26df,The API must alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-8bac885e,,auto_generated
+REQ-0942d01c,The API must alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,finance,synthetic_paired,PAIR-8bac885e,,auto_generated
+REQ-bc253b5e,The client app will alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-1896282a,,auto_generated
+REQ-bc51917a,The client app will alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,e-commerce,synthetic_paired,PAIR-1896282a,,auto_generated
+REQ-8943d6cb,The platform must alert the admin when necessary.,Ambiguous,undefined_reference,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-75c213bf,,auto_generated
+REQ-c645f886,The platform must alert the admin via email if disk space falls below 10%.,Not Ambiguous,none,intellireq_generator,controlled_pair,HR,synthetic_paired,PAIR-75c213bf,,auto_generated
